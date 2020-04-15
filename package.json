@@ -1,0 +1,27 @@
+{
+  "name": "rest-api-antipattern-inspector",
+  "version": "1.0.0",
+  "description": "Program for detecting REST api antipatterns",
+  "main": "dist/app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rest-api-antipattern-inspector/rest-api-antipattern-inspector.git"
+  },
+  "author": "Jesper Hägglund & Edvin Larsson",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "jest --forceExit --coverage --verbose",
+    "build": "tsc",
+    "program": "node dist/app.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/node": "^13.11.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}

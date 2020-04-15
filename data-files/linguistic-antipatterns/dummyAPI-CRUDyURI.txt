@@ -1,0 +1,12 @@
+***Antipattern***
+Count: 3
+/v2/{grocery_store_ID}/getGroceries
+/v2/{grocery_store_ID}/postGroceries
+/v2/{grocery_store_ID}/deleteGroceries
+
+***Pattern***
+Count: 2
+/v2/{grocery_store_ID}/groceries
+/v2/{grocery_store_ID}/employees
+
+TODO put these files in new repo
