@@ -8,5 +8,3 @@ Count: 3
 Count: 2
 /v2/{grocery_store_ID}/groceries
 /v2/{grocery_store_ID}/employees
-
-TODO put these files in new repo
