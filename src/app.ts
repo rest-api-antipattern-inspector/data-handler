@@ -1,3 +1,3 @@
 import { getLinguisticData } from './data/linguisticData'
 
-console.log(getLinguisticData())
+console.log('Linguistic data:\n\n', getLinguisticData())

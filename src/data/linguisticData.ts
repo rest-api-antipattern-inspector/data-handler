@@ -2,19 +2,15 @@ import fs from 'fs'
 
 export const getLinguisticData = () => {
   const path = './data-files/linguistic-antipatterns'
-
   const files = getFiles(path)
-
-  const fileContents = files.map((f) => getDataObj(`${path}/${f}`, f))
-  return fileContents
+  return files.map((f) => getDataObj(`${path}/${f}`, f))
 }
 
-const getFiles = (directory: string) => fs.readdirSync(directory) // fs.promises.readdir(directory)
+const getFiles = (directory: string) => fs.readdirSync(directory)
 
 const getDataObj = (path: string, fileName: string) => {
   try {
     const fileContent = getFileContent(path)
-
     const lines = fileContent.split('\n')
 
     const emptyLineIndex = lines.indexOf('')
