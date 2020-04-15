@@ -1,3 +1,3 @@
-import { getLinguisticData } from './data/fileData'
+import { getLinguisticData } from './data/linguisticData'
 
-getLinguisticData()
+console.log(getLinguisticData())
