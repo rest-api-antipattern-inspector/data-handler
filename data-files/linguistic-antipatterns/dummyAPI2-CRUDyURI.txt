@@ -1,0 +1,13 @@
+***Antipattern***
+Count: 4
+/v3/{book_store_ID}/getBooks
+/v3/{book_store_ID}/postBooks
+/v3/{book_store_ID}/patchBooks
+/v3/{book_store_ID}/deleteBooks
+
+***Pattern***
+Count: 4
+/v3/{book_store_ID}/books
+/v3/{book_store_ID}/employees
+/v3/{book_store_ID}/about
+/v3/{book_store_ID}/contact
