@@ -5,11 +5,22 @@ export const getCorrelations = (
   designData: IDesignObj[],
   linguisticData: ILinguisticObj[]
 ) => {
-  // console.log('Design data:\n', designData)
-  // console.log('\nLinguistic data:\n', linguisticData)
+  const CRUDyAndBreakingSelfDescriptivenessCorr = getLinguisticCorrelation(
+    linguisticData,
+    designData,
+    'CRUDyURI',
+    'isBreakingSelfDescriptiveness'
+  )
 
-  // now looking for correlation between CRUDy & breaks self descriptiveness
+  return [CRUDyAndBreakingSelfDescriptivenessCorr]
+}
 
+const getLinguisticCorrelation = (
+  linguisticData: ILinguisticObj[],
+  designData: IDesignObj[],
+  linguisticAntipattern: string,
+  designAntipattern: string
+): string => {
   let CRUDyAmount = 0
   let bothAmount = 0
 
@@ -17,12 +28,12 @@ export const getCorrelations = (
   const boths = []
 
   linguisticData.forEach((lingObj) => {
-    if ((lingObj.antipattern = 'CRUDyURI')) {
+    if ((lingObj.antipattern = linguisticAntipattern)) {
       lingObj.antipatternEndpoints.forEach((lingEndpoint) => {
         CRUDyAmount++
         CRUDy.push(lingEndpoint)
         const designObj = getDesignObj(designData, lingEndpoint)
-        if (designObj.isBreakingSelfDescriptiveness) {
+        if (designObj[designAntipattern]) {
           bothAmount++
           boths.push(lingEndpoint)
         }
@@ -31,15 +42,15 @@ export const getCorrelations = (
   })
 
   return `
-    ${CRUDyAmount} CRUDy endpoints:
+    ${CRUDyAmount} ${linguisticAntipattern}:
     ${CRUDy.join(', ')}
 
-    ${bothAmount} both CRUDy and breaks self desc:
+    ${bothAmount} both ${linguisticAntipattern} and ${designAntipattern}:
     ${boths.join(', ')}
 
     ${Math.round(
       (bothAmount / CRUDyAmount) * 100
-    )} % of CRUDy endpoints also break self descriptiveness
+    )}% of ${linguisticAntipattern} endpoints also ${designAntipattern}
   `
 }
 

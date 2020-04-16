@@ -3,4 +3,6 @@ import { getDesignData, getLinguisticData } from './data/data'
 
 const correlations = getCorrelations(getDesignData(), getLinguisticData())
 
-console.log(correlations)
+correlations.forEach((corr) => {
+  console.log(corr)
+})
