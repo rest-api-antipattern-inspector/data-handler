@@ -55,7 +55,7 @@ const getEndPoints = (
   lines: string[],
   startIndex: number,
   endIndex: number
-) => {
+): string[] => {
   const endPoints = []
 
   for (let i = startIndex; i < endIndex; i++) {
