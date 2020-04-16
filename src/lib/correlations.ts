@@ -15,6 +15,9 @@ export const getCorrelations = (
   return [CRUDyAndBreakingSelfDescriptivenessCorr]
 }
 
+// TODO also make a function for design & ling
+// or perhaps make this work for both
+
 const getLinguisticCorrelation = (
   linguisticData: ILinguisticObj[],
   designData: IDesignObj[],
