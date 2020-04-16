@@ -1,5 +1,12 @@
 import fs from 'fs'
 
+export const getDesignData = () => {
+  // TODO change to the real file
+  const filePath = './data-files/design-antipatterns/dummy_responses.json'
+  const fileContent = fs.readFileSync(filePath, 'utf8')
+  return JSON.parse(fileContent)
+}
+
 export const getLinguisticData = () => {
   const path = './data-files/linguistic-antipatterns'
   const files = getFiles(path)
