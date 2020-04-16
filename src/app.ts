@@ -1,4 +1,6 @@
+import { getCorrelations } from './lib/correlations'
 import { getDesignData, getLinguisticData } from './data/data'
 
-console.log('Linguistic data:\n', getLinguisticData())
-console.log('\nDesign data:\n', getDesignData())
+const correlations = getCorrelations(getDesignData(), getLinguisticData())
+
+console.log(correlations)
