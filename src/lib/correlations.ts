@@ -8,20 +8,39 @@ export const getCorrelations = (
   // console.log('Design data:\n', designData)
   // console.log('\nLinguistic data:\n', linguisticData)
 
-  const bothCrudyAndBreakingSelfDesc = []
+  // now looking for correlation between CRUDy & breaks self descriptiveness
+
+  let CRUDyAmount = 0
+  let bothAmount = 0
+
+  const CRUDy = []
+  const boths = []
 
   linguisticData.forEach((lingObj) => {
-    lingObj.antipatternEndpoints.forEach((lingEndpoint) => {
-      const designObj = getDesignObj(designData, lingEndpoint)
-      if (designObj.isBreakingSelfDescriptiveness) {
-        bothCrudyAndBreakingSelfDesc.push(lingEndpoint)
-      }
-    })
+    if ((lingObj.antipattern = 'CRUDyURI')) {
+      lingObj.antipatternEndpoints.forEach((lingEndpoint) => {
+        CRUDyAmount++
+        CRUDy.push(lingEndpoint)
+        const designObj = getDesignObj(designData, lingEndpoint)
+        if (designObj.isBreakingSelfDescriptiveness) {
+          bothAmount++
+          boths.push(lingEndpoint)
+        }
+      })
+    }
   })
 
-  return `These endpoints are both CRUDY and break self descriptiveness: ${bothCrudyAndBreakingSelfDesc.join(
-    ', '
-  )}`
+  return `
+    ${CRUDyAmount} CRUDy endpoints:
+    ${CRUDy.join(', ')}
+
+    ${bothAmount} both CRUDy and breaks self desc:
+    ${boths.join(', ')}
+
+    ${Math.round(
+      (bothAmount / CRUDyAmount) * 100
+    )} % of CRUDy endpoints also break self descriptiveness
+  `
 }
 
 const getDesignObj = (
