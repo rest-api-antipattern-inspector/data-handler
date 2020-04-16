@@ -5,8 +5,26 @@ export const getCorrelations = (
   designData: IDesignObj[],
   linguisticData: ILinguisticObj[]
 ) => {
-  console.log('Design data:\n', designData)
-  console.log('\nLinguistic data:\n', linguisticData)
+  // console.log('Design data:\n', designData)
+  // console.log('\nLinguistic data:\n', linguisticData)
 
-  return '\nNot done yet'
+  const bothCrudyAndBreakingSelfDesc = []
+
+  linguisticData.forEach((lingObj) => {
+    lingObj.antipatternEndpoints.forEach((lingEndpoint) => {
+      const designObj = getDesignObj(designData, lingEndpoint)
+      if (designObj.isBreakingSelfDescriptiveness) {
+        bothCrudyAndBreakingSelfDesc.push(lingEndpoint)
+      }
+    })
+  })
+
+  return `These endpoints are both CRUDY and break self descriptiveness: ${bothCrudyAndBreakingSelfDesc.join(
+    ', '
+  )}`
 }
+
+const getDesignObj = (
+  designData: IDesignObj[],
+  apiEndpoint: string
+): IDesignObj => designData.find((obj) => obj.endpoint === apiEndpoint)
