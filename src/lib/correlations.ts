@@ -27,8 +27,6 @@ const getLinguisticCorrelation = (
   // TODO check for all design antipatterns of all lingustic while here
   // & loop is running
 
-  // send in array with antipatterns to check for
-
   let CRUDyAmount = 0
   let bothAmount = 0
 
@@ -36,6 +34,10 @@ const getLinguisticCorrelation = (
   const boths = []
 
   linguisticData.forEach((lingObj) => {
+    // TODO ah just do the same w. all here
+    // No need to check which antipatterns, can just check
+    // no if statement
+    // then basically the same w opposite, design & linguistic
     if ((lingObj.antipattern = linguisticAntipattern)) {
       lingObj.antipatternEndpoints.forEach((lingEndpoint) => {
         CRUDyAmount++
