@@ -24,6 +24,11 @@ const getLinguisticCorrelation = (
   linguisticAntipattern: string,
   designAntipattern: string
 ): string => {
+  // TODO check for all design antipatterns of all lingustic while here
+  // & loop is running
+
+  // send in array with antipatterns to check for
+
   let CRUDyAmount = 0
   let bothAmount = 0
 
