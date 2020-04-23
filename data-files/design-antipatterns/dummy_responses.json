@@ -1,7 +1,7 @@
 [
   {
     "api": "dummyAPI",
-    "endpoint": "/v2/{grocery_store_ID}/getGroceries",
+    "endpoint": "/v2/{grocery_store_ID}/get_groceries",
     "wholeURI": "",
     "httpMethod": "GET",
     "statusCode": 200,
@@ -15,7 +15,7 @@
   },
   {
     "api": "dummyAPI",
-    "endpoint": "/v2/{grocery_store_ID}/postGroceries",
+    "endpoint": "/v2/{grocery_store_ID}/post_groceries",
     "wholeURI": "",
     "httpMethod": "POST",
     "statusCode": 200,
@@ -29,7 +29,7 @@
   },
   {
     "api": "dummyAPI",
-    "endpoint": "/v2/{grocery_store_ID}/deleteGroceries",
+    "endpoint": "/v2/{grocery_store_ID}/delete_groceries",
     "wholeURI": "",
     "httpMethod": "DELETE",
     "statusCode": 200,
@@ -71,7 +71,7 @@
   },
   {
     "api": "dummyAPI2",
-    "endpoint": "/v3/{book_store_ID}/getBooks",
+    "endpoint": "/v3/{book_store_ID}/get_books",
     "wholeURI": "",
     "httpMethod": "GET",
     "statusCode": 200,
@@ -85,7 +85,7 @@
   },
   {
     "api": "dummyAPI2",
-    "endpoint": "/v3/{book_store_ID}/postBooks",
+    "endpoint": "/v3/{book_store_ID}/post_books",
     "wholeURI": "",
     "httpMethod": "POST",
     "statusCode": 201,
@@ -99,7 +99,7 @@
   },
   {
     "api": "dummyAPI2",
-    "endpoint": "/v3/{book_store_ID}/patchBooks",
+    "endpoint": "/v3/{book_store_ID}/patch_books",
     "wholeURI": "",
     "httpMethod": "PATCH",
     "statusCode": 201,
@@ -113,7 +113,7 @@
   },
   {
     "api": "dummyAPI2",
-    "endpoint": "/v3/{book_store_ID}/deleteBooks",
+    "endpoint": "/v3/{book_store_ID}/delete_books",
     "wholeURI": "",
     "httpMethod": "DELETE",
     "statusCode": 200,

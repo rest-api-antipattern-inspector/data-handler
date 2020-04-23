@@ -27,6 +27,7 @@ const getLinguisticCorrelation = (
   // TODO check for all design antipatterns of all lingustic while here
   // & loop is running
 
+  // have these in the loop
   let CRUDyAmount = 0
   let bothAmount = 0
 
@@ -51,6 +52,7 @@ const getLinguisticCorrelation = (
     }
   })
 
+  // TODO have string gen in func, push to string
   return `
     ${CRUDyAmount} ${linguisticAntipattern}:
     ${CRUDy.join(', ')}
