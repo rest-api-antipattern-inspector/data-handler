@@ -1,6 +1,5 @@
 import fs from 'fs'
 import IDesignObj from '../interfaces/IDesignObj'
-import ILinguisticObj from '../interfaces/ILinguisticObj'
 
 export const getData = (): IDesignObj[] => {
   // TODO change to the real file
@@ -14,6 +13,8 @@ export const getData = (): IDesignObj[] => {
     appendLinguisticData(data, `${linguisticDirPath}/${f}`, f)
   })
 
+  console.log(data)
+
   return data
 }
 
@@ -23,50 +24,24 @@ const appendLinguisticData = (
   data: IDesignObj[],
   filePath: string,
   fileName: string
-): ILinguisticObj => {
-  // TODO couldn't I here put this with the endpoint of the design obj
-  // find the obj in obj[] w. the same endpoint, append linguistic data
-
-  // or hmm, for every endpoint do that
-
-  // I have all endpoints in the IDesignObj[]
-
-  // see if the endpoint belongs in anti or pattern
-
+): void => {
   try {
     const api = getAPIName(fileName)
     const linguisticAntipattern = getAntipattern(fileName)
 
-    // for each obj in data,
-    // also make sure api is the same
-    // [linguisticAntipattern] = patternEndpoints.includes(endpoint)
-
     const fileContent = getFileContent(filePath)
     const lines = fileContent.split('\n')
-
     const emptyLineIndex = lines.indexOf('')
-    const patternHeaderIndex = lines.indexOf('***Pattern***')
-
-    const antipatternCount = parseInt(lines[1].replace('Count: ', ''))
-    const patternCount = parseInt(
-      lines[patternHeaderIndex + 1].replace('Count: ', '')
-    )
 
     const antipatternEndpoints = getEndPoints(lines, 2, emptyLineIndex)
-    const patternEndpoints = getEndPoints(
-      lines,
-      patternHeaderIndex + 2,
-      lines.length
-    )
 
-    return {
-      api: getAPIName(fileName),
-      antipattern: getAntipattern(fileName),
-      antipatternCount,
-      antipatternEndpoints,
-      patternCount,
-      patternEndpoints,
-    }
+    data.forEach((obj) => {
+      if (obj.api === api) {
+        obj.linguisticAntipatterns[
+          linguisticAntipattern
+        ] = antipatternEndpoints.includes(obj.endpoint)
+      }
+    })
   } catch (err) {
     console.error(err)
   }
