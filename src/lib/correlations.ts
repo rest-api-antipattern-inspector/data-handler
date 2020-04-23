@@ -1,6 +1,11 @@
 import IDesignObj from '../interfaces/IDesignObj'
 import ILinguisticObj from '../interfaces/ILinguisticObj'
 
+// TODO perhaps start with merging the two arrays into one,
+// data of both linguistic nad design in same object
+
+// every object has object for antipatterns {Crudy: false, amorphous: true}
+
 export const getCorrelations = (
   designData: IDesignObj[],
   linguisticData: ILinguisticObj[]
@@ -44,6 +49,8 @@ const getLinguisticCorrelation = (
         CRUDyAmount++
         CRUDy.push(lingEndpoint)
         const designObj = getDesignObj(designData, lingEndpoint)
+
+        // hmm, loop with all designAntipatterns.
         if (designObj[designAntipattern]) {
           bothAmount++
           boths.push(lingEndpoint)
