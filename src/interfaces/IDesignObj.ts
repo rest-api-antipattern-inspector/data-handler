@@ -22,4 +22,8 @@ export default interface IDesignObj {
 
     isMisusingCookies: boolean
   }
+
+  linguisticAntipatterns?: {
+    [key: string]: boolean
+  }
 }

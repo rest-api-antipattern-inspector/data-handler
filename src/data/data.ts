@@ -2,25 +2,46 @@ import fs from 'fs'
 import IDesignObj from '../interfaces/IDesignObj'
 import ILinguisticObj from '../interfaces/ILinguisticObj'
 
-// TODO just export one obj[] here
-
-export const getDesignData = (): IDesignObj[] => {
+export const getData = (): IDesignObj[] => {
   // TODO change to the real file
-  const filePath = './data-files/design-antipatterns/dummy_responses.json'
-  return JSON.parse(fs.readFileSync(filePath, 'utf8'))
+  const jsonPath = './data-files/design-antipatterns/dummy_responses.json'
+  const data: IDesignObj[] = JSON.parse(fs.readFileSync(jsonPath, 'utf8'))
+
+  const linguisticDirPath = './data-files/linguistic-antipatterns'
+  const linguisticFileNames = getFileNames(linguisticDirPath)
+
+  linguisticFileNames.forEach((f) => {
+    appendLinguisticData(data, `${linguisticDirPath}/${f}`, f)
+  })
+
+  return data
 }
 
-export const getLinguisticData = (): ILinguisticObj[] => {
-  const path = './data-files/linguistic-antipatterns'
-  const files = getFiles(path)
-  return files.map((f) => getDataObj(`${path}/${f}`, f))
-}
+const getFileNames = (directory: string) => fs.readdirSync(directory)
 
-const getFiles = (directory: string) => fs.readdirSync(directory)
+const appendLinguisticData = (
+  data: IDesignObj[],
+  filePath: string,
+  fileName: string
+): ILinguisticObj => {
+  // TODO couldn't I here put this with the endpoint of the design obj
+  // find the obj in obj[] w. the same endpoint, append linguistic data
 
-const getDataObj = (path: string, fileName: string): ILinguisticObj => {
+  // or hmm, for every endpoint do that
+
+  // I have all endpoints in the IDesignObj[]
+
+  // see if the endpoint belongs in anti or pattern
+
   try {
-    const fileContent = getFileContent(path)
+    const api = getAPIName(fileName)
+    const linguisticAntipattern = getAntipattern(fileName)
+
+    // for each obj in data,
+    // also make sure api is the same
+    // [linguisticAntipattern] = patternEndpoints.includes(endpoint)
+
+    const fileContent = getFileContent(filePath)
     const lines = fileContent.split('\n')
 
     const emptyLineIndex = lines.indexOf('')

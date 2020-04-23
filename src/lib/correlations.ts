@@ -6,18 +6,8 @@ import ILinguisticObj from '../interfaces/ILinguisticObj'
 
 // every object has object for antipatterns {Crudy: false, amorphous: true}
 
-export const getCorrelations = (
-  designData: IDesignObj[],
-  linguisticData: ILinguisticObj[]
-) => {
-  const CRUDyAndBreakingSelfDescriptivenessCorr = getLinguisticCorrelation(
-    linguisticData,
-    designData,
-    'CRUDyURI',
-    'isBreakingSelfDescriptiveness'
-  )
-
-  return [CRUDyAndBreakingSelfDescriptivenessCorr]
+export const getCorrelations = (designData: IDesignObj[]) => {
+  // TODO do something here
 }
 
 // TODO also make a function for design & ling

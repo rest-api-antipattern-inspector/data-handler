@@ -1,8 +1,6 @@
+import { getData } from './data/data'
 import { getCorrelations } from './lib/correlations'
-import { getDesignData, getLinguisticData } from './data/data'
 
-const correlations = getCorrelations(getDesignData(), getLinguisticData())
+const correlations = getCorrelations(getData())
 
-correlations.forEach((corr) => {
-  console.log(corr)
-})
+console.log(correlations)
