@@ -1,20 +1,14 @@
 import IDesignObj from '../interfaces/IDesignObj'
-import ILinguisticObj from '../interfaces/ILinguisticObj'
 
 // TODO perhaps start with merging the two arrays into one,
 // data of both linguistic nad design in same object
 
 // every object has object for antipatterns {Crudy: false, amorphous: true}
 
-export const getCorrelations = (designData: IDesignObj[]) => {
-  // TODO do something here
-}
-
 // TODO also make a function for design & ling
 // or perhaps make this work for both
 
 const getLinguisticCorrelation = (
-  linguisticData: ILinguisticObj[],
   designData: IDesignObj[],
   linguisticAntipattern: string,
   designAntipattern: string
@@ -61,6 +55,10 @@ const getLinguisticCorrelation = (
       (bothAmount / CRUDyAmount) * 100
     )}% of ${linguisticAntipattern} endpoints also ${designAntipattern}
   `
+}
+
+export const getCorrelations = (designData: IDesignObj[]) => {
+  // TODO do something here
 }
 
 const getDesignObj = (
