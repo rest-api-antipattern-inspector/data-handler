@@ -1,4 +1,5 @@
 import IDesignObj from '../interfaces/IDesignObj'
+import ICorrelations from '../interfaces/ICorrelations'
 
 // TODO perhaps start with merging the two arrays into one,
 // data of both linguistic nad design in same object
@@ -59,6 +60,12 @@ const getLinguisticCorrelation = (
 
 export const getCorrelations = (designData: IDesignObj[]) => {
   // TODO do something here
+  const correlations: ICorrelations = {
+    forLinguisticAntipatterns: {},
+    forDesignAntipatterns: {},
+  }
+
+  // TODO totalAmount ? totalAmount++ || 1
 }
 
 const getDesignObj = (
