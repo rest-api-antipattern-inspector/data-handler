@@ -2,6 +2,8 @@ import fs from 'fs'
 import IDesignObj from '../interfaces/IDesignObj'
 import ILinguisticObj from '../interfaces/ILinguisticObj'
 
+// TODO just export one obj[] here
+
 export const getDesignData = (): IDesignObj[] => {
   // TODO change to the real file
   const filePath = './data-files/design-antipatterns/dummy_responses.json'

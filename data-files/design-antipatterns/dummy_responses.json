@@ -5,13 +5,15 @@
     "wholeURI": "",
     "httpMethod": "GET",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": false,
     "nonstandardHeaders": [],
-    "isForgettingHypermedia": true,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": true
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": false,
+      "isForgettingHypermedia": true,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
   },
   {
     "api": "dummyAPI",
@@ -19,13 +21,15 @@
     "wholeURI": "",
     "httpMethod": "POST",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": false,
     "nonstandardHeaders": [],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": false,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": true,
-    "isMisusingCookies": true
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": false,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": true,
+      "isMisusingCookies": true
+    }
   },
   {
     "api": "dummyAPI",
@@ -33,13 +37,15 @@
     "wholeURI": "",
     "httpMethod": "DELETE",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": false,
     "nonstandardHeaders": [],
-    "isForgettingHypermedia": true,
-    "isIgnoringCaching": false,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": true
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": false,
+      "isForgettingHypermedia": true,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
   },
   {
     "api": "dummyAPI",
@@ -47,13 +53,15 @@
     "wholeURI": "",
     "httpMethod": "GET",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": false,
     "nonstandardHeaders": [],
-    "isForgettingHypermedia": true,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": true
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": false,
+      "isForgettingHypermedia": true,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
   },
   {
     "api": "dummyAPI",
@@ -61,13 +69,15 @@
     "wholeURI": "",
     "httpMethod": "GET",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": false,
     "nonstandardHeaders": [],
-    "isForgettingHypermedia": true,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": true
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": false,
+      "isForgettingHypermedia": true,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
   },
   {
     "api": "dummyAPI2",
@@ -75,13 +85,15 @@
     "wholeURI": "",
     "httpMethod": "GET",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": true,
     "nonstandardHeaders": ["x-custom-book-header"],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": false
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
   },
   {
     "api": "dummyAPI2",
@@ -89,13 +101,15 @@
     "wholeURI": "",
     "httpMethod": "POST",
     "statusCode": 201,
-    "isBreakingSelfDescriptiveness": true,
     "nonstandardHeaders": ["x-custom-book-header"],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": false
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
   },
   {
     "api": "dummyAPI2",
@@ -103,13 +117,15 @@
     "wholeURI": "",
     "httpMethod": "PATCH",
     "statusCode": 201,
-    "isBreakingSelfDescriptiveness": true,
     "nonstandardHeaders": ["x-custom-book-header"],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": false
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
   },
   {
     "api": "dummyAPI2",
@@ -117,13 +133,15 @@
     "wholeURI": "",
     "httpMethod": "DELETE",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": true,
     "nonstandardHeaders": ["x-custom-book-header"],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": false
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
   },
   {
     "api": "dummyAPI2",
@@ -133,11 +151,13 @@
     "statusCode": 200,
     "isBreakingSelfDescriptiveness": true,
     "nonstandardHeaders": ["x-custom-book-header"],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": false
+    "designAntipatterns": {
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
   },
   {
     "api": "dummyAPI2",
@@ -145,13 +165,15 @@
     "wholeURI": "",
     "httpMethod": "GET",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": true,
     "nonstandardHeaders": ["x-custom-book-header"],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": false
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
   },
   {
     "api": "dummyAPI2",
@@ -159,13 +181,15 @@
     "wholeURI": "",
     "httpMethod": "GET",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": true,
     "nonstandardHeaders": ["x-custom-book-header"],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": false
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
   },
   {
     "api": "dummyAPI2",
@@ -173,12 +197,14 @@
     "wholeURI": "",
     "httpMethod": "GET",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": true,
     "nonstandardHeaders": ["x-custom-book-header"],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": false
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
   }
 ]

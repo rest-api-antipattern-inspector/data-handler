@@ -7,17 +7,19 @@ export default interface IDesignObj {
   httpMethod: string
   statusCode: number
 
-  isBreakingSelfDescriptiveness: boolean
-
   nonstandardHeaders: string[]
 
-  isForgettingHypermedia: boolean
+  designAntipatterns: {
+    isBreakingSelfDescriptiveness: boolean
 
-  isIgnoringCaching: boolean
+    isForgettingHypermedia: boolean
 
-  isIgnoringMIMEType: boolean
+    isIgnoringCaching: boolean
 
-  isIgnoringStatusCode: boolean
+    isIgnoringMIMEType: boolean
 
-  isMisusingCookies: boolean
+    isIgnoringStatusCode: boolean
+
+    isMisusingCookies: boolean
+  }
 }
