@@ -36,10 +36,16 @@ export const presentCorrelations = (
   presentationString += `Total amount of endpoints: ${endpointsAmount}`
 
   Object.keys(correlations).forEach((antipatternType) => {
-    Object.keys(correlations[antipatternType]).forEach((antipattern) => {
-      const amount = correlations[antipatternType][antipattern].amount
+    Object.keys(correlations[antipatternType]).forEach((antipatternA) => {
+      const amount = correlations[antipatternType][antipatternA].amount
       const percentage = getRoundedPercentage(amount, endpointsAmount)
-      presentationString += `\n${antipattern} endpoints: ${amount} (${percentage}%)`
+      presentationString += `\n${antipatternA} endpoints: ${amount} (${percentage}%)`
+
+      Object.keys(correlations[antipatternType][antipatternA]).forEach(
+        (antipatternB) => {
+          // if not number
+        }
+      )
     })
   })
 
