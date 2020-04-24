@@ -29,7 +29,7 @@ export const presentCorrelations = (
   endpointsAmount: number,
   correlations: ICorrelations
 ) => {
-  console.log(correlations)
+  console.log(correlations.linguistic['CRUDyURI'].bTypes)
 
   let presentationString = ''
 
@@ -53,7 +53,7 @@ export const presentCorrelations = (
 }
 
 const appendCorrelations = (
-  corrObj: ICorrelation,
+  corr: ICorrelation,
   antipatternsTypeA: string,
   antipatternsTypeB: string,
   metas: IMeta[]
@@ -61,19 +61,19 @@ const appendCorrelations = (
   metas.forEach((meta) => {
     Object.keys(meta[antipatternsTypeA]).forEach((keyA) => {
       if (meta[antipatternsTypeA][keyA] /** Antipattern */) {
-        if (!corrObj[keyA] /** initializes if doesn't exist*/) {
-          corrObj[keyA] = { amount: 0 }
+        if (!corr[keyA] /** initializes if doesn't exist*/) {
+          corr[keyA] = { amount: 0, bTypes: {} }
         }
 
-        corrObj[keyA].amount++
+        corr[keyA].amount++
 
         Object.keys(meta[antipatternsTypeB]).forEach((keyB) => {
           if (meta[antipatternsTypeB][keyB] /** Antipattern */) {
-            if (!corrObj[keyA][keyB] /** initializes if doesn't exist*/) {
-              corrObj[keyA][keyB] = 0
+            if (!corr[keyA].bTypes[keyB] /** initializes if doesn't exist*/) {
+              corr[keyA].bTypes[keyB] = 0
             }
 
-            corrObj[keyA][keyB]++
+            corr[keyA].bTypes[keyB]++
           }
         })
       }
