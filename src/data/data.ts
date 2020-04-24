@@ -13,8 +13,6 @@ export const getData = (): IDesignObj[] => {
     appendLinguisticData(data, `${linguisticDirPath}/${f}`, f)
   })
 
-  console.log(data)
-
   return data
 }
 

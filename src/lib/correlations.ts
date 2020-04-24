@@ -1,74 +1,90 @@
 import IDesignObj from '../interfaces/IDesignObj'
 import ICorrelations from '../interfaces/ICorrelations'
 
-// TODO perhaps start with merging the two arrays into one,
-// data of both linguistic nad design in same object
+// const getLinguisticCorrelation = (
+//   designData: IDesignObj[],
+//   linguisticAntipattern: string,
+//   designAntipattern: string
+// ): string => {
+//   // TODO check for all design antipatterns of all lingustic while here
+//   // & loop is running
 
-// every object has object for antipatterns {Crudy: false, amorphous: true}
+//   // have these in the loop
+//   let CRUDyAmount = 0
+//   let bothAmount = 0
 
-// TODO also make a function for design & ling
-// or perhaps make this work for both
+//   const CRUDy = []
+//   const boths = []
 
-const getLinguisticCorrelation = (
-  designData: IDesignObj[],
-  linguisticAntipattern: string,
-  designAntipattern: string
-): string => {
-  // TODO check for all design antipatterns of all lingustic while here
-  // & loop is running
+//   linguisticData.forEach((lingObj) => {
+//     // TODO ah just do the same w. all here
+//     // No need to check which antipatterns, can just check
+//     // no if statement
+//     // then basically the same w opposite, design & linguistic
+//     if ((lingObj.antipattern = linguisticAntipattern)) {
+//       lingObj.antipatternEndpoints.forEach((lingEndpoint) => {
+//         CRUDyAmount++
+//         CRUDy.push(lingEndpoint)
+//         const designObj = getDesignObj(designData, lingEndpoint)
 
-  // have these in the loop
-  let CRUDyAmount = 0
-  let bothAmount = 0
+//         // hmm, loop with all designAntipatterns.
+//         if (designObj[designAntipattern]) {
+//           bothAmount++
+//           boths.push(lingEndpoint)
+//         }
+//       })
+//     }
+//   })
 
-  const CRUDy = []
-  const boths = []
+//   // TODO have string gen in func, push to string
+//   return `
+//     ${CRUDyAmount} ${linguisticAntipattern}:
+//     ${CRUDy.join(', ')}
 
-  linguisticData.forEach((lingObj) => {
-    // TODO ah just do the same w. all here
-    // No need to check which antipatterns, can just check
-    // no if statement
-    // then basically the same w opposite, design & linguistic
-    if ((lingObj.antipattern = linguisticAntipattern)) {
-      lingObj.antipatternEndpoints.forEach((lingEndpoint) => {
-        CRUDyAmount++
-        CRUDy.push(lingEndpoint)
-        const designObj = getDesignObj(designData, lingEndpoint)
+//     ${bothAmount} both ${linguisticAntipattern} and ${designAntipattern}:
+//     ${boths.join(', ')}
 
-        // hmm, loop with all designAntipatterns.
-        if (designObj[designAntipattern]) {
-          bothAmount++
-          boths.push(lingEndpoint)
-        }
-      })
-    }
-  })
+//     ${Math.round(
+//       (bothAmount / CRUDyAmount) * 100
+//     )}% of ${linguisticAntipattern} endpoints also ${designAntipattern}
+//   `
+// }
 
-  // TODO have string gen in func, push to string
-  return `
-    ${CRUDyAmount} ${linguisticAntipattern}:
-    ${CRUDy.join(', ')}
-
-    ${bothAmount} both ${linguisticAntipattern} and ${designAntipattern}:
-    ${boths.join(', ')}
-
-    ${Math.round(
-      (bothAmount / CRUDyAmount) * 100
-    )}% of ${linguisticAntipattern} endpoints also ${designAntipattern}
-  `
-}
+// const getDesignObj = (
+//   designData: IDesignObj[],
+//   apiEndpoint: string
+// ): IDesignObj => designData.find((obj) => obj.endpoint === apiEndpoint)
 
 export const getCorrelations = (designData: IDesignObj[]) => {
-  // TODO do something here
+  // l - linguistic
+  // d - design
   const correlations: ICorrelations = {
-    forLinguisticAntipatterns: {},
-    forDesignAntipatterns: {},
+    l: {},
+    d: {},
   }
 
-  // TODO totalAmount ? totalAmount++ || 1
-}
+  // TODO use debugger
+  designData.forEach((obj) => {
+    Object.keys(obj.linguisticAntipatterns).forEach((lKey) => {
+      if (obj.linguisticAntipatterns[lKey]) {
+        if (!correlations.l[lKey]) {
+          correlations.l[lKey] = {
+            totalAmount: 0,
+          }
+        }
 
-const getDesignObj = (
-  designData: IDesignObj[],
-  apiEndpoint: string
-): IDesignObj => designData.find((obj) => obj.endpoint === apiEndpoint)
+        correlations.l[lKey].totalAmount++
+
+        Object.keys(obj.designAntipatterns).forEach((dKey) => {
+          if (obj.designAntipatterns[dKey]) {
+            if (!correlations.l[lKey][dKey]) {
+              //
+            }
+          }
+        })
+      }
+    })
+  })
+
+  return correlations
+}

@@ -1,12 +1,14 @@
 export default interface ICorrelations {
-  forLinguisticAntipatterns: {
+  // for linguistic antipatterns
+  l: {
     [linguisticAntipattern: string]: {
       totalAmount: number
       [designAntipattern: string]: number
     }
   }
 
-  forDesignAntipatterns: {
+  // for design antipatterns
+  d: {
     [designAntipattern: string]: {
       totalAmount: number
       [linguisticAntipattern: string]: number
