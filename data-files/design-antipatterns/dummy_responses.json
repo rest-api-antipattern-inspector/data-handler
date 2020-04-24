@@ -85,6 +85,23 @@
     }
   },
   {
+    "api": "dummyAPI",
+    "endpoint": "/v2/xyz/123",
+    "wholeURI": "",
+    "httpMethod": "POST",
+    "statusCode": 200,
+    "nonstandardHeaders": [],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": false,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": true,
+      "isMisusingCookies": true
+    }
+  },
+  {
     "api": "dummyAPI2",
     "endpoint": "/v3/{book_store_ID}/get_books",
     "wholeURI": "",
@@ -206,6 +223,40 @@
   {
     "api": "dummyAPI2",
     "endpoint": "/v3/{book_store_ID}/contact",
+    "wholeURI": "",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": ["x-custom-book-header"],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "dummyAPI2",
+    "endpoint": "/v3/abc/cats",
+    "wholeURI": "",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": ["x-custom-cat-header"],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "dummyAPI2",
+    "endpoint": "/v3/abc/dogs",
     "wholeURI": "",
     "httpMethod": "GET",
     "statusCode": 200,
