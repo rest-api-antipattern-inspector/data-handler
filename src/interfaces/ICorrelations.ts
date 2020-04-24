@@ -1,17 +1,6 @@
-export default interface ICorrelations {
-  // for linguistic antipatterns
-  l: {
-    [linguisticAntipattern: string]: {
-      amount: number
-      [designAntipattern: string]: number
-    }
-  }
+import ICorrelation from './ICorrelation'
 
-  // for design antipatterns
-  d: {
-    [designAntipattern: string]: {
-      amount: number
-      [linguisticAntipattern: string]: number
-    }
-  }
+export default interface ICorrelations {
+  linguistic: ICorrelation
+  design: ICorrelation
 }

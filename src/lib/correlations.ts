@@ -5,8 +5,8 @@ export const getCorrelations = (designData: IDataObj[]) => {
   // l - linguistic
   // d - design
   const correlations: ICorrelations = {
-    l: {},
-    d: {},
+    linguistic: {},
+    design: {},
   }
 
   // in func with a & b
@@ -14,22 +14,22 @@ export const getCorrelations = (designData: IDataObj[]) => {
     Object.keys(obj.linguisticAntipatterns).forEach((lKey) => {
       if (obj.linguisticAntipatterns[lKey] /** Antipattern */) {
         // creates object with initial values if doesn't exist
-        if (!correlations.l[lKey]) {
-          correlations.l[lKey] = {
+        if (!correlations.linguistic[lKey]) {
+          correlations.linguistic[lKey] = {
             amount: 0,
           }
         }
 
-        correlations.l[lKey].amount++
+        correlations.linguistic[lKey].amount++
 
         Object.keys(obj.designAntipatterns).forEach((dKey) => {
           if (obj.designAntipatterns[dKey] /** Antipattern */) {
             // creates key with initial value if doesn't exist
-            if (!correlations.l[lKey][dKey]) {
-              correlations.l[lKey][dKey] = 0
+            if (!correlations.linguistic[lKey][dKey]) {
+              correlations.linguistic[lKey][dKey] = 0
             }
 
-            correlations.l[lKey][dKey]++
+            correlations.linguistic[lKey][dKey]++
           }
         })
       }
@@ -38,6 +38,8 @@ export const getCorrelations = (designData: IDataObj[]) => {
 
   return correlations
 }
+
+const appendCorrelations = ()
 
 export const presentCorrelations = (
   endpointsAmount: number,
@@ -50,6 +52,4 @@ export const presentCorrelations = (
   let presentationString = ''
 
   presentationString += `Total amount of endpoints: ${endpointsAmount}`
-
-  Object.keys(correlations)
 }
