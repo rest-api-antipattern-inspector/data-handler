@@ -1,10 +1,10 @@
 import fs from 'fs'
-import IDataObj from '../interfaces/IDataObj'
+import IMeta from '../interfaces/IMeta'
 
-export const getData = (): IDataObj[] => {
+export const getData = (): IMeta[] => {
   // TODO change to the real file
   const jsonPath = './data-files/design-antipatterns/dummy_responses.json'
-  const data: IDataObj[] = JSON.parse(fs.readFileSync(jsonPath, 'utf8'))
+  const data: IMeta[] = JSON.parse(fs.readFileSync(jsonPath, 'utf8'))
 
   const linguisticDirPath = './data-files/linguistic-antipatterns'
   const linguisticFileNames = getFileNames(linguisticDirPath)
@@ -19,7 +19,7 @@ export const getData = (): IDataObj[] => {
 const getFileNames = (directory: string) => fs.readdirSync(directory)
 
 const appendLinguisticData = (
-  data: IDataObj[],
+  data: IMeta[],
   filePath: string,
   fileName: string
 ): void => {

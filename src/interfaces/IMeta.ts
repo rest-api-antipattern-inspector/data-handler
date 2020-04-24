@@ -1,4 +1,4 @@
-export default interface IDataObj {
+export default interface IMeta {
   api: string
   endpoint: string
 

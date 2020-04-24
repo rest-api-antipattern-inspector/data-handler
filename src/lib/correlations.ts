@@ -1,45 +1,29 @@
-import IDataObj from '../interfaces/IDataObj'
+import IMeta from '../interfaces/IMeta'
 import ICorrelations from '../interfaces/ICorrelations'
+import ICorrelation from '../interfaces/ICorrelation'
 
-export const getCorrelations = (designData: IDataObj[]) => {
-  // l - linguistic
-  // d - design
+export const getCorrelations = (metas: IMeta[]) => {
   const correlations: ICorrelations = {
     linguistic: {},
     design: {},
   }
 
-  // in func with a & b
-  designData.forEach((obj) => {
-    Object.keys(obj.linguisticAntipatterns).forEach((lKey) => {
-      if (obj.linguisticAntipatterns[lKey] /** Antipattern */) {
-        // creates object with initial values if doesn't exist
-        if (!correlations.linguistic[lKey]) {
-          correlations.linguistic[lKey] = {
-            amount: 0,
-          }
-        }
+  appendCorrelations(
+    correlations.linguistic,
+    'linguisticAntipatterns',
+    'designAntipatterns',
+    metas
+  )
 
-        correlations.linguistic[lKey].amount++
-
-        Object.keys(obj.designAntipatterns).forEach((dKey) => {
-          if (obj.designAntipatterns[dKey] /** Antipattern */) {
-            // creates key with initial value if doesn't exist
-            if (!correlations.linguistic[lKey][dKey]) {
-              correlations.linguistic[lKey][dKey] = 0
-            }
-
-            correlations.linguistic[lKey][dKey]++
-          }
-        })
-      }
-    })
-  })
+  appendCorrelations(
+    correlations.design,
+    'designAntipatterns',
+    'linguisticAntipatterns',
+    metas
+  )
 
   return correlations
 }
-
-const appendCorrelations = ()
 
 export const presentCorrelations = (
   endpointsAmount: number,
@@ -52,4 +36,33 @@ export const presentCorrelations = (
   let presentationString = ''
 
   presentationString += `Total amount of endpoints: ${endpointsAmount}`
+}
+
+const appendCorrelations = (
+  corrObj: ICorrelation,
+  antipatternsTypeA: string,
+  antipatternsTypeB: string,
+  metas: IMeta[]
+) => {
+  metas.forEach((meta) => {
+    Object.keys(meta[antipatternsTypeA]).forEach((keyA) => {
+      if (meta[antipatternsTypeA][keyA] /** Antipattern */) {
+        if (!corrObj[keyA] /** initializes if doesn't exist*/) {
+          corrObj[keyA] = { amount: 0 }
+        }
+
+        corrObj[keyA].amount++
+
+        Object.keys(meta[antipatternsTypeB]).forEach((keyB) => {
+          if (meta[antipatternsTypeB][keyB] /** Antipattern */) {
+            if (!corrObj[keyA][keyB] /** initializes if doesn't exist*/) {
+              corrObj[keyA][keyB] = 0
+            }
+
+            corrObj[keyA][keyB]++
+          }
+        })
+      }
+    })
+  })
 }
