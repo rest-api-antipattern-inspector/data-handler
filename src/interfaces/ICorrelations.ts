@@ -1,8 +1,11 @@
 export default interface ICorrelations {
+  totalAmountOfEndpoints: number
+
   // for linguistic antipatterns
   l: {
+    // TODO perhaps make an ICorrelation
     [linguisticAntipattern: string]: {
-      totalAmount: number
+      amount: number
       [designAntipattern: string]: number
     }
   }
@@ -10,8 +13,8 @@ export default interface ICorrelations {
   // for design antipatterns
   d: {
     [designAntipattern: string]: {
-      totalAmount: number
-      [linguisticAntipattern: string]: number
+      amount: number
+      [designAntipattern: string]: number
     }
   }
 }
