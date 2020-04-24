@@ -31,11 +31,19 @@ export const presentCorrelations = (
 ) => {
   console.log(correlations)
 
-  // TODO change this to write to file? Txt file
-
   let presentationString = ''
 
   presentationString += `Total amount of endpoints: ${endpointsAmount}`
+
+  Object.keys(correlations).forEach((antipatternType) => {
+    Object.keys(correlations[antipatternType]).forEach((antipattern) => {
+      const amount = correlations[antipatternType][antipattern].amount
+      const percentage = getRoundedPercentage(amount, endpointsAmount)
+      presentationString += `\n${antipattern} endpoints: ${amount} (${percentage}%)`
+    })
+  })
+
+  console.log(presentationString)
 }
 
 const appendCorrelations = (
@@ -66,3 +74,9 @@ const appendCorrelations = (
     })
   })
 }
+
+/**
+ * @returns (numerator / denominator) * 100
+ */
+const getRoundedPercentage = (numerator: number, denominator: number): number =>
+  Math.round((numerator / denominator) * 100)
