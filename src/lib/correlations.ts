@@ -25,17 +25,17 @@ export const getCorrelations = (metas: IMeta[]) => {
   return correlations
 }
 
-export const presentCorrelations = (
+export const getCorrelationsString = (
   endpointsAmount: number,
   correlations: ICorrelations
-) => {
+): string => {
   let presentationString = `Total amount of endpoints: ${endpointsAmount}`
 
   Object.keys(correlations).forEach((antipatternType) => {
     Object.keys(correlations[antipatternType]).forEach((antipatternA) => {
       const amountA = correlations[antipatternType][antipatternA].amount
       const percentageA = getRoundedPercentage(amountA, endpointsAmount)
-      presentationString += `\n${antipatternA} endpoints: ${amountA} (${percentageA}%)`
+      presentationString += `\n\n**${antipatternA} endpoints: ${amountA} (${percentageA}%)**\n`
 
       Object.keys(correlations[antipatternType][antipatternA].bTypes).forEach(
         (antipatternB) => {
@@ -48,7 +48,7 @@ export const presentCorrelations = (
     })
   })
 
-  console.log(presentationString)
+  return presentationString
 }
 
 const appendCorrelations = (
