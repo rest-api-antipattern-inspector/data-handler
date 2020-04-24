@@ -29,21 +29,20 @@ export const presentCorrelations = (
   endpointsAmount: number,
   correlations: ICorrelations
 ) => {
-  console.log(correlations.linguistic['CRUDyURI'].bTypes)
-
-  let presentationString = ''
-
-  presentationString += `Total amount of endpoints: ${endpointsAmount}`
+  let presentationString = `Total amount of endpoints: ${endpointsAmount}`
 
   Object.keys(correlations).forEach((antipatternType) => {
     Object.keys(correlations[antipatternType]).forEach((antipatternA) => {
-      const amount = correlations[antipatternType][antipatternA].amount
-      const percentage = getRoundedPercentage(amount, endpointsAmount)
-      presentationString += `\n${antipatternA} endpoints: ${amount} (${percentage}%)`
+      const amountA = correlations[antipatternType][antipatternA].amount
+      const percentageA = getRoundedPercentage(amountA, endpointsAmount)
+      presentationString += `\n${antipatternA} endpoints: ${amountA} (${percentageA}%)`
 
-      Object.keys(correlations[antipatternType][antipatternA]).forEach(
+      Object.keys(correlations[antipatternType][antipatternA].bTypes).forEach(
         (antipatternB) => {
-          // if not number
+          const amountB =
+            correlations[antipatternType][antipatternA].bTypes[antipatternB]
+          const percentageB = getRoundedPercentage(amountB, amountA)
+          presentationString += `\n${antipatternA} & ${antipatternB}: ${amountB} (${percentageB}% of ${antipatternA})`
         }
       )
     })
