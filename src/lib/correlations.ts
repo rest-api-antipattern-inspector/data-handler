@@ -66,7 +66,8 @@ export const getCorrelations = (designData: IDesignObj[]) => {
   // TODO use debugger
   designData.forEach((obj) => {
     Object.keys(obj.linguisticAntipatterns).forEach((lKey) => {
-      if (obj.linguisticAntipatterns[lKey]) {
+      if (obj.linguisticAntipatterns[lKey] /** Antipattern */) {
+        // creates with initial value if doesn't exist
         if (!correlations.l[lKey]) {
           correlations.l[lKey] = {
             totalAmount: 0,
@@ -76,10 +77,13 @@ export const getCorrelations = (designData: IDesignObj[]) => {
         correlations.l[lKey].totalAmount++
 
         Object.keys(obj.designAntipatterns).forEach((dKey) => {
-          if (obj.designAntipatterns[dKey]) {
+          if (obj.designAntipatterns[dKey] /** Antipattern */) {
+            // creates with initial value if doesn't exist
             if (!correlations.l[lKey][dKey]) {
-              //
+              correlations.l[lKey][dKey] = 0
             }
+
+            correlations.l[lKey][dKey]++
           }
         })
       }
