@@ -1,63 +1,87 @@
-import IDesignObj from '../interfaces/IDesignObj'
-import ILinguisticObj from '../interfaces/ILinguisticObj'
+import IMeta from '../interfaces/IMeta'
+import ICorrelations from '../interfaces/ICorrelations'
+import ICorrelation from '../interfaces/ICorrelation'
 
-export const getCorrelations = (
-  designData: IDesignObj[],
-  linguisticData: ILinguisticObj[]
-) => {
-  const CRUDyAndBreakingSelfDescriptivenessCorr = getLinguisticCorrelation(
-    linguisticData,
-    designData,
-    'CRUDyURI',
-    'isBreakingSelfDescriptiveness'
+export const getCorrelations = (metas: IMeta[]) => {
+  const correlations: ICorrelations = {
+    linguistic: {},
+    design: {},
+  }
+
+  appendCorrelations(
+    correlations.linguistic,
+    'linguisticAntipatterns',
+    'designAntipatterns',
+    metas
   )
 
-  return [CRUDyAndBreakingSelfDescriptivenessCorr]
+  appendCorrelations(
+    correlations.design,
+    'designAntipatterns',
+    'linguisticAntipatterns',
+    metas
+  )
+
+  return correlations
 }
 
-// TODO also make a function for design & ling
-// or perhaps make this work for both
-
-const getLinguisticCorrelation = (
-  linguisticData: ILinguisticObj[],
-  designData: IDesignObj[],
-  linguisticAntipattern: string,
-  designAntipattern: string
+export const getCorrelationsString = (
+  endpointsAmount: number,
+  correlations: ICorrelations
 ): string => {
-  let CRUDyAmount = 0
-  let bothAmount = 0
+  let presentationString = `Total amount of endpoints: ${endpointsAmount}`
 
-  const CRUDy = []
-  const boths = []
+  Object.keys(correlations).forEach((antipatternType) => {
+    Object.keys(correlations[antipatternType]).forEach((antipatternA) => {
+      const amountA = correlations[antipatternType][antipatternA].amount
+      const percentageA = getRoundedPercentage(amountA, endpointsAmount)
+      presentationString += `\n\n**${antipatternA} endpoints: ${amountA} (${percentageA}%)**\n`
 
-  linguisticData.forEach((lingObj) => {
-    if ((lingObj.antipattern = linguisticAntipattern)) {
-      lingObj.antipatternEndpoints.forEach((lingEndpoint) => {
-        CRUDyAmount++
-        CRUDy.push(lingEndpoint)
-        const designObj = getDesignObj(designData, lingEndpoint)
-        if (designObj[designAntipattern]) {
-          bothAmount++
-          boths.push(lingEndpoint)
+      Object.keys(correlations[antipatternType][antipatternA].bTypes).forEach(
+        (antipatternB) => {
+          const amountB =
+            correlations[antipatternType][antipatternA].bTypes[antipatternB]
+          const percentageB = getRoundedPercentage(amountB, amountA)
+          presentationString += `\n${antipatternA} & ${antipatternB}: ${amountB} (${percentageB}% of ${antipatternA})`
         }
-      })
-    }
+      )
+    })
   })
 
-  return `
-    ${CRUDyAmount} ${linguisticAntipattern}:
-    ${CRUDy.join(', ')}
-
-    ${bothAmount} both ${linguisticAntipattern} and ${designAntipattern}:
-    ${boths.join(', ')}
-
-    ${Math.round(
-      (bothAmount / CRUDyAmount) * 100
-    )}% of ${linguisticAntipattern} endpoints also ${designAntipattern}
-  `
+  return presentationString
 }
 
-const getDesignObj = (
-  designData: IDesignObj[],
-  apiEndpoint: string
-): IDesignObj => designData.find((obj) => obj.endpoint === apiEndpoint)
+const appendCorrelations = (
+  corr: ICorrelation,
+  antipatternsTypeA: string,
+  antipatternsTypeB: string,
+  metas: IMeta[]
+) => {
+  metas.forEach((meta) => {
+    Object.keys(meta[antipatternsTypeA]).forEach((keyA) => {
+      if (meta[antipatternsTypeA][keyA] /** Antipattern */) {
+        if (!corr[keyA] /** initializes if doesn't exist*/) {
+          corr[keyA] = { amount: 0, bTypes: {} }
+        }
+
+        corr[keyA].amount++
+
+        Object.keys(meta[antipatternsTypeB]).forEach((keyB) => {
+          if (meta[antipatternsTypeB][keyB] /** Antipattern */) {
+            if (!corr[keyA].bTypes[keyB] /** initializes if doesn't exist*/) {
+              corr[keyA].bTypes[keyB] = 0
+            }
+
+            corr[keyA].bTypes[keyB]++
+          }
+        })
+      }
+    })
+  })
+}
+
+/**
+ * @returns (numerator / denominator) * 100
+ */
+const getRoundedPercentage = (numerator: number, denominator: number): number =>
+  Math.round((numerator / denominator) * 100)

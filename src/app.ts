@@ -1,8 +1,9 @@
-import { getCorrelations } from './lib/correlations'
-import { getDesignData, getLinguisticData } from './data/data'
+import { getData } from './data/data'
+import { getCorrelations, getCorrelationsString } from './lib/correlations'
+import fs from 'fs'
 
-const correlations = getCorrelations(getDesignData(), getLinguisticData())
+const data = getData()
+const correlations = getCorrelations(data)
+const presentationString = getCorrelationsString(data.length, correlations)
 
-correlations.forEach((corr) => {
-  console.log(corr)
-})
+fs.writeFileSync('correlations.md', presentationString)

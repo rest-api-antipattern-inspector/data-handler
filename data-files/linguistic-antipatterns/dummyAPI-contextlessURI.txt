@@ -1,11 +1,11 @@
 ***Antipattern***
-Count: 3
+Count: 1
+/v2/xyz/123
+
+***Pattern***
+Count: 5
 /v2/{grocery_store_ID}/get_groceries
 /v2/{grocery_store_ID}/post_groceries
 /v2/{grocery_store_ID}/delete_groceries
-
-***Pattern***
-Count: 3
 /v2/{grocery_store_ID}/groceries
 /v2/{grocery_store_ID}/employees
-/v2/xyz/123

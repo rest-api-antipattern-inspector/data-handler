@@ -1,45 +1,54 @@
 [
   {
     "api": "dummyAPI",
-    "endpoint": "/v2/{grocery_store_ID}/getGroceries",
+    "endpoint": "/v2/{grocery_store_ID}/get_groceries",
     "wholeURI": "",
     "httpMethod": "GET",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": false,
     "nonstandardHeaders": [],
-    "isForgettingHypermedia": true,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": true
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": false,
+      "isForgettingHypermedia": true,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
   },
   {
     "api": "dummyAPI",
-    "endpoint": "/v2/{grocery_store_ID}/postGroceries",
+    "endpoint": "/v2/{grocery_store_ID}/post_groceries",
     "wholeURI": "",
     "httpMethod": "POST",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": false,
     "nonstandardHeaders": [],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": false,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": true,
-    "isMisusingCookies": true
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": false,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": true,
+      "isMisusingCookies": true
+    }
   },
   {
     "api": "dummyAPI",
-    "endpoint": "/v2/{grocery_store_ID}/deleteGroceries",
+    "endpoint": "/v2/{grocery_store_ID}/delete_groceries",
     "wholeURI": "",
     "httpMethod": "DELETE",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": false,
     "nonstandardHeaders": [],
-    "isForgettingHypermedia": true,
-    "isIgnoringCaching": false,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": true
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": false,
+      "isForgettingHypermedia": true,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
   },
   {
     "api": "dummyAPI",
@@ -47,13 +56,16 @@
     "wholeURI": "",
     "httpMethod": "GET",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": false,
     "nonstandardHeaders": [],
-    "isForgettingHypermedia": true,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": true
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": false,
+      "isForgettingHypermedia": true,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
   },
   {
     "api": "dummyAPI",
@@ -61,69 +73,101 @@
     "wholeURI": "",
     "httpMethod": "GET",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": false,
     "nonstandardHeaders": [],
-    "isForgettingHypermedia": true,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": true
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": false,
+      "isForgettingHypermedia": true,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "dummyAPI",
+    "endpoint": "/v2/xyz/123",
+    "wholeURI": "",
+    "httpMethod": "POST",
+    "statusCode": 200,
+    "nonstandardHeaders": [],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": false,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": true,
+      "isMisusingCookies": true
+    }
   },
   {
     "api": "dummyAPI2",
-    "endpoint": "/v3/{book_store_ID}/getBooks",
+    "endpoint": "/v3/{book_store_ID}/get_books",
     "wholeURI": "",
     "httpMethod": "GET",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": true,
     "nonstandardHeaders": ["x-custom-book-header"],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": false
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
   },
   {
     "api": "dummyAPI2",
-    "endpoint": "/v3/{book_store_ID}/postBooks",
+    "endpoint": "/v3/{book_store_ID}/post_books",
     "wholeURI": "",
     "httpMethod": "POST",
     "statusCode": 201,
-    "isBreakingSelfDescriptiveness": true,
     "nonstandardHeaders": ["x-custom-book-header"],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": false
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
   },
   {
     "api": "dummyAPI2",
-    "endpoint": "/v3/{book_store_ID}/patchBooks",
+    "endpoint": "/v3/{book_store_ID}/patch_books",
     "wholeURI": "",
     "httpMethod": "PATCH",
     "statusCode": 201,
-    "isBreakingSelfDescriptiveness": true,
     "nonstandardHeaders": ["x-custom-book-header"],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": false
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
   },
   {
     "api": "dummyAPI2",
-    "endpoint": "/v3/{book_store_ID}/deleteBooks",
+    "endpoint": "/v3/{book_store_ID}/delete_books",
     "wholeURI": "",
     "httpMethod": "DELETE",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": true,
     "nonstandardHeaders": ["x-custom-book-header"],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": false
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
   },
   {
     "api": "dummyAPI2",
@@ -133,11 +177,14 @@
     "statusCode": 200,
     "isBreakingSelfDescriptiveness": true,
     "nonstandardHeaders": ["x-custom-book-header"],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": false
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
   },
   {
     "api": "dummyAPI2",
@@ -145,13 +192,16 @@
     "wholeURI": "",
     "httpMethod": "GET",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": true,
     "nonstandardHeaders": ["x-custom-book-header"],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": false
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
   },
   {
     "api": "dummyAPI2",
@@ -159,13 +209,16 @@
     "wholeURI": "",
     "httpMethod": "GET",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": true,
     "nonstandardHeaders": ["x-custom-book-header"],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": false
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
   },
   {
     "api": "dummyAPI2",
@@ -173,12 +226,49 @@
     "wholeURI": "",
     "httpMethod": "GET",
     "statusCode": 200,
-    "isBreakingSelfDescriptiveness": true,
     "nonstandardHeaders": ["x-custom-book-header"],
-    "isForgettingHypermedia": false,
-    "isIgnoringCaching": true,
-    "isIgnoringMIMEType": false,
-    "isIgnoringStatusCode": false,
-    "isMisusingCookies": false
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "dummyAPI2",
+    "endpoint": "/v3/abc/cats",
+    "wholeURI": "",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": ["x-custom-cat-header"],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "dummyAPI2",
+    "endpoint": "/v3/abc/dogs",
+    "wholeURI": "",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": ["x-custom-book-header"],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": true,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
   }
 ]

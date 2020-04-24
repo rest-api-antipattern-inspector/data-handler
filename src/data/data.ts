@@ -1,49 +1,45 @@
 import fs from 'fs'
-import IDesignObj from '../interfaces/IDesignObj'
-import ILinguisticObj from '../interfaces/ILinguisticObj'
+import IMeta from '../interfaces/IMeta'
 
-export const getDesignData = (): IDesignObj[] => {
+export const getData = (): IMeta[] => {
   // TODO change to the real file
-  const filePath = './data-files/design-antipatterns/dummy_responses.json'
-  return JSON.parse(fs.readFileSync(filePath, 'utf8'))
+  const jsonPath = './data-files/design-antipatterns/dummy_responses.json'
+  const data: IMeta[] = JSON.parse(fs.readFileSync(jsonPath, 'utf8'))
+
+  const linguisticDirPath = './data-files/linguistic-antipatterns'
+  const linguisticFileNames = getFileNames(linguisticDirPath)
+
+  linguisticFileNames.forEach((f) => {
+    appendLinguisticData(data, `${linguisticDirPath}/${f}`, f)
+  })
+
+  return data
 }
 
-export const getLinguisticData = (): ILinguisticObj[] => {
-  const path = './data-files/linguistic-antipatterns'
-  const files = getFiles(path)
-  return files.map((f) => getDataObj(`${path}/${f}`, f))
-}
+const getFileNames = (directory: string) => fs.readdirSync(directory)
 
-const getFiles = (directory: string) => fs.readdirSync(directory)
-
-const getDataObj = (path: string, fileName: string): ILinguisticObj => {
+const appendLinguisticData = (
+  data: IMeta[],
+  filePath: string,
+  fileName: string
+): void => {
   try {
-    const fileContent = getFileContent(path)
+    const api = getAPIName(fileName)
+    const linguisticAntipattern = getAntipattern(fileName)
+
+    const fileContent = getFileContent(filePath)
     const lines = fileContent.split('\n')
-
     const emptyLineIndex = lines.indexOf('')
-    const patternHeaderIndex = lines.indexOf('***Pattern***')
-
-    const antipatternCount = parseInt(lines[1].replace('Count: ', ''))
-    const patternCount = parseInt(
-      lines[patternHeaderIndex + 1].replace('Count: ', '')
-    )
 
     const antipatternEndpoints = getEndPoints(lines, 2, emptyLineIndex)
-    const patternEndpoints = getEndPoints(
-      lines,
-      patternHeaderIndex + 2,
-      lines.length
-    )
 
-    return {
-      api: getAPIName(fileName),
-      antipattern: getAntipattern(fileName),
-      antipatternCount,
-      antipatternEndpoints,
-      patternCount,
-      patternEndpoints,
-    }
+    data.forEach((obj) => {
+      if (obj.api === api) {
+        obj.linguisticAntipatterns[
+          linguisticAntipattern
+        ] = antipatternEndpoints.includes(obj.endpoint)
+      }
+    })
   } catch (err) {
     console.error(err)
   }
