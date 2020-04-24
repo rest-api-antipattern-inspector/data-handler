@@ -6,8 +6,10 @@ Count: 4
 /v3/{book_store_ID}/delete_books
 
 ***Pattern***
-Count: 4
+Count: 6
 /v3/{book_store_ID}/books
 /v3/{book_store_ID}/employees
 /v3/{book_store_ID}/about
 /v3/{book_store_ID}/contact
+/v3/abc/cats
+/v3/abc/dogs
