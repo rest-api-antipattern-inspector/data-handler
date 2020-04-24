@@ -1,10 +1,10 @@
 import fs from 'fs'
-import IDesignObj from '../interfaces/IDesignObj'
+import IDataObj from '../interfaces/IDataObj'
 
-export const getData = (): IDesignObj[] => {
+export const getData = (): IDataObj[] => {
   // TODO change to the real file
   const jsonPath = './data-files/design-antipatterns/dummy_responses.json'
-  const data: IDesignObj[] = JSON.parse(fs.readFileSync(jsonPath, 'utf8'))
+  const data: IDataObj[] = JSON.parse(fs.readFileSync(jsonPath, 'utf8'))
 
   const linguisticDirPath = './data-files/linguistic-antipatterns'
   const linguisticFileNames = getFileNames(linguisticDirPath)
@@ -19,7 +19,7 @@ export const getData = (): IDesignObj[] => {
 const getFileNames = (directory: string) => fs.readdirSync(directory)
 
 const appendLinguisticData = (
-  data: IDesignObj[],
+  data: IDataObj[],
   filePath: string,
   fileName: string
 ): void => {

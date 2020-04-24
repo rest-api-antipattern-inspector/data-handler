@@ -1,6 +1,6 @@
 import { getData } from './data/data'
-import { getCorrelations } from './lib/correlations'
+import { getCorrelations, presentCorrelations } from './lib/correlations'
 
-const correlations = getCorrelations(getData())
-
-console.log(correlations)
+const data = getData()
+const correlations = getCorrelations(data)
+presentCorrelations(data.length, correlations)

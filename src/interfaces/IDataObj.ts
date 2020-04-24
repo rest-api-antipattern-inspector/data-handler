@@ -1,4 +1,4 @@
-export default interface IDesignObj {
+export default interface IDataObj {
   api: string
   endpoint: string
 
