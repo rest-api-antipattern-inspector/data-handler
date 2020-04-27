@@ -1,5 +1,13 @@
 ***Antipattern***
-Count: 61
+Count: 5
+/statuses/retweeters/ids
+/statuses/unretweet
+/trends/closest
+/geo/reverse_geocode
+/geo/search
+
+***Pattern***
+Count: 56
 /statuses/update
 /statuses/retweet
 /favorites/create
@@ -8,10 +16,8 @@ Count: 61
 /statuses/oembed
 /statuses/show
 /statuses/retweets
-/statuses/retweeters/ids
 /statuses/retweets_of_me
 /favorites/destroy
-/statuses/unretweet
 /statuses/destroy
 /lists/create
 /friendships/create
@@ -51,16 +57,10 @@ Count: 61
 /mutes/users/list
 /search/tweets
 /trends/available
-/trends/closest
 /trends/place
-/geo/reverse_geocode
-/geo/search
 /lists/members/destroy
 /lists/subscribers/destroy
 /lists/destroy
 /friendships/destroy
 /blocks/destroy
 /mutes/users/destroy
-
-***Pattern***
-Count: 0
