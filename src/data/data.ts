@@ -2,9 +2,12 @@ import fs from 'fs'
 import IMeta from '../interfaces/IMeta'
 
 export const getData = (): IMeta[] => {
-  // TODO change to the real file
-  const jsonPath = './data-files/design-antipatterns/dummy_responses.json'
+  const jsonPath = './data-files/design-antipatterns/responses.json'
   const data: IMeta[] = JSON.parse(fs.readFileSync(jsonPath, 'utf8'))
+
+  data.forEach((obj) => {
+    obj.endpoint = `/${obj.endpoint}`
+  })
 
   const linguisticDirPath = './data-files/linguistic-antipatterns'
   const linguisticFileNames = getFileNames(linguisticDirPath)
@@ -34,7 +37,7 @@ const appendLinguisticData = (
     const antipatternEndpoints = getEndPoints(lines, 2, emptyLineIndex)
 
     data.forEach((obj) => {
-      if (obj.api === api) {
+      if (obj.api.toUpperCase() === api.toUpperCase()) {
         obj.linguisticAntipatterns[
           linguisticAntipattern
         ] = antipatternEndpoints.includes(obj.endpoint)
