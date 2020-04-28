@@ -31,7 +31,9 @@ const appendLinguisticData = (
     const linguisticAntipattern = getAntipattern(fileName)
 
     const fileContent = getFileContent(filePath)
-    const lines = fileContent.split('\n')
+    const rawLines = fileContent.split('\n')
+    const lines = rawLines.map((rl) => removeEndNullAndJunk(rl))
+
     const emptyLineIndex = lines.indexOf('')
 
     const antipatternEndpoints = getEndPoints(lines, 2, emptyLineIndex)
@@ -68,3 +70,12 @@ const getAPIName = (fileName: string) => fileName.split('-')[0]
 
 const getAntipattern = (fileName: string) =>
   fileName.split('-')[1].replace('.txt', '')
+
+const removeEndNullAndJunk = (line: string): string => {
+  const endpoint = line.split(' ')[0]
+  const lastFourChars = endpoint.substring(endpoint.length - 4, endpoint.length)
+
+  return lastFourChars === 'null'
+    ? endpoint.substring(0, endpoint.length - 4)
+    : endpoint
+}
