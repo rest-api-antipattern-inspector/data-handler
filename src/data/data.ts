@@ -31,12 +31,17 @@ const appendLinguisticData = (
     const linguisticAntipattern = getAntipattern(fileName)
 
     const fileContent = getFileContent(filePath)
-    const lines = fileContent.split('\n')
-    const emptyLineIndex = lines.indexOf('')
+    // TODO remove anything w. & after null in line
+    const rawLines = fileContent.split('\n')
 
-    const antipatternEndpoints = getEndPoints(lines, 2, emptyLineIndex)
+    // TODO don't use raw lines anymore
+    const emptyLineIndex = rawLines.indexOf('')
+
+    const antipatternEndpoints = getEndPoints(rawLines, 2, emptyLineIndex)
 
     data.forEach((obj) => {
+      console.log(obj.api.toUpperCase())
+      console.log(api.toUpperCase())
       if (obj.api.toUpperCase() === api.toUpperCase()) {
         obj.linguisticAntipatterns[
           linguisticAntipattern
@@ -68,3 +73,12 @@ const getAPIName = (fileName: string) => fileName.split('-')[0]
 
 const getAntipattern = (fileName: string) =>
   fileName.split('-')[1].replace('.txt', '')
+
+const removeEndNullAndJunk = (line: string): string => {
+  const endpoint = line.split(' ')[0]
+  const lastFourChars = endpoint.substring(endpoint.length - 4, endpoint.length)
+
+  return lastFourChars === 'null'
+    ? endpoint.substring(0, endpoint.length - 4)
+    : endpoint
+}

@@ -51,6 +51,8 @@ export const getCorrelationsString = (
   return presentationString
 }
 
+// TODO try w only amorphous, why not showing up?
+
 const appendCorrelations = (
   corr: ICorrelation,
   antipatternsTypeA: string,
