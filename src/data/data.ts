@@ -31,17 +31,14 @@ const appendLinguisticData = (
     const linguisticAntipattern = getAntipattern(fileName)
 
     const fileContent = getFileContent(filePath)
-    // TODO remove anything w. & after null in line
     const rawLines = fileContent.split('\n')
+    const lines = rawLines.map((rl) => removeEndNullAndJunk(rl))
 
-    // TODO don't use raw lines anymore
-    const emptyLineIndex = rawLines.indexOf('')
+    const emptyLineIndex = lines.indexOf('')
 
-    const antipatternEndpoints = getEndPoints(rawLines, 2, emptyLineIndex)
+    const antipatternEndpoints = getEndPoints(lines, 2, emptyLineIndex)
 
     data.forEach((obj) => {
-      console.log(obj.api.toUpperCase())
-      console.log(api.toUpperCase())
       if (obj.api.toUpperCase() === api.toUpperCase()) {
         obj.linguisticAntipatterns[
           linguisticAntipattern
