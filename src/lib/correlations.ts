@@ -25,7 +25,7 @@ export const getCorrelations = (metas: IMeta[]) => {
   return correlations
 }
 
-export const getCorrelationsString = (
+export const getCorrelationsMDString = (
   endpointsAmount: number,
   correlations: ICorrelations
 ): string => {
