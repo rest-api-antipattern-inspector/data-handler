@@ -16,13 +16,18 @@ export const getRDataCode = (metas: IMeta[]): string => {
   let RVars = '# antipattern count variables:\n\n'
   let RMatrixValues = ''
 
-  Object.keys(data['apData']).forEach((key, i) => {
+  let cols = 0
+
+  Object.keys(data['apData']).forEach((key) => {
     RVars += `${key}=${data['apData'][key]}\n`
 
     RMatrixValues += `${key}, `
 
-    if (i === data.antipatternTypes.size) {
-      RMatrixValues + '\n'
+    cols++
+
+    if (cols === data.antipatternTypes.size) {
+      RMatrixValues += '\n'
+      cols = 0
     }
   })
 
@@ -37,7 +42,7 @@ ncol=${data.antipatternTypes.size},byrow = TRUE)
 chisq.test(mydata)
 `
 
-  return `${RVars}\n\n${apCalculation}`
+  return `${RVars}\n${apCalculation}`
 }
 
 const appendAntipatternData = (
