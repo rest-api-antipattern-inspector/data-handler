@@ -34,7 +34,7 @@ disqus_ContextlessResource=5
 
 mydata <- matrix(c(bitly_isBreakingSelfDescriptiveness, bitly_isForgettingHypermedia, bitly_isIgnoringCaching, bitly_isIgnoringMIMEType, bitly_isIgnoringStatusCode, bitly_isMisusingCookies, bitly_AmorphousURI, bitly_CRUDyURI, bitly_ContextlessResource, 
 twitter_isBreakingSelfDescriptiveness, twitter_isForgettingHypermedia, twitter_isIgnoringCaching, twitter_isIgnoringMIMEType, twitter_isIgnoringStatusCode, twitter_isMisusingCookies, twitter_AmorphousURI, twitter_CRUDyURI, twitter_ContextlessResource, 
-disqus_isBreakingSelfDescriptiveness, disqus_isForgettingHypermedia, disqus_isIgnoringCaching, disqus_isIgnoringMIMEType, disqus_isIgnoringStatusCode, disqus_isMisusingCookies, disqus_AmorphousURI, disqus_CRUDyURI, disqus_ContextlessResource,), nrow=3,
+disqus_isBreakingSelfDescriptiveness, disqus_isForgettingHypermedia, disqus_isIgnoringCaching, disqus_isIgnoringMIMEType, disqus_isIgnoringStatusCode, disqus_isMisusingCookies, disqus_AmorphousURI, disqus_CRUDyURI, disqus_ContextlessResource), nrow=3,
 ncol=9,byrow = TRUE)
 
 chisq.test(mydata)

@@ -33,7 +33,7 @@ export const getRDataCode = (metas: IMeta[]): string => {
   })
 
   // removes last comma with space
-  RMatrixValues = RMatrixValues.substring(0, RMatrixValues.length - 2)
+  RMatrixValues = RMatrixValues.substring(0, RMatrixValues.length - 3)
 
   let apCalculation = `#antipatterns
 
