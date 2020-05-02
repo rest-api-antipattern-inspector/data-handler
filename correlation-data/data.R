@@ -9,6 +9,7 @@ bitly_isMisusingCookies=0
 bitly_AmorphousURI=0
 bitly_CRUDyURI=0
 bitly_ContextlessResource=9
+
 twitter_isBreakingSelfDescriptiveness=61
 twitter_isForgettingHypermedia=0
 twitter_isIgnoringCaching=0
@@ -18,6 +19,7 @@ twitter_isMisusingCookies=61
 twitter_AmorphousURI=0
 twitter_CRUDyURI=26
 twitter_ContextlessResource=5
+
 disqus_isBreakingSelfDescriptiveness=37
 disqus_isForgettingHypermedia=0
 disqus_isIgnoringCaching=0

@@ -26,6 +26,7 @@ export const getRDataCode = (metas: IMeta[]): string => {
     cols++
 
     if (cols === data.antipatternTypes.size) {
+      RVars += '\n'
       RMatrixValues += '\n'
       cols = 0
     }
@@ -42,7 +43,7 @@ ncol=${data.antipatternTypes.size},byrow = TRUE)
 chisq.test(mydata)
 `
 
-  return `${RVars}\n${apCalculation}`
+  return `${RVars}${apCalculation}`
 }
 
 const appendAntipatternData = (
