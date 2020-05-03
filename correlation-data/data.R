@@ -37,4 +37,7 @@ twitter_isBreakingSelfDescriptiveness, twitter_isForgettingHypermedia, twitter_i
 disqus_isBreakingSelfDescriptiveness, disqus_isForgettingHypermedia, disqus_isIgnoringCaching, disqus_isIgnoringMIMEType, disqus_isIgnoringStatusCode, disqus_isMisusingCookies, disqus_AmorphousURI, disqus_CRUDyURI, disqus_ContextlessResource), nrow=3,
 ncol=9,byrow = TRUE)
 
+dimnames(mydata) = list(c("bitly", "twitter", "disqus"),
+c("isBreakingSelfDescriptiveness", "isForgettingHypermedia", "isIgnoringCaching", "isIgnoringMIMEType", "isIgnoringStatusCode", "isMisusingCookies", "AmorphousURI", "CRUDyURI", "ContextlessResource")
+
 chisq.test(mydata)
