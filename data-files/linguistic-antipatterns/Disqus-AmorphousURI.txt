@@ -1,5 +1,5 @@
 ***Antipattern***
-Count: 40
+Count: 37
 /threads/create.jsonnull [extension found] 
 /posts/create.jsonnull [extension found] 
 /forums/details.jsonnull [extension found] 
@@ -24,7 +24,6 @@ Count: 40
 /posts/listModerationHistory.jsonnull [extension found] 
 /posts/listPopular.jsonnull [extension found] 
 /posts/listReporters.jsonnull [extension found] 
-/posts/update.jsonnull [extension found] 
 /posts/vote.jsonnull [extension found] 
 /threads/details.jsonnull [extension found] 
 /threads/list.jsonnull [extension found] 
@@ -38,8 +37,6 @@ Count: 40
 /users/listOwnedChannels.jsonnull [extension found] 
 /users/listPosts.jsonnull [extension found] 
 /users/updateProfile.jsonnull [extension found] 
-/forums/create.jsonnull [extension found] 
-/categories/create.jsonnull [extension found] 
 
 ***Pattern***
 Count: 0
