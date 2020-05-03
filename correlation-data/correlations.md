@@ -1,26 +1,34 @@
-Total amount of endpoints: 109
+Total amount of endpoints: 139
 
-**ContextlessResource endpoints: 19 (17%)**
+**ContextlessResource endpoints: 21 (15%)**
 
-ContextlessResource & isBreakingSelfDescriptiveness: 19 (100% of ContextlessResource)
-ContextlessResource & isMisusingCookies: 5 (26% of ContextlessResource)
+ContextlessResource & isBreakingSelfDescriptiveness: 21 (100% of ContextlessResource)
+ContextlessResource & isIgnoringStatusCode: 1 (5% of ContextlessResource)
+ContextlessResource & isMisusingCookies: 5 (24% of ContextlessResource)
 
-**CRUDyURI endpoints: 27 (25%)**
+**AmorphousURI endpoints: 37 (27%)**
+
+AmorphousURI & isBreakingSelfDescriptiveness: 37 (100% of AmorphousURI)
+
+**CRUDyURI endpoints: 27 (19%)**
 
 CRUDyURI & isBreakingSelfDescriptiveness: 27 (100% of CRUDyURI)
 CRUDyURI & isMisusingCookies: 26 (96% of CRUDyURI)
 
-**AmorphousURI endpoints: 37 (34%)**
+**isBreakingSelfDescriptiveness endpoints: 139 (100%)**
 
-AmorphousURI & isBreakingSelfDescriptiveness: 37 (100% of AmorphousURI)
+isBreakingSelfDescriptiveness & ContextlessResource: 21 (15% of isBreakingSelfDescriptiveness)
+isBreakingSelfDescriptiveness & AmorphousURI: 37 (27% of isBreakingSelfDescriptiveness)
+isBreakingSelfDescriptiveness & CRUDyURI: 27 (19% of isBreakingSelfDescriptiveness)
 
-**isBreakingSelfDescriptiveness endpoints: 109 (100%)**
+**isIgnoringStatusCode endpoints: 2 (1%)**
 
-isBreakingSelfDescriptiveness & ContextlessResource: 19 (17% of isBreakingSelfDescriptiveness)
-isBreakingSelfDescriptiveness & CRUDyURI: 27 (25% of isBreakingSelfDescriptiveness)
-isBreakingSelfDescriptiveness & AmorphousURI: 37 (34% of isBreakingSelfDescriptiveness)
+isIgnoringStatusCode & ContextlessResource: 1 (50% of isIgnoringStatusCode)
 
-**isMisusingCookies endpoints: 61 (56%)**
+**isIgnoringMIMEType endpoints: 1 (1%)**
 
-isMisusingCookies & CRUDyURI: 26 (43% of isMisusingCookies)
+
+**isMisusingCookies endpoints: 64 (46%)**
+
+isMisusingCookies & CRUDyURI: 26 (41% of isMisusingCookies)
 isMisusingCookies & ContextlessResource: 5 (8% of isMisusingCookies)
