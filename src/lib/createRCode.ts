@@ -40,10 +40,8 @@ export const getRDataCode = (metas: IMeta[]): string => {
 mydata <- matrix(c(${RMatrixValues}), nrow=${data.apis.size},
 ncol=${data.antipatternTypes.size},byrow = TRUE)
 
-dimnames(mydata) = list(c(${[...data.apis]
-    .map((api) => `"${api}"`)
-    .join(', ')}),
-c(${[...data.antipatternTypes].map((ap) => `"${ap}"`).join(', ')})
+dimnames(mydata) = list(c(${setToString(data.apis)}),
+c(${setToString(data.antipatternTypes)})
 
 chisq.test(mydata)
 `
@@ -68,3 +66,6 @@ const appendAntipatternData = (
     data['apData'][`${m.api}_${ap}`] += m[antipatternType][ap] ? 1 : 0
   })
 }
+
+const setToString = (strSet: Set<string>): string =>
+  [...strSet].map((str) => `"${str}"`).join(', ')
