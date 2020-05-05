@@ -10,7 +10,10 @@ export const writeCSVs = (metas: IMeta[]) => {
     appendData(csvData, meta, 'linguisticAntipatterns', 'designAntipatterns')
   })
 
-  console.log(csvData)
+  Object.keys(csvData).forEach((key) => {
+    const data = `${csvData[key].a.join(',')}\n${csvData[key].b.join(',')}`
+    fs.writeFileSync(`./correlation-data/csv/${key}`, data)
+  })
 }
 
 const appendData = (
