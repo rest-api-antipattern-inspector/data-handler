@@ -5,6 +5,8 @@ import { getRDataCode } from './lib/createRCode'
 import fs from 'fs'
 
 !fs.existsSync('./correlation-data') && fs.mkdirSync('./correlation-data')
+!fs.existsSync('./correlation-data/csv') &&
+  fs.mkdirSync('./correlation-data/csv')
 
 const data = getData()
 const sourceR = getRDataCode(data)
