@@ -1,6 +1,7 @@
 import { getData } from './data/data'
 import { getCorrelations, getCorrelationsMDString } from './lib/correlations'
 import { getRDataCode } from './lib/createRCode'
+import { writeCSVs } from './lib/csvCorrelations'
 
 import fs from 'fs'
 
@@ -12,6 +13,8 @@ const data = getData()
 const sourceR = getRDataCode(data)
 fs.writeFileSync('./correlation-data/data.R', sourceR)
 console.log('Wrote stats to ./correlation-data/data.R')
+
+writeCSVs(data)
 
 const correlations = getCorrelations(data)
 const presentation = getCorrelationsMDString(data.length, correlations)
