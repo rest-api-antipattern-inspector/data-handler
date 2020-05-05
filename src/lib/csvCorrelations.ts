@@ -22,21 +22,21 @@ const appendData = (
   antipatternTypeA: string,
   antipatternTypeB: string
 ) => {
-  Object.keys(meta[antipatternTypeA]).forEach((dKey) => {
-    Object.keys(meta[antipatternTypeB]).forEach((lKey) => {
+  Object.keys(meta[antipatternTypeA]).forEach((aKey) => {
+    Object.keys(meta[antipatternTypeB]).forEach((bKey) => {
       // initializes if doesn't exist
-      if (!csvData[`${dKey}VS${lKey}`]) {
-        csvData[`${dKey}VS${lKey}`] = {
+      if (!csvData[`${aKey}VS${bKey}`]) {
+        csvData[`${aKey}VS${bKey}`] = {
           a: [],
           b: [],
         }
       }
 
-      const dAnti = meta[antipatternTypeA][dKey] ? 1 : 0
-      const lAnti = meta[antipatternTypeB][lKey] ? 1 : 0
+      const aAnti = meta[antipatternTypeA][aKey] ? 1 : 0
+      const bAnti = meta[antipatternTypeB][bKey] ? 1 : 0
 
-      csvData[`${dKey}VS${lKey}`].a.push(dAnti)
-      csvData[`${dKey}VS${lKey}`].b.push(lAnti)
+      csvData[`${aKey}VS${bKey}`].a.push(aAnti)
+      csvData[`${aKey}VS${bKey}`].b.push(bAnti)
     })
   })
 }
