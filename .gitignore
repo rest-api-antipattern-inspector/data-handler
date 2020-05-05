@@ -1,3 +1,6 @@
+# adds csv files to gitignore
+correlation-data/csv
+
 # Logs
 logs
 *.log
