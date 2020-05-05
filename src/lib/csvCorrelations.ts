@@ -1,38 +1,39 @@
 import fs from 'fs'
 import IMeta from '../interfaces/IMeta'
+import ICSVData from '../interfaces/ICSVData'
 
 export const writeCSVs = (metas: IMeta[]) => {
-  // TODO after this has been filled
-  // write each to file
-  const csvCorrData = {
-    // design1VSling1: {
-    //   design1: [0, 1, 0],
-    //   ling1: [1, 1, 0],
-    // },
-    // design1VSling2: {
-    //   design2: [0, 1, 0],
-    //   ling2: [1, 1, 0],
-    // },
-  }
+  const csvData: ICSVData = {}
 
-  metas.forEach((m) => {
-    Object.keys(m.designAntipatterns).forEach((dKey) => {
-      Object.keys(m.linguisticAntipatterns).forEach((lKey) => {
-        // initializes if doesn't exist
-        if (!csvCorrData[`${dKey}VS${lKey}`]) {
-          csvCorrData[`${dKey}VS${lKey}`] = {}
-          csvCorrData[`${dKey}VS${lKey}`][dKey] = []
-          csvCorrData[`${dKey}VS${lKey}`][lKey] = []
-        }
-
-        const dAnti = m.designAntipatterns[dKey] ? 1 : 0
-        const lAnti = m.linguisticAntipatterns[lKey] ? 1 : 0
-
-        csvCorrData[`${dKey}VS${lKey}`][dKey].push(dAnti)
-        csvCorrData[`${dKey}VS${lKey}`][lKey].push(lAnti)
-      })
-    })
+  metas.forEach((meta) => {
+    appendData(csvData, meta, 'designAntipatterns', 'linguisticAntipatterns')
+    appendData(csvData, meta, 'linguisticAntipatterns', 'designAntipatterns')
   })
 
-  console.log(csvCorrData)
+  console.log(csvData)
+}
+
+const appendData = (
+  csvData: ICSVData,
+  meta: IMeta,
+  antipatternTypeA: string,
+  antipatternTypeB: string
+) => {
+  Object.keys(meta[antipatternTypeA]).forEach((dKey) => {
+    Object.keys(meta[antipatternTypeB]).forEach((lKey) => {
+      // initializes if doesn't exist
+      if (!csvData[`${dKey}VS${lKey}`]) {
+        csvData[`${dKey}VS${lKey}`] = {
+          a: [],
+          b: [],
+        }
+      }
+
+      const dAnti = meta[antipatternTypeA][dKey] ? 1 : 0
+      const lAnti = meta[antipatternTypeB][lKey] ? 1 : 0
+
+      csvData[`${dKey}VS${lKey}`].a.push(dAnti)
+      csvData[`${dKey}VS${lKey}`].b.push(lAnti)
+    })
+  })
 }
