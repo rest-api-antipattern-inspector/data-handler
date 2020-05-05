@@ -10,11 +10,13 @@ import fs from 'fs'
   fs.mkdirSync('./correlation-data/csv')
 
 const data = getData()
+
+writeCSVs(data)
+console.log('Wrote csv files to ./correlation-data/csv')
+
 const sourceR = getRDataCode(data)
 fs.writeFileSync('./correlation-data/data.R', sourceR)
 console.log('Wrote stats to ./correlation-data/data.R')
-
-writeCSVs(data)
 
 const correlations = getCorrelations(data)
 const presentation = getCorrelationsMDString(data.length, correlations)
