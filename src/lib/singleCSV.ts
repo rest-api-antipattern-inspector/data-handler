@@ -56,7 +56,7 @@ export const writeSingleCSV = (metas: IMeta[]) => {
     }
   }
 
-  fs.writeFileSync('./correlation-data/total.csv', csvString)
+  fs.writeFileSync('./correlation-data/results.csv', csvString)
 }
 
 const comma = (index: number, headings: string[]): string =>

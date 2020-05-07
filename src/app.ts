@@ -21,7 +21,7 @@ import fs from 'fs'
 const data = getData()
 
 writeSingleCSV(data)
-console.log('Wrote csv data to correlation-data/total.csv')
+console.log('Wrote csv data to correlation-data/results.csv')
 
 writeCSVs(data)
 console.log(
