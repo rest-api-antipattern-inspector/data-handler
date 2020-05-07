@@ -6,10 +6,6 @@ import fs from 'fs'
 
 // TODO
 /**
- * In other repo:
- * 1. fix status, patch, only check get/post/put/delete ignore any other http methods
- * 2. investigate mime type
- *
  * In this repo:
  * 1. insert updated json file
  * 2. fix linguistic txt files, not just at runtime but rewrite files
