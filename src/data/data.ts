@@ -1,7 +1,9 @@
-import fs from 'fs'
+import fs, { link } from 'fs'
 import IMeta from '../interfaces/IMeta'
 
 export const getData = (): IMeta[] => {
+  // fix all txts first of all
+
   const jsonPath = './data-files/design-antipatterns/responses.json'
   const data: IMeta[] = JSON.parse(fs.readFileSync(jsonPath, 'utf8'))
 
@@ -32,7 +34,9 @@ const appendLinguisticData = (
 
     const fileContent = getFileContent(filePath)
     const rawLines = fileContent.split('\n')
-    const lines = rawLines.map((rl) => removeEndNullAndJunk(rl))
+    const lines = rawLines.map((rl) =>
+      removeEndNullAndJunk(getOnlyEndpoint(rl))
+    )
 
     const emptyLineIndex = lines.indexOf('')
 
@@ -79,3 +83,8 @@ const removeEndNullAndJunk = (line: string): string => {
     ? endpoint.substring(0, endpoint.length - 4)
     : endpoint
 }
+
+const getOnlyEndpoint = (line: string): string =>
+  line.charAt(0) === '/'
+    ? line
+    : line.substring(line.indexOf('/'), line.length - 1).split(' ')[0]
