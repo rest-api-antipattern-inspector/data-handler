@@ -2,8 +2,16 @@ import { getData } from './data/data'
 import { getCorrelations, getCorrelationsMDString } from './lib/correlations'
 import { getRDataCode } from './lib/createRCode'
 import { writeCSVs } from './lib/csvCorrelations'
-
 import fs from 'fs'
+
+// TODO
+/**
+ * In this repo:
+ * 2. fix linguistic txt files, not just at runtime but rewrite files
+ * 3. fix bug for pluralised nodes in linguistic txts
+ * 4. return to branch one-csv-to-rule-them-all, fix one csv file
+ * 5. fix excel files for each api
+ */
 
 !fs.existsSync('./correlation-data') && fs.mkdirSync('./correlation-data')
 !fs.existsSync('./correlation-data/csvs-foreach-antipattern') &&

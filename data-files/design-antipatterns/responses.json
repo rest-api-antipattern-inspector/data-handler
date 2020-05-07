@@ -1,89 +1,8 @@
 [
   {
     "api": "bitly",
-    "endpoint": "expand",
-    "wholeURI": "https://api-ssl.bitly.com/v4/expand",
-    "httpMethod": "POST",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "content-security-policy"
-      }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "bitly",
     "endpoint": "user",
     "wholeURI": "https://api-ssl.bitly.com/v4/user",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "content-security-policy"
-      }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "bitly",
-    "endpoint": "organizations/{ORG_ID}/shorten_counts",
-    "wholeURI": "https://api-ssl.bitly.com/v4/organizations/Ok3sdj3Oa5X/shorten_counts",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "content-security-policy"
-      }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "bitly",
-    "endpoint": "organizations/{ORG_ID}",
-    "wholeURI": "https://api-ssl.bitly.com/v4/organizations/Ok3sdj3Oa5X",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -136,8 +55,35 @@
   },
   {
     "api": "bitly",
-    "endpoint": "bitlinks/{BITLINK}/clicks/summary",
-    "wholeURI": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/2xy1gEU/clicks/summary",
+    "endpoint": "shorten",
+    "wholeURI": "https://api-ssl.bitly.com/v4/shorten",
+    "httpMethod": "POST",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "content-security-policy"
+      }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "bitly",
+    "endpoint": "organizations/{ORG_ID}/shorten_counts",
+    "wholeURI": "https://api-ssl.bitly.com/v4/organizations/Ok3sdj3Oa5X/shorten_counts",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -163,35 +109,8 @@
   },
   {
     "api": "bitly",
-    "endpoint": "bitlinks/{BITLINK}",
-    "wholeURI": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/2xy1gEU",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "content-security-policy"
-      }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "bitly",
-    "endpoint": "bitlinks/{BITLINK}/referrers",
-    "wholeURI": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/2xy1gEU/referrers",
+    "endpoint": "bitlinks/{BITLINK}/countries",
+    "wholeURI": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/2xy1gEU/countries",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -271,6 +190,114 @@
   },
   {
     "api": "bitly",
+    "endpoint": "bitlinks/{BITLINK}",
+    "wholeURI": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/2xy1gEU",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "content-security-policy"
+      }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "bitly",
+    "endpoint": "bitlinks/{BITLINK}/referrers",
+    "wholeURI": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/2xy1gEU/referrers",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "content-security-policy"
+      }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "bitly",
+    "endpoint": "expand",
+    "wholeURI": "https://api-ssl.bitly.com/v4/expand",
+    "httpMethod": "POST",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "content-security-policy"
+      }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "bitly",
+    "endpoint": "bitlinks/{BITLINK}/clicks/summary",
+    "wholeURI": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/2xy1gEU/clicks/summary",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "content-security-policy"
+      }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "bitly",
     "endpoint": "bitlinks/{BITLINK}/referring_domains",
     "wholeURI": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/2xy1gEU/referring_domains",
     "httpMethod": "GET",
@@ -297,90 +324,9 @@
     }
   },
   {
-    "api": "bitly",
-    "endpoint": "shorten",
-    "wholeURI": "https://api-ssl.bitly.com/v4/shorten",
-    "httpMethod": "POST",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "content-security-policy"
-      }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "bitly",
-    "endpoint": "bitlinks/{BITLINK}/countries",
-    "wholeURI": "https://api-ssl.bitly.com/v4/bitlinks/bit.ly/2xy1gEU/countries",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "content-security-policy"
-      }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "bitly",
-    "endpoint": "user",
-    "wholeURI": "https://api-ssl.bitly.com/v4/user",
-    "httpMethod": "PATCH",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "content-security-policy"
-      }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": true,
-      "isMisusingCookies": false
-    }
-  },
-  {
     "api": "imgur",
-    "endpoint": "account/{username}/avatar",
-    "wholeURI": "https://api.imgur.com/3/account/jeppan875/avatar",
+    "endpoint": "account/me/block",
+    "wholeURI": "https://api.imgur.com/3/account/me/block",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -391,6 +337,10 @@
       {
         "headerType": "Response Header",
         "headerKey": "x-ratelimit-clientremaining"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-clientreset"
       },
       { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
       {
@@ -415,8 +365,8 @@
   },
   {
     "api": "imgur",
-    "endpoint": "account/{username}/comments/{commentSort}/{page}",
-    "wholeURI": "https://api.imgur.com/3/account/jeppan875/comments",
+    "endpoint": "account/{username}/albums/{page}",
+    "wholeURI": "https://api.imgur.com/3/account/jeppan875/albums",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -522,30 +472,21 @@
     }
   },
   {
-    "api": "imgur",
-    "endpoint": "account/{username}/albums/ids/{page}",
-    "wholeURI": "https://api.imgur.com/3/account/jeppan875/albums/ids",
+    "api": "bitly",
+    "endpoint": "organizations/{ORG_ID}",
+    "wholeURI": "https://api-ssl.bitly.com/v4/organizations/Ok3sdj3Oa5X",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" },
       {
         "headerType": "Response Header",
-        "headerKey": "x-ratelimit-clientlimit"
+        "headerKey": "x-content-type-options"
       },
       {
         "headerType": "Response Header",
-        "headerKey": "x-ratelimit-clientremaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-userremaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-userreset" },
-      { "headerType": "Response Header", "headerKey": "x-served-by" },
-      { "headerType": "Response Header", "headerKey": "x-cache" },
-      { "headerType": "Response Header", "headerKey": "x-cache-hits" },
-      { "headerType": "Response Header", "headerKey": "x-timer" }
+        "headerKey": "content-security-policy"
+      }
     ],
     "linguisticAntipatterns": {},
     "designAntipatterns": {
@@ -559,8 +500,8 @@
   },
   {
     "api": "imgur",
-    "endpoint": "account/{username}/albums/count",
-    "wholeURI": "https://api.imgur.com/3/account/jeppan875/albums/count",
+    "endpoint": "account/{username}/albums/ids/{page}",
+    "wholeURI": "https://api.imgur.com/3/account/jeppan875/albums/ids",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -631,8 +572,8 @@
   },
   {
     "api": "imgur",
-    "endpoint": "account/{username}/albums/{page}",
-    "wholeURI": "https://api.imgur.com/3/account/jeppan875/albums",
+    "endpoint": "account/{username}/albums/count",
+    "wholeURI": "https://api.imgur.com/3/account/jeppan875/albums/count",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -666,21 +607,30 @@
     }
   },
   {
-    "api": "bitly",
-    "endpoint": "bitlinks",
-    "wholeURI": "https://api-ssl.bitly.com/v4/bitlinks",
-    "httpMethod": "POST",
+    "api": "imgur",
+    "endpoint": "account/{username}/avatar",
+    "wholeURI": "https://api.imgur.com/3/account/jeppan875/avatar",
+    "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" },
       {
         "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
+        "headerKey": "x-ratelimit-clientlimit"
       },
       {
         "headerType": "Response Header",
-        "headerKey": "content-security-policy"
-      }
+        "headerKey": "x-ratelimit-clientremaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-userremaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-userreset" },
+      { "headerType": "Response Header", "headerKey": "x-served-by" },
+      { "headerType": "Response Header", "headerKey": "x-cache" },
+      { "headerType": "Response Header", "headerKey": "x-cache-hits" },
+      { "headerType": "Response Header", "headerKey": "x-timer" }
     ],
     "linguisticAntipatterns": {},
     "designAntipatterns": {
@@ -696,6 +646,78 @@
     "api": "imgur",
     "endpoint": "account/{username}/images/count",
     "wholeURI": "https://api.imgur.com/3/account/jeppan875/images/count",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-clientlimit"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-clientremaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-userremaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-userreset" },
+      { "headerType": "Response Header", "headerKey": "x-served-by" },
+      { "headerType": "Response Header", "headerKey": "x-cache" },
+      { "headerType": "Response Header", "headerKey": "x-cache-hits" },
+      { "headerType": "Response Header", "headerKey": "x-timer" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "imgur",
+    "endpoint": "account/me/images",
+    "wholeURI": "https://api.imgur.com/3/account/me/images",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-clientlimit"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-clientremaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-userremaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-userreset" },
+      { "headerType": "Response Header", "headerKey": "x-served-by" },
+      { "headerType": "Response Header", "headerKey": "x-cache" },
+      { "headerType": "Response Header", "headerKey": "x-cache-hits" },
+      { "headerType": "Response Header", "headerKey": "x-timer" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "imgur",
+    "endpoint": "account/{username}/comments/ids/{sort}/{page}",
+    "wholeURI": "https://api.imgur.com/3/account/jeppan875/comments/ids",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -766,8 +788,8 @@
   },
   {
     "api": "imgur",
-    "endpoint": "account/{username}/images/{page}",
-    "wholeURI": "https://api.imgur.com/3/account/jeppan875/images",
+    "endpoint": "account/{username}/verifyemail",
+    "wholeURI": "https://api.imgur.com/3/account/jeppan875/verifyemail",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -802,8 +824,8 @@
   },
   {
     "api": "imgur",
-    "endpoint": "account/me/block",
-    "wholeURI": "https://api.imgur.com/3/account/me/block",
+    "endpoint": "account/{username}",
+    "wholeURI": "https://api.imgur.com/3/account/jeppan875",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -814,10 +836,6 @@
       {
         "headerType": "Response Header",
         "headerKey": "x-ratelimit-clientremaining"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-clientreset"
       },
       { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
       {
@@ -835,16 +853,97 @@
       "isBreakingSelfDescriptiveness": true,
       "isForgettingHypermedia": false,
       "isIgnoringCaching": false,
-      "isIgnoringMIMEType": true,
+      "isIgnoringMIMEType": false,
       "isIgnoringStatusCode": false,
       "isMisusingCookies": false
     }
   },
   {
     "api": "imgur",
-    "endpoint": "account/{username}/notifications/replies",
-    "wholeURI": "https://api.imgur.com/3/account/jeppan875/notifications/replies",
+    "endpoint": "image/{imageHash}",
+    "wholeURI": "https://api.imgur.com/3/image/8sAqvXH",
+    "httpMethod": "POST",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-post-rate-limit-limit"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-post-rate-limit-remaining"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-post-rate-limit-reset"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-clientlimit"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-clientremaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-userremaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-userreset" },
+      { "headerType": "Response Header", "headerKey": "x-origin-ip" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "imgur",
+    "endpoint": "account/{username}/comments/{commentSort}/{page}",
+    "wholeURI": "https://api.imgur.com/3/account/jeppan875/comments",
     "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-clientlimit"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-clientremaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-userremaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-userreset" },
+      { "headerType": "Response Header", "headerKey": "x-served-by" },
+      { "headerType": "Response Header", "headerKey": "x-cache" },
+      { "headerType": "Response Header", "headerKey": "x-cache-hits" },
+      { "headerType": "Response Header", "headerKey": "x-timer" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "imgur",
+    "endpoint": "account/{username}/settings",
+    "wholeURI": "https://api.imgur.com/3/account/jeppan875/settings",
+    "httpMethod": "PUT",
     "statusCode": 200,
     "nonstandardHeaders": [
       {
@@ -922,6 +1021,33 @@
     }
   },
   {
+    "api": "bitly",
+    "endpoint": "user",
+    "wholeURI": "https://api-ssl.bitly.com/v4/user",
+    "httpMethod": "PATCH",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "content-security-policy"
+      }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
     "api": "imgur",
     "endpoint": "account/{username}/available_avatars",
     "wholeURI": "https://api.imgur.com/3/account/jeppan875/available_avatars",
@@ -958,68 +1084,21 @@
     }
   },
   {
-    "api": "disqus",
-    "endpoint": "threads/create.json",
-    "wholeURI": "https://disqus.com/api/3.0/threads/create.json",
+    "api": "bitly",
+    "endpoint": "bitlinks",
+    "wholeURI": "https://api-ssl.bitly.com/v4/bitlinks",
     "httpMethod": "POST",
     "statusCode": 200,
     "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" },
       {
         "headerType": "Response Header",
         "headerKey": "x-content-type-options"
       },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "imgur",
-    "endpoint": "account/me/follow/tag/{tagName}",
-    "wholeURI": "https://api.imgur.com/3/account/me/follow/tag/goes",
-    "httpMethod": "POST",
-    "statusCode": 200,
-    "nonstandardHeaders": [
       {
         "headerType": "Response Header",
-        "headerKey": "x-post-rate-limit-limit"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-post-rate-limit-remaining"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-post-rate-limit-reset"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-clientlimit"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-clientremaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-userremaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-userreset" },
-      { "headerType": "Response Header", "headerKey": "x-served-by" },
-      { "headerType": "Response Header", "headerKey": "x-cache" },
-      { "headerType": "Response Header", "headerKey": "x-cache-hits" },
-      { "headerType": "Response Header", "headerKey": "x-timer" }
+        "headerKey": "content-security-policy"
+      }
     ],
     "linguisticAntipatterns": {},
     "designAntipatterns": {
@@ -1047,78 +1126,6 @@
         "headerType": "Response Header",
         "headerKey": "content-security-policy"
       }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": true,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "imgur",
-    "endpoint": "account/{username}/settings",
-    "wholeURI": "https://api.imgur.com/3/account/jeppan875/settings",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-clientlimit"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-clientremaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-userremaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-userreset" },
-      { "headerType": "Response Header", "headerKey": "x-served-by" },
-      { "headerType": "Response Header", "headerKey": "x-cache" },
-      { "headerType": "Response Header", "headerKey": "x-cache-hits" },
-      { "headerType": "Response Header", "headerKey": "x-timer" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "imgur",
-    "endpoint": "account/me/settings",
-    "wholeURI": "https://api.imgur.com/3/account/me/settings",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-clientlimit"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-clientremaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-userremaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-userreset" },
-      { "headerType": "Response Header", "headerKey": "x-served-by" },
-      { "headerType": "Response Header", "headerKey": "x-cache" },
-      { "headerType": "Response Header", "headerKey": "x-cache-hits" },
-      { "headerType": "Response Header", "headerKey": "x-timer" }
     ],
     "linguisticAntipatterns": {},
     "designAntipatterns": {
@@ -1164,92 +1171,8 @@
   },
   {
     "api": "imgur",
-    "endpoint": "account/{username}/verifyemail",
-    "wholeURI": "https://api.imgur.com/3/account/jeppan875/verifyemail",
-    "httpMethod": "POST",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-post-rate-limit-limit"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-post-rate-limit-remaining"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-post-rate-limit-reset"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-clientlimit"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-clientremaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-userremaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-userreset" },
-      { "headerType": "Response Header", "headerKey": "x-served-by" },
-      { "headerType": "Response Header", "headerKey": "x-cache" },
-      { "headerType": "Response Header", "headerKey": "x-cache-hits" },
-      { "headerType": "Response Header", "headerKey": "x-timer" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": true
-    }
-  },
-  {
-    "api": "imgur",
-    "endpoint": "account/{username}",
-    "wholeURI": "https://api.imgur.com/3/account/jeppan875",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-clientlimit"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-clientremaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-userremaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-userreset" },
-      { "headerType": "Response Header", "headerKey": "x-served-by" },
-      { "headerType": "Response Header", "headerKey": "x-cache" },
-      { "headerType": "Response Header", "headerKey": "x-cache-hits" },
-      { "headerType": "Response Header", "headerKey": "x-timer" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "imgur",
-    "endpoint": "account/me/images",
-    "wholeURI": "https://api.imgur.com/3/account/me/images",
+    "endpoint": "account/me/settings",
+    "wholeURI": "https://api.imgur.com/3/account/me/settings",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -1286,7 +1209,7 @@
     "api": "imgur",
     "endpoint": "account/{username}/settings",
     "wholeURI": "https://api.imgur.com/3/account/jeppan875/settings",
-    "httpMethod": "PUT",
+    "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
       {
@@ -1346,8 +1269,8 @@
   },
   {
     "api": "imgur",
-    "endpoint": "account/{username}/verifyemail",
-    "wholeURI": "https://api.imgur.com/3/account/jeppan875/verifyemail",
+    "endpoint": "account/{username}/images/{page}",
+    "wholeURI": "https://api.imgur.com/3/account/jeppan875/images",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -1381,10 +1304,126 @@
     }
   },
   {
-    "api": "disqus",
-    "endpoint": "categories/listPosts.json",
-    "wholeURI": "https://disqus.com/api/3.0/categories/listPosts.json",
+    "api": "imgur",
+    "endpoint": "account/{username}/notifications/replies",
+    "wholeURI": "https://api.imgur.com/3/account/jeppan875/notifications/replies",
     "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-clientlimit"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-clientremaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-userremaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-userreset" },
+      { "headerType": "Response Header", "headerKey": "x-served-by" },
+      { "headerType": "Response Header", "headerKey": "x-cache" },
+      { "headerType": "Response Header", "headerKey": "x-cache-hits" },
+      { "headerType": "Response Header", "headerKey": "x-timer" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "imgur",
+    "endpoint": "account/{username}/verifyemail",
+    "wholeURI": "https://api.imgur.com/3/account/jeppan875/verifyemail",
+    "httpMethod": "POST",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-post-rate-limit-limit"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-post-rate-limit-remaining"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-post-rate-limit-reset"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-clientlimit"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-clientremaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-userremaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-userreset" },
+      { "headerType": "Response Header", "headerKey": "x-served-by" },
+      { "headerType": "Response Header", "headerKey": "x-cache" },
+      { "headerType": "Response Header", "headerKey": "x-cache-hits" },
+      { "headerType": "Response Header", "headerKey": "x-timer" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "twitter",
+    "endpoint": "statuses/retweet",
+    "wholeURI": "https://api.twitter.com/1.1/statuses/retweet",
+    "httpMethod": "POST",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "status" },
+      { "headerType": "Response Header", "headerKey": "x-access-level" },
+      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-response-time" },
+      { "headerType": "Response Header", "headerKey": "x-transaction" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-twitter-response-tags"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "disqus",
+    "endpoint": "threads/create.json",
+    "wholeURI": "https://disqus.com/api/3.0/threads/create.json",
+    "httpMethod": "POST",
     "statusCode": 200,
     "nonstandardHeaders": [
       { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
@@ -1395,6 +1434,54 @@
         "headerKey": "x-content-type-options"
       },
       { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "imgur",
+    "endpoint": "account/me/follow/tag/{tagName}",
+    "wholeURI": "https://api.imgur.com/3/account/me/follow/tag/cowboy",
+    "httpMethod": "POST",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-post-rate-limit-limit"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-post-rate-limit-remaining"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-post-rate-limit-reset"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-clientlimit"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-clientremaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-ratelimit-userremaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-userreset" },
+      { "headerType": "Response Header", "headerKey": "x-served-by" },
+      { "headerType": "Response Header", "headerKey": "x-cache" },
+      { "headerType": "Response Header", "headerKey": "x-cache-hits" },
+      { "headerType": "Response Header", "headerKey": "x-timer" }
     ],
     "linguisticAntipatterns": {},
     "designAntipatterns": {
@@ -1410,58 +1497,6 @@
     "api": "disqus",
     "endpoint": "forums/details.json",
     "wholeURI": "https://disqus.com/api/3.0/forums/details.json",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "disqus",
-    "endpoint": "categories/listThreads.json",
-    "wholeURI": "https://disqus.com/api/3.0/categories/listThreads.json",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "disqus",
-    "endpoint": "categories/details.json",
-    "wholeURI": "https://disqus.com/api/3.0/categories/details.json",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -1512,32 +1547,6 @@
   },
   {
     "api": "disqus",
-    "endpoint": "categories/list.json",
-    "wholeURI": "https://disqus.com/api/3.0/categories/list.json",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "disqus",
     "endpoint": "forums/listMostLikedUsers.json",
     "wholeURI": "https://disqus.com/api/3.0/forums/listMostLikedUsers.json",
     "httpMethod": "GET",
@@ -1564,8 +1573,8 @@
   },
   {
     "api": "disqus",
-    "endpoint": "posts/listModerationHistory.json",
-    "wholeURI": "https://disqus.com/api/3.0/posts/listModerationHistory.json",
+    "endpoint": "categories/details.json",
+    "wholeURI": "https://disqus.com/api/3.0/categories/details.json",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -1590,8 +1599,34 @@
   },
   {
     "api": "disqus",
-    "endpoint": "forums/listUserModerationHistory.json",
-    "wholeURI": "https://disqus.com/api/3.0/forums/listUserModerationHistory.json",
+    "endpoint": "categories/listPosts.json",
+    "wholeURI": "https://disqus.com/api/3.0/categories/listPosts.json",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "disqus",
+    "endpoint": "categories/list.json",
+    "wholeURI": "https://disqus.com/api/3.0/categories/list.json",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -1642,8 +1677,8 @@
   },
   {
     "api": "disqus",
-    "endpoint": "forums/listFollowers.json",
-    "wholeURI": "https://disqus.com/api/3.0/forums/listFollowers.json",
+    "endpoint": "forums/listUserModerationHistory.json",
+    "wholeURI": "https://disqus.com/api/3.0/forums/listUserModerationHistory.json",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -1668,8 +1703,34 @@
   },
   {
     "api": "disqus",
-    "endpoint": "forums/listModerators.json",
-    "wholeURI": "https://disqus.com/api/3.0/forums/listModerators.json",
+    "endpoint": "posts/listModerationHistory.json",
+    "wholeURI": "https://disqus.com/api/3.0/posts/listModerationHistory.json",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "disqus",
+    "endpoint": "categories/listThreads.json",
+    "wholeURI": "https://disqus.com/api/3.0/categories/listThreads.json",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -1696,77 +1757,6 @@
     "api": "disqus",
     "endpoint": "posts/listReporters.json",
     "wholeURI": "https://disqus.com/api/3.0/posts/listReporters.json",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "imgur",
-    "endpoint": "image/{imageHash}",
-    "wholeURI": "https://api.imgur.com/3/image/8sAqvXH",
-    "httpMethod": "POST",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-post-rate-limit-limit"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-post-rate-limit-remaining"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-post-rate-limit-reset"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-clientlimit"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-clientremaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-userremaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-userreset" },
-      { "headerType": "Response Header", "headerKey": "x-origin-ip" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": true
-    }
-  },
-  {
-    "api": "disqus",
-    "endpoint": "users/details.json",
-    "wholeURI": "https://disqus.com/api/3.0/users/details.json",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -1817,6 +1807,58 @@
   },
   {
     "api": "disqus",
+    "endpoint": "forums/addModerator.json",
+    "wholeURI": "https://disqus.com/api/3.0/forums/addModerator.json",
+    "httpMethod": "POST",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "disqus",
+    "endpoint": "forums/listModerators.json",
+    "wholeURI": "https://disqus.com/api/3.0/forums/listModerators.json",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "disqus",
     "endpoint": "posts/approve.json",
     "wholeURI": "https://disqus.com/api/3.0/posts/approve.json",
     "httpMethod": "POST",
@@ -1842,123 +1884,41 @@
     }
   },
   {
+    "api": "twitter",
+    "endpoint": "favorites/create",
+    "wholeURI": "https://api.twitter.com/1.1/favorites/create",
+    "httpMethod": "POST",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "status" },
+      { "headerType": "Response Header", "headerKey": "x-access-level" },
+      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-response-time" },
+      { "headerType": "Response Header", "headerKey": "x-transaction" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-twitter-response-tags"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
     "api": "disqus",
     "endpoint": "posts/details.json",
     "wholeURI": "https://disqus.com/api/3.0/posts/details.json",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "disqus",
-    "endpoint": "threads/details.json",
-    "wholeURI": "https://disqus.com/api/3.0/threads/details.json",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "disqus",
-    "endpoint": "users/listMostActiveForums.json",
-    "wholeURI": "https://disqus.com/api/3.0/users/listMostActiveForums.json",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "imgur",
-    "endpoint": "account/{username}/comments/ids/{sort}/{page}",
-    "wholeURI": "https://api.imgur.com/3/account/jeppan875/comments/ids",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-clientlimit"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-clientremaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-userlimit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-ratelimit-userremaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-userreset" },
-      { "headerType": "Response Header", "headerKey": "x-served-by" },
-      { "headerType": "Response Header", "headerKey": "x-cache" },
-      { "headerType": "Response Header", "headerKey": "x-cache-hits" },
-      { "headerType": "Response Header", "headerKey": "x-timer" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "disqus",
-    "endpoint": "users/listForums.json",
-    "wholeURI": "https://disqus.com/api/3.0/users/listForums.json",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -2009,8 +1969,138 @@
   },
   {
     "api": "disqus",
-    "endpoint": "users/listActiveForums.json",
-    "wholeURI": "https://disqus.com/api/3.0/users/listActiveForums.json",
+    "endpoint": "forums/listFollowers.json",
+    "wholeURI": "https://disqus.com/api/3.0/forums/listFollowers.json",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "disqus",
+    "endpoint": "threads/details.json",
+    "wholeURI": "https://disqus.com/api/3.0/threads/details.json",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "disqus",
+    "endpoint": "posts/listPopular.json",
+    "wholeURI": "https://disqus.com/api/3.0/posts/listPopular.json",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "disqus",
+    "endpoint": "users/details.json",
+    "wholeURI": "https://disqus.com/api/3.0/users/details.json",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "disqus",
+    "endpoint": "users/interestingUsers.json",
+    "wholeURI": "https://disqus.com/api/3.0/users/interestingUsers.json",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "disqus",
+    "endpoint": "users/listForums.json",
+    "wholeURI": "https://disqus.com/api/3.0/users/listForums.json",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -2061,9 +2151,87 @@
   },
   {
     "api": "disqus",
-    "endpoint": "posts/vote.json",
-    "wholeURI": "https://disqus.com/api/3.0/posts/vote.json",
+    "endpoint": "users/listMostActiveForums.json",
+    "wholeURI": "https://disqus.com/api/3.0/users/listMostActiveForums.json",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "disqus",
+    "endpoint": "users/listActiveForums.json",
+    "wholeURI": "https://disqus.com/api/3.0/users/listActiveForums.json",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "disqus",
+    "endpoint": "users/updateProfile.json",
+    "wholeURI": "https://disqus.com/api/3.0/users/updateProfile.json",
     "httpMethod": "POST",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "disqus",
+    "endpoint": "threads/list.json",
+    "wholeURI": "https://disqus.com/api/3.0/threads/list.json",
+    "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
       { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
@@ -2139,118 +2307,8 @@
   },
   {
     "api": "disqus",
-    "endpoint": "users/updateProfile.json",
-    "wholeURI": "https://disqus.com/api/3.0/users/updateProfile.json",
-    "httpMethod": "POST",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "twitter",
-    "endpoint": "statuses/retweet",
-    "wholeURI": "https://api.twitter.com/1.1/statuses/retweet",
-    "httpMethod": "POST",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "status" },
-      { "headerType": "Response Header", "headerKey": "x-access-level" },
-      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-response-time" },
-      { "headerType": "Response Header", "headerKey": "x-transaction" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-twitter-response-tags"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": true
-    }
-  },
-  {
-    "api": "disqus",
     "endpoint": "forums/listMostActiveUsers.json",
     "wholeURI": "https://disqus.com/api/3.0/forums/listMostActiveUsers.json",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "disqus",
-    "endpoint": "threads/list.json",
-    "wholeURI": "https://disqus.com/api/3.0/threads/list.json",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "disqus",
-    "endpoint": "users/interestingUsers.json",
-    "wholeURI": "https://disqus.com/api/3.0/users/interestingUsers.json",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -2278,142 +2336,6 @@
     "endpoint": "forums/listThreads.json",
     "wholeURI": "https://disqus.com/api/3.0/forums/listThreads.json",
     "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "disqus",
-    "endpoint": "posts/listPopular.json",
-    "wholeURI": "https://disqus.com/api/3.0/posts/listPopular.json",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "disqus",
-    "endpoint": "users/listPosts.json",
-    "wholeURI": "https://disqus.com/api/3.0/users/listPosts.json",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "twitter",
-    "endpoint": "favorites/create",
-    "wholeURI": "https://api.twitter.com/1.1/favorites/create",
-    "httpMethod": "POST",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "status" },
-      { "headerType": "Response Header", "headerKey": "x-access-level" },
-      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-response-time" },
-      { "headerType": "Response Header", "headerKey": "x-transaction" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-twitter-response-tags"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": true
-    }
-  },
-  {
-    "api": "disqus",
-    "endpoint": "posts/list.json",
-    "wholeURI": "https://disqus.com/api/3.0/posts/list.json",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
-      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": false
-    }
-  },
-  {
-    "api": "disqus",
-    "endpoint": "forums/addModerator.json",
-    "wholeURI": "https://disqus.com/api/3.0/forums/addModerator.json",
-    "httpMethod": "POST",
     "statusCode": 200,
     "nonstandardHeaders": [
       { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
@@ -2474,6 +2396,58 @@
     }
   },
   {
+    "api": "disqus",
+    "endpoint": "posts/vote.json",
+    "wholeURI": "https://disqus.com/api/3.0/posts/vote.json",
+    "httpMethod": "POST",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
+    "api": "disqus",
+    "endpoint": "users/listPosts.json",
+    "wholeURI": "https://disqus.com/api/3.0/users/listPosts.json",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
+    }
+  },
+  {
     "api": "twitter",
     "endpoint": "statuses/lookup",
     "wholeURI": "https://api.twitter.com/1.1/statuses/lookup",
@@ -2509,6 +2483,32 @@
       "isIgnoringMIMEType": false,
       "isIgnoringStatusCode": false,
       "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "disqus",
+    "endpoint": "posts/list.json",
+    "wholeURI": "https://disqus.com/api/3.0/posts/list.json",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-remaining" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-limit" },
+      { "headerType": "Response Header", "headerKey": "x-ratelimit-reset" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": false
     }
   },
   {
@@ -2792,8 +2792,8 @@
   },
   {
     "api": "twitter",
-    "endpoint": "friendships/update",
-    "wholeURI": "https://api.twitter.com/1.1/friendships/update",
+    "endpoint": "lists/create",
+    "wholeURI": "https://api.twitter.com/1.1/lists/create",
     "httpMethod": "POST",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -2824,8 +2824,8 @@
   },
   {
     "api": "twitter",
-    "endpoint": "blocks/create",
-    "wholeURI": "https://api.twitter.com/1.1/blocks/create",
+    "endpoint": "friendships/update",
+    "wholeURI": "https://api.twitter.com/1.1/friendships/update",
     "httpMethod": "POST",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -2888,8 +2888,8 @@
   },
   {
     "api": "twitter",
-    "endpoint": "lists/create",
-    "wholeURI": "https://api.twitter.com/1.1/lists/create",
+    "endpoint": "blocks/create",
+    "wholeURI": "https://api.twitter.com/1.1/blocks/create",
     "httpMethod": "POST",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -3016,248 +3016,8 @@
   },
   {
     "api": "twitter",
-    "endpoint": "statuses/mentions_timeline",
-    "wholeURI": "https://api.twitter.com/1.1/statuses/mentions_timeline",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "status" },
-      { "headerType": "Response Header", "headerKey": "x-access-level" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-app-rate-limit-limit"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-app-rate-limit-remaining"
-      },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-app-rate-limit-reset"
-      },
-      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-rate-limit-remaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
-      { "headerType": "Response Header", "headerKey": "x-response-time" },
-      { "headerType": "Response Header", "headerKey": "x-transaction" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-twitter-response-tags"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": true
-    }
-  },
-  {
-    "api": "twitter",
-    "endpoint": "friendships/no_retweets/ids",
-    "wholeURI": "https://api.twitter.com/1.1/friendships/no_retweets/ids",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "status" },
-      { "headerType": "Response Header", "headerKey": "x-access-level" },
-      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-rate-limit-remaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
-      { "headerType": "Response Header", "headerKey": "x-response-time" },
-      { "headerType": "Response Header", "headerKey": "x-transaction" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-twitter-response-tags"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": true
-    }
-  },
-  {
-    "api": "twitter",
     "endpoint": "friendships/incoming",
     "wholeURI": "https://api.twitter.com/1.1/friendships/incoming",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "status" },
-      { "headerType": "Response Header", "headerKey": "x-access-level" },
-      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-rate-limit-remaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
-      { "headerType": "Response Header", "headerKey": "x-response-time" },
-      { "headerType": "Response Header", "headerKey": "x-transaction" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-twitter-response-tags"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": true
-    }
-  },
-  {
-    "api": "twitter",
-    "endpoint": "blocks/ids",
-    "wholeURI": "https://api.twitter.com/1.1/blocks/ids",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "status" },
-      { "headerType": "Response Header", "headerKey": "x-access-level" },
-      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-rate-limit-remaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
-      { "headerType": "Response Header", "headerKey": "x-response-time" },
-      { "headerType": "Response Header", "headerKey": "x-transaction" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-twitter-response-tags"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": true
-    }
-  },
-  {
-    "api": "twitter",
-    "endpoint": "statuses/home_timeline",
-    "wholeURI": "https://api.twitter.com/1.1/statuses/home_timeline",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "status" },
-      { "headerType": "Response Header", "headerKey": "x-access-level" },
-      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-rate-limit-remaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
-      { "headerType": "Response Header", "headerKey": "x-response-time" },
-      { "headerType": "Response Header", "headerKey": "x-transaction" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-twitter-response-tags"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": true
-    }
-  },
-  {
-    "api": "twitter",
-    "endpoint": "blocks/list",
-    "wholeURI": "https://api.twitter.com/1.1/blocks/list",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "status" },
-      { "headerType": "Response Header", "headerKey": "x-access-level" },
-      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-rate-limit-remaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
-      { "headerType": "Response Header", "headerKey": "x-response-time" },
-      { "headerType": "Response Header", "headerKey": "x-transaction" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-twitter-response-tags"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": true
-    }
-  },
-  {
-    "api": "twitter",
-    "endpoint": "friendships/outgoing",
-    "wholeURI": "https://api.twitter.com/1.1/friendships/outgoing",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -3332,8 +3092,8 @@
   },
   {
     "api": "twitter",
-    "endpoint": "trends/closest",
-    "wholeURI": "https://api.twitter.com/1.1/trends/closest",
+    "endpoint": "friendships/outgoing",
+    "wholeURI": "https://api.twitter.com/1.1/friendships/outgoing",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -3370,11 +3130,25 @@
   },
   {
     "api": "twitter",
-    "endpoint": "geo/reverse_geocode",
-    "wholeURI": "https://api.twitter.com/1.1/geo/reverse_geocode",
+    "endpoint": "statuses/mentions_timeline",
+    "wholeURI": "https://api.twitter.com/1.1/statuses/mentions_timeline",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "status" },
+      { "headerType": "Response Header", "headerKey": "x-access-level" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-app-rate-limit-limit"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-app-rate-limit-remaining"
+      },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-app-rate-limit-reset"
+      },
       { "headerType": "Response Header", "headerKey": "x-connection-hash" },
       {
         "headerType": "Response Header",
@@ -3387,6 +3161,45 @@
       },
       { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
       { "headerType": "Response Header", "headerKey": "x-response-time" },
+      { "headerType": "Response Header", "headerKey": "x-transaction" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-twitter-response-tags"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "twitter",
+    "endpoint": "friendships/lookup",
+    "wholeURI": "https://api.twitter.com/1.1/friendships/lookup",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "status" },
+      { "headerType": "Response Header", "headerKey": "x-access-level" },
+      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-rate-limit-remaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
+      { "headerType": "Response Header", "headerKey": "x-response-time" },
+      { "headerType": "Response Header", "headerKey": "x-transaction" },
       {
         "headerType": "Response Header",
         "headerKey": "x-twitter-response-tags"
@@ -3407,6 +3220,158 @@
     "api": "twitter",
     "endpoint": "mutes/users/ids",
     "wholeURI": "https://api.twitter.com/1.1/mutes/users/ids",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "status" },
+      { "headerType": "Response Header", "headerKey": "x-access-level" },
+      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-rate-limit-remaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
+      { "headerType": "Response Header", "headerKey": "x-response-time" },
+      { "headerType": "Response Header", "headerKey": "x-transaction" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-twitter-response-tags"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "twitter",
+    "endpoint": "statuses/home_timeline",
+    "wholeURI": "https://api.twitter.com/1.1/statuses/home_timeline",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "status" },
+      { "headerType": "Response Header", "headerKey": "x-access-level" },
+      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-rate-limit-remaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
+      { "headerType": "Response Header", "headerKey": "x-response-time" },
+      { "headerType": "Response Header", "headerKey": "x-transaction" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-twitter-response-tags"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "twitter",
+    "endpoint": "blocks/ids",
+    "wholeURI": "https://api.twitter.com/1.1/blocks/ids",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "status" },
+      { "headerType": "Response Header", "headerKey": "x-access-level" },
+      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-rate-limit-remaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
+      { "headerType": "Response Header", "headerKey": "x-response-time" },
+      { "headerType": "Response Header", "headerKey": "x-transaction" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-twitter-response-tags"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "twitter",
+    "endpoint": "friendships/no_retweets/ids",
+    "wholeURI": "https://api.twitter.com/1.1/friendships/no_retweets/ids",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "status" },
+      { "headerType": "Response Header", "headerKey": "x-access-level" },
+      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-rate-limit-remaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
+      { "headerType": "Response Header", "headerKey": "x-response-time" },
+      { "headerType": "Response Header", "headerKey": "x-transaction" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-twitter-response-tags"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "twitter",
+    "endpoint": "friends/ids",
+    "wholeURI": "https://api.twitter.com/1.1/friends/ids",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -3481,8 +3446,46 @@
   },
   {
     "api": "twitter",
-    "endpoint": "friendships/lookup",
-    "wholeURI": "https://api.twitter.com/1.1/friendships/lookup",
+    "endpoint": "trends/closest",
+    "wholeURI": "https://api.twitter.com/1.1/trends/closest",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "status" },
+      { "headerType": "Response Header", "headerKey": "x-access-level" },
+      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-rate-limit-remaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
+      { "headerType": "Response Header", "headerKey": "x-response-time" },
+      { "headerType": "Response Header", "headerKey": "x-transaction" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-twitter-response-tags"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "twitter",
+    "endpoint": "users/lookup",
+    "wholeURI": "https://api.twitter.com/1.1/users/lookup",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -3557,8 +3560,8 @@
   },
   {
     "api": "twitter",
-    "endpoint": "followers/list",
-    "wholeURI": "https://api.twitter.com/1.1/followers/list",
+    "endpoint": "lists/members/show",
+    "wholeURI": "https://api.twitter.com/1.1/lists/members/show",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -3577,6 +3580,41 @@
       { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
       { "headerType": "Response Header", "headerKey": "x-response-time" },
       { "headerType": "Response Header", "headerKey": "x-transaction" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-twitter-response-tags"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "twitter",
+    "endpoint": "geo/reverse_geocode",
+    "wholeURI": "https://api.twitter.com/1.1/geo/reverse_geocode",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-rate-limit-remaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
+      { "headerType": "Response Header", "headerKey": "x-response-time" },
       {
         "headerType": "Response Header",
         "headerKey": "x-twitter-response-tags"
@@ -3630,8 +3668,8 @@
   },
   {
     "api": "twitter",
-    "endpoint": "friends/ids",
-    "wholeURI": "https://api.twitter.com/1.1/friends/ids",
+    "endpoint": "followers/list",
+    "wholeURI": "https://api.twitter.com/1.1/followers/list",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -3668,46 +3706,8 @@
   },
   {
     "api": "twitter",
-    "endpoint": "lists/members/show",
-    "wholeURI": "https://api.twitter.com/1.1/lists/members/show",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "status" },
-      { "headerType": "Response Header", "headerKey": "x-access-level" },
-      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-rate-limit-remaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
-      { "headerType": "Response Header", "headerKey": "x-response-time" },
-      { "headerType": "Response Header", "headerKey": "x-transaction" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-twitter-response-tags"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": true
-    }
-  },
-  {
-    "api": "twitter",
-    "endpoint": "lists/subscriptions",
-    "wholeURI": "https://api.twitter.com/1.1/lists/subscriptions",
+    "endpoint": "lists/memberships",
+    "wholeURI": "https://api.twitter.com/1.1/lists/memberships",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -3782,8 +3782,236 @@
   },
   {
     "api": "twitter",
+    "endpoint": "lists/subscribers",
+    "wholeURI": "https://api.twitter.com/1.1/lists/subscribers",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "status" },
+      { "headerType": "Response Header", "headerKey": "x-access-level" },
+      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-rate-limit-remaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
+      { "headerType": "Response Header", "headerKey": "x-response-time" },
+      { "headerType": "Response Header", "headerKey": "x-transaction" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-twitter-response-tags"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "twitter",
+    "endpoint": "blocks/list",
+    "wholeURI": "https://api.twitter.com/1.1/blocks/list",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "status" },
+      { "headerType": "Response Header", "headerKey": "x-access-level" },
+      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-rate-limit-remaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
+      { "headerType": "Response Header", "headerKey": "x-response-time" },
+      { "headerType": "Response Header", "headerKey": "x-transaction" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-twitter-response-tags"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "twitter",
+    "endpoint": "users/show",
+    "wholeURI": "https://api.twitter.com/1.1/users/show",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "status" },
+      { "headerType": "Response Header", "headerKey": "x-access-level" },
+      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-rate-limit-remaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
+      { "headerType": "Response Header", "headerKey": "x-response-time" },
+      { "headerType": "Response Header", "headerKey": "x-transaction" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-twitter-response-tags"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "twitter",
+    "endpoint": "lists/subscriptions",
+    "wholeURI": "https://api.twitter.com/1.1/lists/subscriptions",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "status" },
+      { "headerType": "Response Header", "headerKey": "x-access-level" },
+      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-rate-limit-remaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
+      { "headerType": "Response Header", "headerKey": "x-response-time" },
+      { "headerType": "Response Header", "headerKey": "x-transaction" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-twitter-response-tags"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "twitter",
     "endpoint": "lists/show",
     "wholeURI": "https://api.twitter.com/1.1/lists/show",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "status" },
+      { "headerType": "Response Header", "headerKey": "x-access-level" },
+      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-rate-limit-remaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
+      { "headerType": "Response Header", "headerKey": "x-response-time" },
+      { "headerType": "Response Header", "headerKey": "x-transaction" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-twitter-response-tags"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "twitter",
+    "endpoint": "lists/ownerships",
+    "wholeURI": "https://api.twitter.com/1.1/lists/ownerships",
+    "httpMethod": "GET",
+    "statusCode": 200,
+    "nonstandardHeaders": [
+      { "headerType": "Response Header", "headerKey": "status" },
+      { "headerType": "Response Header", "headerKey": "x-access-level" },
+      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-content-type-options"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-rate-limit-remaining"
+      },
+      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
+      { "headerType": "Response Header", "headerKey": "x-response-time" },
+      { "headerType": "Response Header", "headerKey": "x-transaction" },
+      {
+        "headerType": "Response Header",
+        "headerKey": "x-twitter-response-tags"
+      },
+      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
+    ],
+    "linguisticAntipatterns": {},
+    "designAntipatterns": {
+      "isBreakingSelfDescriptiveness": true,
+      "isForgettingHypermedia": false,
+      "isIgnoringCaching": false,
+      "isIgnoringMIMEType": false,
+      "isIgnoringStatusCode": false,
+      "isMisusingCookies": true
+    }
+  },
+  {
+    "api": "twitter",
+    "endpoint": "lists/members",
+    "wholeURI": "https://api.twitter.com/1.1/lists/members",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -3908,84 +4136,8 @@
   },
   {
     "api": "twitter",
-    "endpoint": "lists/subscribers",
-    "wholeURI": "https://api.twitter.com/1.1/lists/subscribers",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "status" },
-      { "headerType": "Response Header", "headerKey": "x-access-level" },
-      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-rate-limit-remaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
-      { "headerType": "Response Header", "headerKey": "x-response-time" },
-      { "headerType": "Response Header", "headerKey": "x-transaction" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-twitter-response-tags"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": true
-    }
-  },
-  {
-    "api": "twitter",
-    "endpoint": "users/show",
-    "wholeURI": "https://api.twitter.com/1.1/users/show",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "status" },
-      { "headerType": "Response Header", "headerKey": "x-access-level" },
-      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-rate-limit-remaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
-      { "headerType": "Response Header", "headerKey": "x-response-time" },
-      { "headerType": "Response Header", "headerKey": "x-transaction" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-twitter-response-tags"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": true
-    }
-  },
-  {
-    "api": "twitter",
-    "endpoint": "lists/members",
-    "wholeURI": "https://api.twitter.com/1.1/lists/members",
+    "endpoint": "lists/list",
+    "wholeURI": "https://api.twitter.com/1.1/lists/list",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -4060,160 +4212,8 @@
   },
   {
     "api": "twitter",
-    "endpoint": "lists/list",
-    "wholeURI": "https://api.twitter.com/1.1/lists/list",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "status" },
-      { "headerType": "Response Header", "headerKey": "x-access-level" },
-      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-rate-limit-remaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
-      { "headerType": "Response Header", "headerKey": "x-response-time" },
-      { "headerType": "Response Header", "headerKey": "x-transaction" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-twitter-response-tags"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": true
-    }
-  },
-  {
-    "api": "twitter",
-    "endpoint": "lists/ownerships",
-    "wholeURI": "https://api.twitter.com/1.1/lists/ownerships",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "status" },
-      { "headerType": "Response Header", "headerKey": "x-access-level" },
-      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-rate-limit-remaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
-      { "headerType": "Response Header", "headerKey": "x-response-time" },
-      { "headerType": "Response Header", "headerKey": "x-transaction" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-twitter-response-tags"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": true
-    }
-  },
-  {
-    "api": "twitter",
-    "endpoint": "lists/statuses",
-    "wholeURI": "https://api.twitter.com/1.1/lists/statuses",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "status" },
-      { "headerType": "Response Header", "headerKey": "x-access-level" },
-      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-rate-limit-remaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
-      { "headerType": "Response Header", "headerKey": "x-response-time" },
-      { "headerType": "Response Header", "headerKey": "x-transaction" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-twitter-response-tags"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": true
-    }
-  },
-  {
-    "api": "twitter",
     "endpoint": "lists/subscribers/show",
     "wholeURI": "https://api.twitter.com/1.1/lists/subscribers/show",
-    "httpMethod": "GET",
-    "statusCode": 200,
-    "nonstandardHeaders": [
-      { "headerType": "Response Header", "headerKey": "status" },
-      { "headerType": "Response Header", "headerKey": "x-access-level" },
-      { "headerType": "Response Header", "headerKey": "x-connection-hash" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-content-type-options"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-limit" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-rate-limit-remaining"
-      },
-      { "headerType": "Response Header", "headerKey": "x-rate-limit-reset" },
-      { "headerType": "Response Header", "headerKey": "x-response-time" },
-      { "headerType": "Response Header", "headerKey": "x-transaction" },
-      {
-        "headerType": "Response Header",
-        "headerKey": "x-twitter-response-tags"
-      },
-      { "headerType": "Response Header", "headerKey": "x-xss-protection" }
-    ],
-    "linguisticAntipatterns": {},
-    "designAntipatterns": {
-      "isBreakingSelfDescriptiveness": true,
-      "isForgettingHypermedia": false,
-      "isIgnoringCaching": false,
-      "isIgnoringMIMEType": false,
-      "isIgnoringStatusCode": false,
-      "isMisusingCookies": true
-    }
-  },
-  {
-    "api": "twitter",
-    "endpoint": "lists/memberships",
-    "wholeURI": "https://api.twitter.com/1.1/lists/memberships",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -4288,8 +4288,8 @@
   },
   {
     "api": "twitter",
-    "endpoint": "users/lookup",
-    "wholeURI": "https://api.twitter.com/1.1/users/lookup",
+    "endpoint": "lists/statuses",
+    "wholeURI": "https://api.twitter.com/1.1/lists/statuses",
     "httpMethod": "GET",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -4460,8 +4460,8 @@
   },
   {
     "api": "twitter",
-    "endpoint": "friendships/destroy",
-    "wholeURI": "https://api.twitter.com/1.1/friendships/destroy",
+    "endpoint": "blocks/destroy",
+    "wholeURI": "https://api.twitter.com/1.1/blocks/destroy",
     "httpMethod": "POST",
     "statusCode": 200,
     "nonstandardHeaders": [
@@ -4524,8 +4524,8 @@
   },
   {
     "api": "twitter",
-    "endpoint": "blocks/destroy",
-    "wholeURI": "https://api.twitter.com/1.1/blocks/destroy",
+    "endpoint": "friendships/destroy",
+    "wholeURI": "https://api.twitter.com/1.1/friendships/destroy",
     "httpMethod": "POST",
     "statusCode": 200,
     "nonstandardHeaders": [
