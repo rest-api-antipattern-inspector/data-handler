@@ -1,4 +1,4 @@
-import fs, { link } from 'fs'
+import fs from 'fs'
 import IMeta from '../interfaces/IMeta'
 
 export const getData = (): IMeta[] => {
