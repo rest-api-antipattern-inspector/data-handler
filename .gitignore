@@ -1,5 +1,5 @@
-# adds csv files to gitignore
-correlation-data/csv
+# adds folder for the big amount of csv files to gitignore
+correlation-data/csvs-foreach-antipattern
 
 # Logs
 logs

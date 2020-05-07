@@ -12,7 +12,10 @@ export const writeCSVs = (metas: IMeta[]) => {
 
   Object.keys(csvData).forEach((key) => {
     const data = `${csvData[key].a.join(',')}\n${csvData[key].b.join(',')}`
-    fs.writeFileSync(`./correlation-data/csv/${key}.csv`, data)
+    fs.writeFileSync(
+      `./correlation-data/csvs-foreach-antipattern/${key}.csv`,
+      data
+    )
   })
 }
 

@@ -6,13 +6,15 @@ import { writeCSVs } from './lib/csvCorrelations'
 import fs from 'fs'
 
 !fs.existsSync('./correlation-data') && fs.mkdirSync('./correlation-data')
-!fs.existsSync('./correlation-data/csv') &&
-  fs.mkdirSync('./correlation-data/csv')
+!fs.existsSync('./correlation-data/csvs-foreach-antipattern') &&
+  fs.mkdirSync('./correlation-data/csvs-foreach-antipattern')
 
 const data = getData()
 
 writeCSVs(data)
-console.log('Wrote csv files to ./correlation-data/csv')
+console.log(
+  'Wrote more csv files to ./correlation-data/csvs-foreach-antipattern'
+)
 
 const sourceR = getRDataCode(data)
 fs.writeFileSync('./correlation-data/data.R', sourceR)
