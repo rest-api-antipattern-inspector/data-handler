@@ -21,19 +21,18 @@ import fs from 'fs'
 const data = getData()
 
 writeSingleCSV(data)
-// TODO log info
+console.log('Wrote csv data to correlation-data/total.csv')
 
-// TODO uncomment
-// writeCSVs(data)
-// console.log(
-//   'Wrote more csv files to ./correlation-data/csvs-foreach-antipattern'
-// )
+writeCSVs(data)
+console.log(
+  'Wrote more csv files to ./correlation-data/csvs-foreach-antipattern'
+)
 
-// const sourceR = getRDataCode(data)
-// fs.writeFileSync('./correlation-data/data.R', sourceR)
-// console.log('Wrote stats to ./correlation-data/data.R')
+const sourceR = getRDataCode(data)
+fs.writeFileSync('./correlation-data/data.R', sourceR)
+console.log('Wrote stats to ./correlation-data/data.R')
 
-// const correlations = getCorrelations(data)
-// const presentation = getCorrelationsMDString(data.length, correlations)
-// fs.writeFileSync('./correlation-data/correlations.md', presentation)
-// console.log('Wrote stats to ./correlation-data/correlations.md')
+const correlations = getCorrelations(data)
+const presentation = getCorrelationsMDString(data.length, correlations)
+fs.writeFileSync('./correlation-data/correlations.md', presentation)
+console.log('Wrote stats to ./correlation-data/correlations.md')

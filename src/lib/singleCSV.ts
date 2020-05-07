@@ -25,9 +25,6 @@ const antipatternAbbrevation: IAntipatternAbbreviation = {
   PluralisedNodes: 'SPN',
 }
 
-// antipattern += ',\n'
-// for each in arr, += ',\n'
-
 export const writeSingleCSV = (metas: IMeta[]) => {
   const csvData: ISingleCSVData = {}
 
@@ -36,8 +33,34 @@ export const writeSingleCSV = (metas: IMeta[]) => {
     appendData(csvData, m, 'linguisticAntipatterns')
   })
 
-  console.log(csvData)
+  let csvString = ''
+
+  const csvHeadings = Object.keys(csvData)
+
+  csvHeadings.forEach((heading, i) => {
+    csvString += `${heading}${comma(i, csvHeadings)}`
+  })
+
+  csvString += '\n'
+
+  const endpointsAmount = metas.length
+
+  for (let i = 0; i < endpointsAmount; i++) {
+    csvHeadings.forEach((heading, headingsIndex) => {
+      csvString += `${csvData[heading][i]}${comma(headingsIndex, csvHeadings)}`
+    })
+
+    // newline if it isn't last line
+    if (i !== endpointsAmount - 1) {
+      csvString += '\n'
+    }
+  }
+
+  fs.writeFileSync('./correlation-data/total.csv', csvString)
 }
+
+const comma = (index: number, headings: string[]): string =>
+  index === headings.length - 1 ? '' : ','
 
 const appendData = (
   csvData: ISingleCSVData,
