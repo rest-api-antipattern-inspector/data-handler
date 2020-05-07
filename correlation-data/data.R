@@ -10,7 +10,7 @@ bitly_AmorphousURI=0
 bitly_CRUDyURI=0
 bitly_ContextlessResource=10
 bitly_NonHierarchicalNodes=0
-bitly_PluralisedNodes=0
+bitly_PluralisedNodes=3
 
 imgur_isBreakingSelfDescriptiveness=25
 imgur_isForgettingHypermedia=0
@@ -22,7 +22,7 @@ imgur_AmorphousURI=0
 imgur_CRUDyURI=0
 imgur_ContextlessResource=1
 imgur_NonHierarchicalNodes=0
-imgur_PluralisedNodes=0
+imgur_PluralisedNodes=5
 
 twitter_isBreakingSelfDescriptiveness=61
 twitter_isForgettingHypermedia=0
@@ -34,7 +34,7 @@ twitter_AmorphousURI=0
 twitter_CRUDyURI=26
 twitter_ContextlessResource=5
 twitter_NonHierarchicalNodes=0
-twitter_PluralisedNodes=0
+twitter_PluralisedNodes=19
 
 disqus_isBreakingSelfDescriptiveness=37
 disqus_isForgettingHypermedia=0
@@ -46,7 +46,7 @@ disqus_AmorphousURI=37
 disqus_CRUDyURI=1
 disqus_ContextlessResource=5
 disqus_NonHierarchicalNodes=0
-disqus_PluralisedNodes=0
+disqus_PluralisedNodes=7
 
 #antipatterns
 
