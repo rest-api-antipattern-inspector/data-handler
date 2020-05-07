@@ -7,7 +7,6 @@ import fs from 'fs'
 // TODO
 /**
  * In this repo:
- * 1. insert updated json file
  * 2. fix linguistic txt files, not just at runtime but rewrite files
  * 3. fix bug for pluralised nodes in linguistic txts
  * 4. return to branch one-csv-to-rule-them-all, fix one csv file
