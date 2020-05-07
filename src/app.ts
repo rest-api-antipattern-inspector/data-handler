@@ -2,8 +2,21 @@ import { getData } from './data/data'
 import { getCorrelations, getCorrelationsMDString } from './lib/correlations'
 import { getRDataCode } from './lib/createRCode'
 import { writeCSVs } from './lib/csvCorrelations'
-
 import fs from 'fs'
+
+// TODO
+/**
+ * In other repo:
+ * 1. fix status, patch, only check get/post/put/delete ignore any other http methods
+ * 2. investigate mime type
+ *
+ * In this repo:
+ * 1. insert updated json file
+ * 2. fix linguistic txt files, not just at runtime but rewrite files
+ * 3. fix bug for pluralised nodes in linguistic txts
+ * 4. return to branch one-csv-to-rule-them-all, fix one csv file
+ * 5. fix excel files for each api
+ */
 
 !fs.existsSync('./correlation-data') && fs.mkdirSync('./correlation-data')
 !fs.existsSync('./correlation-data/csv') &&
