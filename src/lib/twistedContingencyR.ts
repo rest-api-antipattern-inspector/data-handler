@@ -18,6 +18,46 @@ export const getTwistedContingencyR = (metas: IMeta[]): string => {
   Object.keys(metas[0].designAntipatterns).forEach((dA) => {
     twistedData.linguisticAps.add(dA)
   })
+
+  metas.forEach((m) => {
+    appendAntipatternData(twistedData, m, 'linguisticAntipatterns')
+    appendAntipatternData(twistedData, m, 'designAntipatterns')
+  })
+
+  let RVars = '# antipattern count variables:\n\n'
+  let RMatrixValues = ''
+
+  let cols = 0
+
+  Object.keys(twistedData.apData).forEach((key) => {
+    RVars += `${key}=${twistedData.apData[key]}`
+
+    RMatrixValues += `${key}, `
+
+    cols++
+
+    if (cols === twistedData.linguisticAps.size) {
+      RVars += '\n'
+      RMatrixValues += '\n'
+      cols = 0
+    }
+  })
+
+  // removes last comma with space
+  RMatrixValues = RMatrixValues.substring(0, RMatrixValues.length - 3)
+
+  let apCalculation = `#antipatterns
+
+mydata <- matrix(c(${RMatrixValues}), nrow=${twistedData.linguisticAps.size},
+ncol=${twistedData.designAps.size},byrow = TRUE)
+
+dimnames(mydata) = list(c(${setToString(twistedData.linguisticAps)}),
+c(${setToString(twistedData.designAps)})
+
+chisq.test(mydata)
+`
+
+  return `${RVars}${apCalculation}`
 }
 
 const appendAntipatternData = (
@@ -33,3 +73,6 @@ const appendAntipatternData = (
     data.apData[ap] += m[antipatternType][ap] ? 1 : 0
   })
 }
+
+const setToString = (strSet: Set<string>): string =>
+  [...strSet].map((str) => `"${str}"`).join(', ')
