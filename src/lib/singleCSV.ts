@@ -12,17 +12,17 @@ import IAntipatternAbbreviation from '../interfaces/IAntipatternAbbreviation'
 // UVU = unversioned uri
 
 const antipatternAbbrevation: IAntipatternAbbreviation = {
-  isBreakingSelfDescriptiveness: 'BSD',
-  isForgettingHypermedia: 'FH',
-  isIgnoringCaching: 'IC',
-  isIgnoringMIMEType: 'IMT',
-  isIgnoringStatusCode: 'ISC',
-  isMisusingCookies: 'MC',
-  AmorphousURI: 'AMO',
-  ContextlessResource: 'CRN',
-  CRUDyURI: 'CRD',
-  NonHierarchicalNodes: 'NHN',
-  PluralisedNodes: 'SPN',
+  isBreakingSelfDescriptiveness: 'breakingSelfDescriptiveness',
+  isForgettingHypermedia: 'forgettingHypermedia',
+  isIgnoringCaching: 'ignoringCaching',
+  isIgnoringMIMEType: 'ignoringMIMEType',
+  isIgnoringStatusCode: 'ignoringStatusCode',
+  isMisusingCookies: 'misusingCookies',
+  AmorphousURI: 'amorphousURI',
+  ContextlessResource: 'contextlessResource',
+  CRUDyURI: 'CRUDyURI',
+  NonHierarchicalNodes: 'nonHierarchicalNodes',
+  PluralisedNodes: 'pluralisedNodes',
 }
 
 export const writeSingleCSV = (metas: IMeta[]) => {
