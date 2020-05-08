@@ -1,6 +1,8 @@
 import IMeta from '../interfaces/IMeta'
 import ITwistedRData from '../interfaces/ITwistedRData'
 
+// TODO sum boxes instead of 1/0
+
 export const getTwistedContingencyR = (metas: IMeta[]): string => {
   const twistedData: ITwistedRData = {
     linguisticAps: new Set(),
