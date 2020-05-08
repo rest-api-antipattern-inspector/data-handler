@@ -1,18 +1,10 @@
 import { getData } from './data/data'
 import { getCorrelations, getCorrelationsMDString } from './lib/correlations'
 import { getRDataCode } from './lib/createRCode'
+import { getTwistedContingencyR } from './lib/twistedContingencyR'
 import { writeCSVs } from './lib/csvCorrelations'
 import { writeSingleCSV } from './lib/singleCSV'
 import fs from 'fs'
-
-// TODO
-/**
- * In this repo:
- * 2. fix linguistic txt files, not just at runtime but rewrite files
- * 3. fix bug for pluralised nodes in linguistic txts
- * 4. return to branch one-csv-to-rule-them-all, fix one csv file
- * 5. fix excel files for each api
- */
 
 !fs.existsSync('./correlation-data') && fs.mkdirSync('./correlation-data')
 !fs.existsSync('./correlation-data/csvs-foreach-antipattern') &&
@@ -28,9 +20,15 @@ console.log(
   'Wrote more csv files to ./correlation-data/csvs-foreach-antipattern'
 )
 
+const twistedR = getTwistedContingencyR(data)
+fs.writeFileSync('./correlation-data/twisted.R', twistedR)
+console.log(
+  'Wrote Twisted Contingency R source code to ./correlation-data/twisted.R'
+)
+
 const sourceR = getRDataCode(data)
 fs.writeFileSync('./correlation-data/data.R', sourceR)
-console.log('Wrote stats to ./correlation-data/data.R')
+console.log('Wrote more R code to ./correlation-data/data.R')
 
 const correlations = getCorrelations(data)
 const presentation = getCorrelationsMDString(data.length, correlations)
