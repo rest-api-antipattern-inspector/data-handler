@@ -42,7 +42,7 @@ export const getCorrelationsMDString = (
           const amountB =
             correlations[antipatternType][antipatternA].bTypes[antipatternB]
           const percentageB = getRoundedPercentage(amountB, amountA)
-          presentationString += `\n${antipatternA} & ${antipatternB}: ${amountB} (${percentageB}% of ${antipatternA})<br>`
+          presentationString += `\n${antipatternA} & ${antipatternB}: ${amountB} (${percentageB}% of ${antipatternA})  `
         }
       )
     })
