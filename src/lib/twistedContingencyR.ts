@@ -30,7 +30,7 @@ export const getTwistedContingencyR = (metas: IMeta[]): string => {
   let cols = 0
 
   Object.keys(twistedData.apData).forEach((key) => {
-    RVars += `${key}=${twistedData.apData[key]}`
+    RVars += `${key}=${twistedData.apData[key]}\n`
 
     RMatrixValues += `${key}, `
 

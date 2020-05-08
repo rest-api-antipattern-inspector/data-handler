@@ -1,6 +1,17 @@
 # antipattern count variables:
 
-AmorphousURI=37CRUDyURI=27ContextlessResource=21NonHierarchicalNodes=0PluralisedNodes=34isBreakingSelfDescriptiveness=139isForgettingHypermedia=0isIgnoringCaching=0isIgnoringMIMEType=0isIgnoringStatusCode=0isMisusingCookies=64
+AmorphousURI=37
+CRUDyURI=27
+ContextlessResource=21
+NonHierarchicalNodes=0
+PluralisedNodes=34
+isBreakingSelfDescriptiveness=139
+isForgettingHypermedia=0
+isIgnoringCaching=0
+isIgnoringMIMEType=0
+isIgnoringStatusCode=0
+isMisusingCookies=64
+
 #antipatterns
 
 mydata <- matrix(c(AmorphousURI, CRUDyURI, ContextlessResource, NonHierarchicalNodes, PluralisedNodes, isBreakingSelfDescriptiveness, isForgettingHypermedia, isIgnoringCaching, isIgnoringMIMEType, isIgnoringStatusCode, isMisusingCookies), nrow=11,
