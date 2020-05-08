@@ -1,9 +1,6 @@
 import IMeta from '../interfaces/IMeta'
 import ITwistedRData from '../interfaces/ITwistedRData'
 
-// restdesign antipattern som kolumner och lingvistiska som rader
-// du gjorde en sådan fast det var apier som rader och antipattern som kolumner
-
 export const getTwistedContingencyR = (metas: IMeta[]): string => {
   const twistedData: ITwistedRData = {
     linguisticAps: new Set(),
@@ -16,7 +13,7 @@ export const getTwistedContingencyR = (metas: IMeta[]): string => {
   })
 
   Object.keys(metas[0].designAntipatterns).forEach((dA) => {
-    twistedData.linguisticAps.add(dA)
+    twistedData.designAps.add(dA)
   })
 
   metas.forEach((m) => {
@@ -27,21 +24,17 @@ export const getTwistedContingencyR = (metas: IMeta[]): string => {
   let RVars = '# antipattern count variables:\n\n'
   let RMatrixValues = ''
 
-  let cols = 0
-
-  Object.keys(twistedData.apData).forEach((key) => {
+  Object.keys(twistedData.apData).forEach((key, i) => {
     RVars += `${key}=${twistedData.apData[key]}\n`
 
     RMatrixValues += `${key}, `
 
-    cols++
-
-    if (cols === twistedData.linguisticAps.size) {
+    if (i === twistedData.linguisticAps.size - 1) {
       RVars += '\n'
-      RMatrixValues += '\n'
-      cols = 0
     }
   })
+
+  RVars += '\n'
 
   // removes last comma with space
   RMatrixValues = RMatrixValues.substring(0, RMatrixValues.length - 3)
