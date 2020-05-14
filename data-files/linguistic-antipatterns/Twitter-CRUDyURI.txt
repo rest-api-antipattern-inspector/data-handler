@@ -1,5 +1,5 @@
 ***Antipattern***
-Count: 26
+Count: 24
 /statuses/updatenull [update foud] 
 /favorites/createnull [create foud] 
 /statuses/shownull [show foud] 
@@ -12,7 +12,6 @@ Count: 26
 /mutes/users/createnull [create foud] 
 /lists/members/createnull [create foud] 
 /lists/subscribers/createnull [create foud] 
-/lists/members/shownull [show foud] 
 /lists/shownull [show foud] 
 /lists/subscribers/shownull [show foud] 
 /friendships/shownull [show foud] 
@@ -25,7 +24,6 @@ Count: 26
 /lists/destroynull [destroy foud] 
 /friendships/destroynull [destroy foud] 
 /blocks/destroynull [destroy foud] 
-/mutes/users/destroynull [destroy foud] 
 
 ***Pattern***
 Count: 35

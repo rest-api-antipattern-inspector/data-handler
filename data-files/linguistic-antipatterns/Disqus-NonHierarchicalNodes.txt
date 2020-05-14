@@ -2,7 +2,7 @@
 Count: 0
 
 ***Pattern***
-Count: 37
+Count: 36
 /threads/create.json
 /posts/create.json
 /forums/details.json
@@ -14,7 +14,6 @@ Count: 37
 /forums/listMostActiveUsers.json
 /forums/listMostLikedUsers.json
 /forums/listPosts.json
-/forums/listThreads.json
 /forums/listUserModerationHistory.json
 /categories/details.json
 /categories/list.json

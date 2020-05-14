@@ -1,5 +1,5 @@
 ***Antipattern***
-Count: 19
+Count: 18
 POST  /statuses/update [Singular last node with POST method.] 
 POST  /statuses/retweet [Singular last node with POST method.] 
 POST  /favorites/create [Singular last node with POST method.] 
@@ -18,7 +18,6 @@ POST  /lists/subscribers/destroy [Singular last node with POST method.]
 POST  /lists/destroy [Singular last node with POST method.] 
 POST  /friendships/destroy [Singular last node with POST method.] 
 POST  /blocks/destroy [Singular last node with POST method.] 
-POST  /mutes/users/destroy [Singular last node with POST method.] 
 
 ***Pattern***
 Count: 0

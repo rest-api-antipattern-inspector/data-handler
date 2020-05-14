@@ -2,7 +2,7 @@
 Count: 0
 
 ***Pattern***
-Count: 61
+Count: 59
 /statuses/updatenull
 /statuses/retweetnull
 /favorites/createnull
@@ -25,7 +25,6 @@ Count: 61
 /lists/subscribers/createnull
 /lists/listnull
 /lists/membersnull
-/lists/members/shownull
 /lists/membershipsnull
 /lists/ownershipsnull
 /lists/shownull
@@ -63,4 +62,3 @@ Count: 61
 /lists/destroynull
 /friendships/destroynull
 /blocks/destroynull
-/mutes/users/destroynull

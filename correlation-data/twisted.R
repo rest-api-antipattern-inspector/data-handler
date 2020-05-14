@@ -1,24 +1,24 @@
 # antipattern count variables:
 
-AmorphousURI=37
-CRUDyURI=27
-ContextlessResource=21
+AmorphousURI=36
+ContextlessResource=44
+CRUDyURI=25
 NonHierarchicalNodes=0
-PluralisedNodes=34
+PluralisedNodes=39
 
-isBreakingSelfDescriptiveness=139
+isBreakingSelfDescriptiveness=317
 isForgettingHypermedia=0
 isIgnoringCaching=0
-isIgnoringMIMEType=0
-isIgnoringStatusCode=0
-isMisusingCookies=64
+isIgnoringMIMEType=89
+isIgnoringStatusCode=4
+isMisusingCookies=100
 
 #antipatterns
 
-mydata <- matrix(c(AmorphousURI, CRUDyURI, ContextlessResource, NonHierarchicalNodes, PluralisedNodes, isBreakingSelfDescriptiveness, isForgettingHypermedia, isIgnoringCaching, isIgnoringMIMEType, isIgnoringStatusCode, isMisusingCookies), nrow=5,
+mydata <- matrix(c(AmorphousURI, ContextlessResource, CRUDyURI, NonHierarchicalNodes, PluralisedNodes, isBreakingSelfDescriptiveness, isForgettingHypermedia, isIgnoringCaching, isIgnoringMIMEType, isIgnoringStatusCode, isMisusingCookie), nrow=5,
 ncol=6,byrow = TRUE)
 
-dimnames(mydata) = list(c("AmorphousURI", "CRUDyURI", "ContextlessResource", "NonHierarchicalNodes", "PluralisedNodes"),
-c("isBreakingSelfDescriptiveness", "isForgettingHypermedia", "isIgnoringCaching", "isIgnoringMIMEType", "isIgnoringStatusCode", "isMisusingCookies"))
+dimnames(mydata) = list(c("AmorphousURI", "ContextlessResource", "CRUDyURI", "NonHierarchicalNodes", "PluralisedNodes"),
+c("isBreakingSelfDescriptiveness", "isForgettingHypermedia", "isIgnoringCaching", "isIgnoringMIMEType", "isIgnoringStatusCode", "isMisusingCookies")
 
 chisq.test(mydata)
