@@ -1,13 +1,14 @@
 ***Antipattern***
-Count: 5
+Count: 6
 /forums/listFollowers.json
 /forums/listMostActiveUsers.json
 /forums/listMostLikedUsers.json
 /posts/listPopular.json
 /users/listMostActiveForums.json
+/users/listOwnedChannels.json
 
 ***Pattern***
-Count: 32
+Count: 30
 /threads/create.json
 /posts/create.json
 /forums/details.json
@@ -16,7 +17,6 @@ Count: 32
 /forums/listCategories.json
 /forums/listModerators.json
 /forums/listPosts.json
-/forums/listThreads.json
 /forums/listUserModerationHistory.json
 /categories/details.json
 /categories/list.json
@@ -37,6 +37,5 @@ Count: 32
 /users/interestingUsers.json
 /users/listActiveForums.json
 /users/listForums.json
-/users/listOwnedChannels.json
 /users/listPosts.json
 /users/updateProfile.json

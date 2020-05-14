@@ -1,33 +1,42 @@
-Total amount of endpoints: 139
+Total amount of endpoints: 326
 
-**PluralisedNodes endpoints: 34 (24%)**
+**ContextlessResource endpoints: 44 (13%)**
 
-PluralisedNodes & isBreakingSelfDescriptiveness: 34 (100% of PluralisedNodes)  
-PluralisedNodes & isMisusingCookies: 22 (65% of PluralisedNodes)  
+ContextlessResource & isBreakingSelfDescriptiveness: 44 (100% of ContextlessResource)  
+ContextlessResource & isIgnoringMIMEType: 12 (27% of ContextlessResource)  
+ContextlessResource & isMisusingCookies: 13 (30% of ContextlessResource)  
 
-**ContextlessResource endpoints: 21 (15%)**
+**PluralisedNodes endpoints: 39 (12%)**
 
-ContextlessResource & isBreakingSelfDescriptiveness: 21 (100% of ContextlessResource)  
-ContextlessResource & isMisusingCookies: 5 (24% of ContextlessResource)  
+PluralisedNodes & isBreakingSelfDescriptiveness: 39 (100% of PluralisedNodes)  
+PluralisedNodes & isMisusingCookies: 21 (54% of PluralisedNodes)  
+PluralisedNodes & isIgnoringMIMEType: 6 (15% of PluralisedNodes)  
 
-**CRUDyURI endpoints: 27 (19%)**
+**AmorphousURI endpoints: 36 (11%)**
 
-CRUDyURI & isBreakingSelfDescriptiveness: 27 (100% of CRUDyURI)  
-CRUDyURI & isMisusingCookies: 26 (96% of CRUDyURI)  
+AmorphousURI & isBreakingSelfDescriptiveness: 36 (100% of AmorphousURI)  
 
-**AmorphousURI endpoints: 37 (27%)**
+**CRUDyURI endpoints: 25 (8%)**
 
-AmorphousURI & isBreakingSelfDescriptiveness: 37 (100% of AmorphousURI)  
+CRUDyURI & isBreakingSelfDescriptiveness: 25 (100% of CRUDyURI)  
+CRUDyURI & isMisusingCookies: 24 (96% of CRUDyURI)  
 
-**isBreakingSelfDescriptiveness endpoints: 139 (100%)**
+**isBreakingSelfDescriptiveness endpoints: 317 (97%)**
 
-isBreakingSelfDescriptiveness & PluralisedNodes: 34 (24% of isBreakingSelfDescriptiveness)  
-isBreakingSelfDescriptiveness & ContextlessResource: 21 (15% of isBreakingSelfDescriptiveness)  
-isBreakingSelfDescriptiveness & CRUDyURI: 27 (19% of isBreakingSelfDescriptiveness)  
-isBreakingSelfDescriptiveness & AmorphousURI: 37 (27% of isBreakingSelfDescriptiveness)  
+isBreakingSelfDescriptiveness & ContextlessResource: 44 (14% of isBreakingSelfDescriptiveness)  
+isBreakingSelfDescriptiveness & PluralisedNodes: 39 (12% of isBreakingSelfDescriptiveness)  
+isBreakingSelfDescriptiveness & AmorphousURI: 36 (11% of isBreakingSelfDescriptiveness)  
+isBreakingSelfDescriptiveness & CRUDyURI: 25 (8% of isBreakingSelfDescriptiveness)  
 
-**isMisusingCookies endpoints: 64 (46%)**
+**isIgnoringMIMEType endpoints: 89 (27%)**
 
-isMisusingCookies & PluralisedNodes: 22 (34% of isMisusingCookies)  
-isMisusingCookies & CRUDyURI: 26 (41% of isMisusingCookies)  
-isMisusingCookies & ContextlessResource: 5 (8% of isMisusingCookies)  
+isIgnoringMIMEType & ContextlessResource: 12 (13% of isIgnoringMIMEType)  
+isIgnoringMIMEType & PluralisedNodes: 6 (7% of isIgnoringMIMEType)  
+
+**isMisusingCookies endpoints: 100 (31%)**
+
+isMisusingCookies & PluralisedNodes: 21 (21% of isMisusingCookies)  
+isMisusingCookies & CRUDyURI: 24 (24% of isMisusingCookies)  
+isMisusingCookies & ContextlessResource: 13 (13% of isMisusingCookies)  
+
+**isIgnoringStatusCode endpoints: 4 (1%)**

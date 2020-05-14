@@ -1,5 +1,5 @@
 ***Antipattern***
-Count: 37
+Count: 36
 /threads/create.jsonnull [extension found] 
 /posts/create.jsonnull [extension found] 
 /forums/details.jsonnull [extension found] 
@@ -11,7 +11,6 @@ Count: 37
 /forums/listMostActiveUsers.jsonnull [extension found] 
 /forums/listMostLikedUsers.jsonnull [extension found] 
 /forums/listPosts.jsonnull [extension found] 
-/forums/listThreads.jsonnull [extension found] 
 /forums/listUserModerationHistory.jsonnull [extension found] 
 /categories/details.jsonnull [extension found] 
 /categories/list.jsonnull [extension found] 

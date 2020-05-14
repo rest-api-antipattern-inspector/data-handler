@@ -3,7 +3,7 @@ Count: 1
 /users/updateProfile.jsonnull [update foud] 
 
 ***Pattern***
-Count: 36
+Count: 35
 /threads/create.jsonnull
 /posts/create.jsonnull
 /forums/details.jsonnull
@@ -15,7 +15,6 @@ Count: 36
 /forums/listMostActiveUsers.jsonnull
 /forums/listMostLikedUsers.jsonnull
 /forums/listPosts.jsonnull
-/forums/listThreads.jsonnull
 /forums/listUserModerationHistory.jsonnull
 /categories/details.jsonnull
 /categories/list.jsonnull

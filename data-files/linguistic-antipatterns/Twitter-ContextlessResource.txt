@@ -1,13 +1,17 @@
 ***Antipattern***
-Count: 5
+Count: 9
 /statuses/retweeters/ids
 /statuses/unretweet
+/mutes/users/create
+/friendships/outgoing
+/mutes/users/ids
+/mutes/users/list
 /trends/closest
 /geo/reverse_geocode
 /geo/search
 
 ***Pattern***
-Count: 56
+Count: 50
 /statuses/update
 /statuses/retweet
 /favorites/create
@@ -23,12 +27,10 @@ Count: 56
 /friendships/create
 /friendships/update
 /blocks/create
-/mutes/users/create
 /lists/members/create
 /lists/subscribers/create
 /lists/list
 /lists/members
-/lists/members/show
 /lists/memberships
 /lists/ownerships
 /lists/show
@@ -43,7 +45,6 @@ Count: 56
 /friendships/incoming
 /friendships/lookup
 /friendships/no_retweets/ids
-/friendships/outgoing
 /friendships/show
 /users/lookup
 /users/search
@@ -53,8 +54,6 @@ Count: 56
 /statuses/user_timeline
 /blocks/ids
 /blocks/list
-/mutes/users/ids
-/mutes/users/list
 /search/tweets
 /trends/available
 /trends/place
@@ -63,4 +62,3 @@ Count: 56
 /lists/destroy
 /friendships/destroy
 /blocks/destroy
-/mutes/users/destroy
