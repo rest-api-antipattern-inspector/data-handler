@@ -1,8 +1,8 @@
 # antipattern count variables:
 
 AmorphousURI=36
-ContextlessResource=44
-CRUDyURI=25
+ContextlessResource=11
+CRUDyURI=28
 NonHierarchicalNodes=0
 PluralisedNodes=39
 
