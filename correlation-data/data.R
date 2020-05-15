@@ -7,8 +7,8 @@ bitly_isIgnoringMIMEType=0
 bitly_isIgnoringStatusCode=0
 bitly_isMisusingCookies=0
 bitly_AmorphousURI=0
-bitly_ContextlessResource=10
 bitly_CRUDyURI=0
+bitly_ContextlessResource=10
 bitly_NonHierarchicalNodes=0
 bitly_PluralisedNodes=3
 
@@ -19,8 +19,8 @@ imgur_isIgnoringMIMEType=0
 imgur_isIgnoringStatusCode=0
 imgur_isMisusingCookies=3
 imgur_AmorphousURI=0
-imgur_ContextlessResource=1
 imgur_CRUDyURI=0
+imgur_ContextlessResource=1
 imgur_NonHierarchicalNodes=0
 imgur_PluralisedNodes=5
 
@@ -31,8 +31,8 @@ vimeo_isIgnoringMIMEType=58
 vimeo_isIgnoringStatusCode=0
 vimeo_isMisusingCookies=0
 vimeo_AmorphousURI=0
-vimeo_ContextlessResource=0
 vimeo_CRUDyURI=0
+vimeo_ContextlessResource=2
 vimeo_NonHierarchicalNodes=0
 vimeo_PluralisedNodes=0
 
@@ -43,8 +43,8 @@ disqus_isIgnoringMIMEType=0
 disqus_isIgnoringStatusCode=0
 disqus_isMisusingCookies=0
 disqus_AmorphousURI=36
-disqus_ContextlessResource=0
 disqus_CRUDyURI=1
+disqus_ContextlessResource=6
 disqus_NonHierarchicalNodes=0
 disqus_PluralisedNodes=7
 
@@ -55,8 +55,8 @@ nasa_isIgnoringMIMEType=0
 nasa_isIgnoringStatusCode=4
 nasa_isMisusingCookies=4
 nasa_AmorphousURI=0
-nasa_ContextlessResource=0
 nasa_CRUDyURI=2
+nasa_ContextlessResource=12
 nasa_NonHierarchicalNodes=0
 nasa_PluralisedNodes=0
 
@@ -67,8 +67,8 @@ spotify_isIgnoringMIMEType=1
 spotify_isIgnoringStatusCode=0
 spotify_isMisusingCookies=0
 spotify_AmorphousURI=0
-spotify_ContextlessResource=0
 spotify_CRUDyURI=1
+spotify_ContextlessResource=1
 spotify_NonHierarchicalNodes=0
 spotify_PluralisedNodes=0
 
@@ -79,8 +79,8 @@ github_isIgnoringMIMEType=30
 github_isIgnoringStatusCode=0
 github_isMisusingCookies=0
 github_AmorphousURI=0
-github_ContextlessResource=0
 github_CRUDyURI=0
+github_ContextlessResource=10
 github_NonHierarchicalNodes=0
 github_PluralisedNodes=6
 
@@ -91,8 +91,8 @@ facebook_isIgnoringMIMEType=0
 facebook_isIgnoringStatusCode=0
 facebook_isMisusingCookies=0
 facebook_AmorphousURI=0
-facebook_ContextlessResource=0
 facebook_CRUDyURI=0
+facebook_ContextlessResource=2
 facebook_NonHierarchicalNodes=0
 facebook_PluralisedNodes=0
 
@@ -103,8 +103,8 @@ stackExchange_isIgnoringMIMEType=0
 stackExchange_isIgnoringStatusCode=0
 stackExchange_isMisusingCookies=34
 stackExchange_AmorphousURI=0
-stackExchange_ContextlessResource=0
 stackExchange_CRUDyURI=0
+stackExchange_ContextlessResource=4
 stackExchange_NonHierarchicalNodes=0
 stackExchange_PluralisedNodes=0
 
@@ -115,26 +115,26 @@ twitter_isIgnoringMIMEType=0
 twitter_isIgnoringStatusCode=0
 twitter_isMisusingCookies=59
 twitter_AmorphousURI=0
-twitter_ContextlessResource=0
 twitter_CRUDyURI=24
+twitter_ContextlessResource=9
 twitter_NonHierarchicalNodes=0
 twitter_PluralisedNodes=18
 
 #antipatterns
 
-mydata <- matrix(c(bitly_isBreakingSelfDescriptiveness, bitly_isForgettingHypermedia, bitly_isIgnoringCaching, bitly_isIgnoringMIMEType, bitly_isIgnoringStatusCode, bitly_isMisusingCookies, bitly_AmorphousURI, bitly_ContextlessResource, bitly_CRUDyURI, bitly_NonHierarchicalNodes, bitly_PluralisedNodes, 
-imgur_isBreakingSelfDescriptiveness, imgur_isForgettingHypermedia, imgur_isIgnoringCaching, imgur_isIgnoringMIMEType, imgur_isIgnoringStatusCode, imgur_isMisusingCookies, imgur_AmorphousURI, imgur_ContextlessResource, imgur_CRUDyURI, imgur_NonHierarchicalNodes, imgur_PluralisedNodes, 
-vimeo_isBreakingSelfDescriptiveness, vimeo_isForgettingHypermedia, vimeo_isIgnoringCaching, vimeo_isIgnoringMIMEType, vimeo_isIgnoringStatusCode, vimeo_isMisusingCookies, vimeo_AmorphousURI, vimeo_ContextlessResource, vimeo_CRUDyURI, vimeo_NonHierarchicalNodes, vimeo_PluralisedNodes, 
-disqus_isBreakingSelfDescriptiveness, disqus_isForgettingHypermedia, disqus_isIgnoringCaching, disqus_isIgnoringMIMEType, disqus_isIgnoringStatusCode, disqus_isMisusingCookies, disqus_AmorphousURI, disqus_ContextlessResource, disqus_CRUDyURI, disqus_NonHierarchicalNodes, disqus_PluralisedNodes, 
-nasa_isBreakingSelfDescriptiveness, nasa_isForgettingHypermedia, nasa_isIgnoringCaching, nasa_isIgnoringMIMEType, nasa_isIgnoringStatusCode, nasa_isMisusingCookies, nasa_AmorphousURI, nasa_ContextlessResource, nasa_CRUDyURI, nasa_NonHierarchicalNodes, nasa_PluralisedNodes, 
-spotify_isBreakingSelfDescriptiveness, spotify_isForgettingHypermedia, spotify_isIgnoringCaching, spotify_isIgnoringMIMEType, spotify_isIgnoringStatusCode, spotify_isMisusingCookies, spotify_AmorphousURI, spotify_ContextlessResource, spotify_CRUDyURI, spotify_NonHierarchicalNodes, spotify_PluralisedNodes, 
-github_isBreakingSelfDescriptiveness, github_isForgettingHypermedia, github_isIgnoringCaching, github_isIgnoringMIMEType, github_isIgnoringStatusCode, github_isMisusingCookies, github_AmorphousURI, github_ContextlessResource, github_CRUDyURI, github_NonHierarchicalNodes, github_PluralisedNodes, 
-facebook_isBreakingSelfDescriptiveness, facebook_isForgettingHypermedia, facebook_isIgnoringCaching, facebook_isIgnoringMIMEType, facebook_isIgnoringStatusCode, facebook_isMisusingCookies, facebook_AmorphousURI, facebook_ContextlessResource, facebook_CRUDyURI, facebook_NonHierarchicalNodes, facebook_PluralisedNodes, 
-stackExchange_isBreakingSelfDescriptiveness, stackExchange_isForgettingHypermedia, stackExchange_isIgnoringCaching, stackExchange_isIgnoringMIMEType, stackExchange_isIgnoringStatusCode, stackExchange_isMisusingCookies, stackExchange_AmorphousURI, stackExchange_ContextlessResource, stackExchange_CRUDyURI, stackExchange_NonHierarchicalNodes, stackExchange_PluralisedNodes, 
-twitter_isBreakingSelfDescriptiveness, twitter_isForgettingHypermedia, twitter_isIgnoringCaching, twitter_isIgnoringMIMEType, twitter_isIgnoringStatusCode, twitter_isMisusingCookies, twitter_AmorphousURI, twitter_ContextlessResource, twitter_CRUDyURI, twitter_NonHierarchicalNodes, twitter_PluralisedNodes), nrow=10,
+mydata <- matrix(c(bitly_isBreakingSelfDescriptiveness, bitly_isForgettingHypermedia, bitly_isIgnoringCaching, bitly_isIgnoringMIMEType, bitly_isIgnoringStatusCode, bitly_isMisusingCookies, bitly_AmorphousURI, bitly_CRUDyURI, bitly_ContextlessResource, bitly_NonHierarchicalNodes, bitly_PluralisedNodes, 
+imgur_isBreakingSelfDescriptiveness, imgur_isForgettingHypermedia, imgur_isIgnoringCaching, imgur_isIgnoringMIMEType, imgur_isIgnoringStatusCode, imgur_isMisusingCookies, imgur_AmorphousURI, imgur_CRUDyURI, imgur_ContextlessResource, imgur_NonHierarchicalNodes, imgur_PluralisedNodes, 
+vimeo_isBreakingSelfDescriptiveness, vimeo_isForgettingHypermedia, vimeo_isIgnoringCaching, vimeo_isIgnoringMIMEType, vimeo_isIgnoringStatusCode, vimeo_isMisusingCookies, vimeo_AmorphousURI, vimeo_CRUDyURI, vimeo_ContextlessResource, vimeo_NonHierarchicalNodes, vimeo_PluralisedNodes, 
+disqus_isBreakingSelfDescriptiveness, disqus_isForgettingHypermedia, disqus_isIgnoringCaching, disqus_isIgnoringMIMEType, disqus_isIgnoringStatusCode, disqus_isMisusingCookies, disqus_AmorphousURI, disqus_CRUDyURI, disqus_ContextlessResource, disqus_NonHierarchicalNodes, disqus_PluralisedNodes, 
+nasa_isBreakingSelfDescriptiveness, nasa_isForgettingHypermedia, nasa_isIgnoringCaching, nasa_isIgnoringMIMEType, nasa_isIgnoringStatusCode, nasa_isMisusingCookies, nasa_AmorphousURI, nasa_CRUDyURI, nasa_ContextlessResource, nasa_NonHierarchicalNodes, nasa_PluralisedNodes, 
+spotify_isBreakingSelfDescriptiveness, spotify_isForgettingHypermedia, spotify_isIgnoringCaching, spotify_isIgnoringMIMEType, spotify_isIgnoringStatusCode, spotify_isMisusingCookies, spotify_AmorphousURI, spotify_CRUDyURI, spotify_ContextlessResource, spotify_NonHierarchicalNodes, spotify_PluralisedNodes, 
+github_isBreakingSelfDescriptiveness, github_isForgettingHypermedia, github_isIgnoringCaching, github_isIgnoringMIMEType, github_isIgnoringStatusCode, github_isMisusingCookies, github_AmorphousURI, github_CRUDyURI, github_ContextlessResource, github_NonHierarchicalNodes, github_PluralisedNodes, 
+facebook_isBreakingSelfDescriptiveness, facebook_isForgettingHypermedia, facebook_isIgnoringCaching, facebook_isIgnoringMIMEType, facebook_isIgnoringStatusCode, facebook_isMisusingCookies, facebook_AmorphousURI, facebook_CRUDyURI, facebook_ContextlessResource, facebook_NonHierarchicalNodes, facebook_PluralisedNodes, 
+stackExchange_isBreakingSelfDescriptiveness, stackExchange_isForgettingHypermedia, stackExchange_isIgnoringCaching, stackExchange_isIgnoringMIMEType, stackExchange_isIgnoringStatusCode, stackExchange_isMisusingCookies, stackExchange_AmorphousURI, stackExchange_CRUDyURI, stackExchange_ContextlessResource, stackExchange_NonHierarchicalNodes, stackExchange_PluralisedNodes, 
+twitter_isBreakingSelfDescriptiveness, twitter_isForgettingHypermedia, twitter_isIgnoringCaching, twitter_isIgnoringMIMEType, twitter_isIgnoringStatusCode, twitter_isMisusingCookies, twitter_AmorphousURI, twitter_CRUDyURI, twitter_ContextlessResource, twitter_NonHierarchicalNodes, twitter_PluralisedNodes), nrow=10,
 ncol=11,byrow = TRUE)
 
 dimnames(mydata) = list(c("bitly", "imgur", "vimeo", "disqus", "nasa", "spotify", "github", "facebook", "stackExchange", "twitter"),
-c("isBreakingSelfDescriptiveness", "isForgettingHypermedia", "isIgnoringCaching", "isIgnoringMIMEType", "isIgnoringStatusCode", "isMisusingCookies", "AmorphousURI", "ContextlessResource", "CRUDyURI", "NonHierarchicalNodes", "PluralisedNodes")
+c("isBreakingSelfDescriptiveness", "isForgettingHypermedia", "isIgnoringCaching", "isIgnoringMIMEType", "isIgnoringStatusCode", "isMisusingCookies", "AmorphousURI", "CRUDyURI", "ContextlessResource", "NonHierarchicalNodes", "PluralisedNodes")
 
 chisq.test(mydata)

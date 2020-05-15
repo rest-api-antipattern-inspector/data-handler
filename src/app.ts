@@ -4,6 +4,7 @@ import { getRDataCode } from './lib/createRCode'
 import { getTwistedContingencyR } from './lib/twistedContingencyR'
 import { writeCSVs } from './lib/csvCorrelations'
 import { writeSingleCSV } from './lib/singleCSV'
+import { writeTxt } from './lib/txtResults'
 import fs from 'fs'
 
 !fs.existsSync('./correlation-data') && fs.mkdirSync('./correlation-data')
@@ -11,6 +12,9 @@ import fs from 'fs'
   fs.mkdirSync('./correlation-data/csvs-foreach-antipattern')
 
 const data = getData()
+
+writeTxt(data)
+console.log('Wrote txt data to correlation-data/results.txt')
 
 writeSingleCSV(data)
 console.log('Wrote csv data to correlation-data/results.csv')
