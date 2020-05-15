@@ -1,6 +1,6 @@
 import fs from 'fs'
 import IMeta from '../interfaces/IMeta'
-import ISingleCSVData from '../interfaces/ISingleCSVData'
+import IAntipatternBinaries from '../interfaces/IAntipatternBinaries'
 import IAntipatternAbbreviation from '../interfaces/IAntipatternAbbreviation'
 
 // template:
@@ -26,7 +26,7 @@ const antipatternAbbrevation: IAntipatternAbbreviation = {
 }
 
 export const writeSingleCSV = (metas: IMeta[]) => {
-  const csvData: ISingleCSVData = {}
+  const csvData: IAntipatternBinaries = {}
 
   metas.forEach((m) => {
     appendData(csvData, m, 'designAntipatterns')
@@ -63,7 +63,7 @@ const comma = (index: number, headings: string[]): string =>
   index === headings.length - 1 ? '' : ','
 
 const appendData = (
-  csvData: ISingleCSVData,
+  csvData: IAntipatternBinaries,
   meta: IMeta,
   antipatternType: string
 ): void => {
