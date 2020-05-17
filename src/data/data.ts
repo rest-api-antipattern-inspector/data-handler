@@ -16,6 +16,11 @@ export const getData = (): IMeta[] => {
     appendLinguisticData(data, `${linguisticDirPath}/${f}`, f)
   })
 
+  fs.writeFileSync(
+    './data-files/design-antipatterns/full-data.json',
+    JSON.stringify(data)
+  )
+
   return data
 }
 
