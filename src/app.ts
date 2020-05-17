@@ -6,6 +6,7 @@ import { writeCSVs } from './lib/csvCorrelations'
 import { writeSingleCSV } from './lib/singleCSV'
 import { writeTxt } from './lib/txtResults'
 import fs from 'fs'
+import IMeta from './interfaces/IMeta'
 
 !fs.existsSync('./correlation-data') && fs.mkdirSync('./correlation-data')
 !fs.existsSync('./correlation-data/csvs-foreach-antipattern') &&
@@ -38,3 +39,39 @@ const correlations = getCorrelations(data)
 const presentation = getCorrelationsMDString(data.length, correlations)
 fs.writeFileSync('./correlation-data/correlations.md', presentation)
 console.log('Wrote stats to ./correlation-data/correlations.md')
+
+const fullData: IMeta[] = JSON.parse(
+  fs.readFileSync('./data-files/design-antipatterns/full-data.json', 'utf8')
+)
+
+// const cookiesAndCrudy = fullData.filter(
+//   (obj) =>
+//     obj.designAntipatterns.isMisusingCookies &&
+//     obj.linguisticAntipatterns['CRUDyURI']
+// )
+
+// console.log(cookiesAndCrudy)
+
+// const amorphousMIME = fullData.filter(
+//   (obj) =>
+//     obj.linguisticAntipatterns['AmorphousURI'] &&
+//     obj.designAntipatterns.isIgnoringMIMEType
+// )
+
+// console.log(amorphousMIME)
+
+// const amorphousCookies = fullData.filter(
+//   (obj) =>
+//     obj.linguisticAntipatterns['AmorphousURI'] &&
+//     obj.designAntipatterns.isMisusingCookies
+// )
+
+// console.log(amorphousCookies)
+
+// const crudyMIME = fullData.filter(
+//   (m) =>
+//     m.linguisticAntipatterns['CRUDyURI'] &&
+//     m.designAntipatterns.isIgnoringMIMEType
+// )
+
+// console.log(crudyMIME)
