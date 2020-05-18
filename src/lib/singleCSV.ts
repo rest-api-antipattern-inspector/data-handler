@@ -76,5 +76,20 @@ const appendData = (
 
     const apValue = meta[antipatternType][apKey] ? 1 : 0
     csvData[antipattern].push(apValue)
+
+    // adds patterns
+    if (
+      antipatternType === 'linguisticAntipatterns' ||
+      apKey === 'isIgnoringMIMEType' ||
+      apKey === 'isForgettingHypermedia' ||
+      apKey === 'isIgnoringCaching'
+    ) {
+      if (!csvData[`pattern_${antipattern}`]) {
+        csvData[`pattern_${antipattern}`] = []
+      }
+
+      const patternValue = meta[antipatternType][apKey] ? 0 : 1
+      csvData[`pattern_${antipattern}`].push(patternValue)
+    }
   })
 }

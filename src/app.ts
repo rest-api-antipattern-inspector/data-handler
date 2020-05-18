@@ -40,9 +40,9 @@ const presentation = getCorrelationsMDString(data.length, correlations)
 fs.writeFileSync('./correlation-data/correlations.md', presentation)
 console.log('Wrote stats to ./correlation-data/correlations.md')
 
-const fullData: IMeta[] = JSON.parse(
-  fs.readFileSync('./data-files/design-antipatterns/full-data.json', 'utf8')
-)
+// const fullData: IMeta[] = JSON.parse(
+//   fs.readFileSync('./data-files/design-antipatterns/full-data.json', 'utf8')
+// )
 
 // const cookiesAndCrudy = fullData.filter(
 //   (obj) =>
