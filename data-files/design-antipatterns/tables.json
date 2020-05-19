@@ -1,0 +1,1202 @@
+[
+  {
+    "keyOne": "TidyURI",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 281,
+    "b": 9,
+    "c": 36,
+    "d": 0
+  },
+  {
+    "keyOne": "TidyURI",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 290,
+    "c": 0,
+    "d": 36
+  },
+  {
+    "keyOne": "TidyURI",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 290,
+    "c": 0,
+    "d": 36
+  },
+  {
+    "keyOne": "TidyURI",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 89,
+    "b": 201,
+    "c": 0,
+    "d": 36
+  },
+  {
+    "keyOne": "TidyURI",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 4,
+    "b": 286,
+    "c": 0,
+    "d": 36
+  },
+  {
+    "keyOne": "TidyURI",
+    "keyTwo": "isMisusingCookies",
+    "a": 100,
+    "b": 190,
+    "c": 0,
+    "d": 36
+  },
+  {
+    "keyOne": "VerblessURI",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 289,
+    "b": 9,
+    "c": 28,
+    "d": 0
+  },
+  {
+    "keyOne": "VerblessURI",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 298,
+    "c": 0,
+    "d": 28
+  },
+  {
+    "keyOne": "VerblessURI",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 298,
+    "c": 0,
+    "d": 28
+  },
+  {
+    "keyOne": "VerblessURI",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 89,
+    "b": 209,
+    "c": 0,
+    "d": 28
+  },
+  {
+    "keyOne": "VerblessURI",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 3,
+    "b": 295,
+    "c": 1,
+    "d": 27
+  },
+  {
+    "keyOne": "VerblessURI",
+    "keyTwo": "isMisusingCookies",
+    "a": 76,
+    "b": 222,
+    "c": 24,
+    "d": 4
+  },
+  {
+    "keyOne": "ContextualisedResource",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 264,
+    "b": 5,
+    "c": 53,
+    "d": 4
+  },
+  {
+    "keyOne": "ContextualisedResource",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 269,
+    "c": 0,
+    "d": 57
+  },
+  {
+    "keyOne": "ContextualisedResource",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 269,
+    "c": 0,
+    "d": 57
+  },
+  {
+    "keyOne": "ContextualisedResource",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 77,
+    "b": 192,
+    "c": 12,
+    "d": 45
+  },
+  {
+    "keyOne": "ContextualisedResource",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 0,
+    "b": 269,
+    "c": 4,
+    "d": 53
+  },
+  {
+    "keyOne": "ContextualisedResource",
+    "keyTwo": "isMisusingCookies",
+    "a": 86,
+    "b": 183,
+    "c": 14,
+    "d": 43
+  },
+  {
+    "keyOne": "HierarchicalNodes",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 317,
+    "b": 9,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "HierarchicalNodes",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 326,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "HierarchicalNodes",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 326,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "HierarchicalNodes",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 89,
+    "b": 237,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "HierarchicalNodes",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 4,
+    "b": 322,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "HierarchicalNodes",
+    "keyTwo": "isMisusingCookies",
+    "a": 100,
+    "b": 226,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "patternSingularisedPluralisedNodes",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 278,
+    "b": 9,
+    "c": 39,
+    "d": 0
+  },
+  {
+    "keyOne": "patternSingularisedPluralisedNodes",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 287,
+    "c": 0,
+    "d": 39
+  },
+  {
+    "keyOne": "patternSingularisedPluralisedNodes",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 287,
+    "c": 0,
+    "d": 39
+  },
+  {
+    "keyOne": "patternSingularisedPluralisedNodes",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 83,
+    "b": 204,
+    "c": 6,
+    "d": 33
+  },
+  {
+    "keyOne": "patternSingularisedPluralisedNodes",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 4,
+    "b": 283,
+    "c": 0,
+    "d": 39
+  },
+  {
+    "keyOne": "patternSingularisedPluralisedNodes",
+    "keyTwo": "isMisusingCookies",
+    "a": 79,
+    "b": 208,
+    "c": 21,
+    "d": 18
+  },
+  {
+    "keyOne": "EntityLinking",
+    "keyTwo": "AmorphousURI",
+    "a": 36,
+    "b": 290,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "EntityLinking",
+    "keyTwo": "CRUDyURI",
+    "a": 28,
+    "b": 298,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "EntityLinking",
+    "keyTwo": "ContextlessResource",
+    "a": 57,
+    "b": 269,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "EntityLinking",
+    "keyTwo": "NonHierarchicalNodes",
+    "a": 0,
+    "b": 326,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "EntityLinking",
+    "keyTwo": "PluralisedNodes",
+    "a": 39,
+    "b": 287,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "ResponseCaching",
+    "keyTwo": "AmorphousURI",
+    "a": 36,
+    "b": 290,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "ResponseCaching",
+    "keyTwo": "CRUDyURI",
+    "a": 28,
+    "b": 298,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "ResponseCaching",
+    "keyTwo": "ContextlessResource",
+    "a": 57,
+    "b": 269,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "ResponseCaching",
+    "keyTwo": "NonHierarchicalNodes",
+    "a": 0,
+    "b": 326,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "ResponseCaching",
+    "keyTwo": "PluralisedNodes",
+    "a": 39,
+    "b": 287,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "ContentNegotiation",
+    "keyTwo": "AmorphousURI",
+    "a": 36,
+    "b": 201,
+    "c": 0,
+    "d": 89
+  },
+  {
+    "keyOne": "ContentNegotiation",
+    "keyTwo": "CRUDyURI",
+    "a": 28,
+    "b": 209,
+    "c": 0,
+    "d": 89
+  },
+  {
+    "keyOne": "ContentNegotiation",
+    "keyTwo": "ContextlessResource",
+    "a": 45,
+    "b": 192,
+    "c": 12,
+    "d": 77
+  },
+  {
+    "keyOne": "ContentNegotiation",
+    "keyTwo": "NonHierarchicalNodes",
+    "a": 0,
+    "b": 237,
+    "c": 0,
+    "d": 89
+  },
+  {
+    "keyOne": "ContentNegotiation",
+    "keyTwo": "PluralisedNodes",
+    "a": 33,
+    "b": 204,
+    "c": 6,
+    "d": 83
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 36,
+    "b": 0,
+    "c": 281,
+    "d": 9
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 36,
+    "c": 0,
+    "d": 290
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 36,
+    "c": 0,
+    "d": 290
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 0,
+    "b": 36,
+    "c": 89,
+    "d": 201
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 0,
+    "b": 36,
+    "c": 4,
+    "d": 286
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isMisusingCookies",
+    "a": 0,
+    "b": 36,
+    "c": 100,
+    "d": 190
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 28,
+    "b": 0,
+    "c": 289,
+    "d": 9
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 28,
+    "c": 0,
+    "d": 298
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 28,
+    "c": 0,
+    "d": 298
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 0,
+    "b": 28,
+    "c": 89,
+    "d": 209
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 1,
+    "b": 27,
+    "c": 3,
+    "d": 295
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isMisusingCookies",
+    "a": 24,
+    "b": 4,
+    "c": 76,
+    "d": 222
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 53,
+    "b": 4,
+    "c": 264,
+    "d": 5
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 57,
+    "c": 0,
+    "d": 269
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 57,
+    "c": 0,
+    "d": 269
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 12,
+    "b": 45,
+    "c": 77,
+    "d": 192
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 4,
+    "b": 53,
+    "c": 0,
+    "d": 269
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isMisusingCookies",
+    "a": 14,
+    "b": 43,
+    "c": 86,
+    "d": 183
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 0,
+    "b": 0,
+    "c": 317,
+    "d": 9
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 0,
+    "c": 0,
+    "d": 326
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 0,
+    "c": 0,
+    "d": 326
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 0,
+    "b": 0,
+    "c": 89,
+    "d": 237
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 0,
+    "b": 0,
+    "c": 4,
+    "d": 322
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isMisusingCookies",
+    "a": 0,
+    "b": 0,
+    "c": 100,
+    "d": 226
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 39,
+    "b": 0,
+    "c": 278,
+    "d": 9
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 39,
+    "c": 0,
+    "d": 287
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 39,
+    "c": 0,
+    "d": 287
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 6,
+    "b": 33,
+    "c": 83,
+    "d": 204
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 0,
+    "b": 39,
+    "c": 4,
+    "d": 283
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isMisusingCookies",
+    "a": 21,
+    "b": 18,
+    "c": 79,
+    "d": 208
+  },
+  {
+    "keyOne": "isBreakingSelfDescriptiveness",
+    "keyTwo": "TidyURI",
+    "a": 281,
+    "b": 36,
+    "c": 9,
+    "d": 0
+  },
+  {
+    "keyOne": "isBreakingSelfDescriptiveness",
+    "keyTwo": "VerblessURI",
+    "a": 289,
+    "b": 28,
+    "c": 9,
+    "d": 0
+  },
+  {
+    "keyOne": "isBreakingSelfDescriptiveness",
+    "keyTwo": "ContextualisedResource",
+    "a": 264,
+    "b": 53,
+    "c": 5,
+    "d": 4
+  },
+  {
+    "keyOne": "isBreakingSelfDescriptiveness",
+    "keyTwo": "HierarchicalNodes",
+    "a": 317,
+    "b": 0,
+    "c": 9,
+    "d": 0
+  },
+  {
+    "keyOne": "isBreakingSelfDescriptiveness",
+    "keyTwo": "patternSingularisedPluralisedNodes",
+    "a": 278,
+    "b": 39,
+    "c": 9,
+    "d": 0
+  },
+  {
+    "keyOne": "isForgettingHypermedia",
+    "keyTwo": "TidyURI",
+    "a": 0,
+    "b": 0,
+    "c": 290,
+    "d": 36
+  },
+  {
+    "keyOne": "isForgettingHypermedia",
+    "keyTwo": "VerblessURI",
+    "a": 0,
+    "b": 0,
+    "c": 298,
+    "d": 28
+  },
+  {
+    "keyOne": "isForgettingHypermedia",
+    "keyTwo": "ContextualisedResource",
+    "a": 0,
+    "b": 0,
+    "c": 269,
+    "d": 57
+  },
+  {
+    "keyOne": "isForgettingHypermedia",
+    "keyTwo": "HierarchicalNodes",
+    "a": 0,
+    "b": 0,
+    "c": 326,
+    "d": 0
+  },
+  {
+    "keyOne": "isForgettingHypermedia",
+    "keyTwo": "patternSingularisedPluralisedNodes",
+    "a": 0,
+    "b": 0,
+    "c": 287,
+    "d": 39
+  },
+  {
+    "keyOne": "isIgnoringCaching",
+    "keyTwo": "TidyURI",
+    "a": 0,
+    "b": 0,
+    "c": 290,
+    "d": 36
+  },
+  {
+    "keyOne": "isIgnoringCaching",
+    "keyTwo": "VerblessURI",
+    "a": 0,
+    "b": 0,
+    "c": 298,
+    "d": 28
+  },
+  {
+    "keyOne": "isIgnoringCaching",
+    "keyTwo": "ContextualisedResource",
+    "a": 0,
+    "b": 0,
+    "c": 269,
+    "d": 57
+  },
+  {
+    "keyOne": "isIgnoringCaching",
+    "keyTwo": "HierarchicalNodes",
+    "a": 0,
+    "b": 0,
+    "c": 326,
+    "d": 0
+  },
+  {
+    "keyOne": "isIgnoringCaching",
+    "keyTwo": "patternSingularisedPluralisedNodes",
+    "a": 0,
+    "b": 0,
+    "c": 287,
+    "d": 39
+  },
+  {
+    "keyOne": "isIgnoringMIMEType",
+    "keyTwo": "TidyURI",
+    "a": 89,
+    "b": 0,
+    "c": 201,
+    "d": 36
+  },
+  {
+    "keyOne": "isIgnoringMIMEType",
+    "keyTwo": "VerblessURI",
+    "a": 89,
+    "b": 0,
+    "c": 209,
+    "d": 28
+  },
+  {
+    "keyOne": "isIgnoringMIMEType",
+    "keyTwo": "ContextualisedResource",
+    "a": 77,
+    "b": 12,
+    "c": 192,
+    "d": 45
+  },
+  {
+    "keyOne": "isIgnoringMIMEType",
+    "keyTwo": "HierarchicalNodes",
+    "a": 89,
+    "b": 0,
+    "c": 237,
+    "d": 0
+  },
+  {
+    "keyOne": "isIgnoringMIMEType",
+    "keyTwo": "patternSingularisedPluralisedNodes",
+    "a": 83,
+    "b": 6,
+    "c": 204,
+    "d": 33
+  },
+  {
+    "keyOne": "isIgnoringStatusCode",
+    "keyTwo": "TidyURI",
+    "a": 4,
+    "b": 0,
+    "c": 286,
+    "d": 36
+  },
+  {
+    "keyOne": "isIgnoringStatusCode",
+    "keyTwo": "VerblessURI",
+    "a": 3,
+    "b": 1,
+    "c": 295,
+    "d": 27
+  },
+  {
+    "keyOne": "isIgnoringStatusCode",
+    "keyTwo": "ContextualisedResource",
+    "a": 0,
+    "b": 4,
+    "c": 269,
+    "d": 53
+  },
+  {
+    "keyOne": "isIgnoringStatusCode",
+    "keyTwo": "HierarchicalNodes",
+    "a": 4,
+    "b": 0,
+    "c": 322,
+    "d": 0
+  },
+  {
+    "keyOne": "isIgnoringStatusCode",
+    "keyTwo": "patternSingularisedPluralisedNodes",
+    "a": 4,
+    "b": 0,
+    "c": 283,
+    "d": 39
+  },
+  {
+    "keyOne": "isMisusingCookies",
+    "keyTwo": "TidyURI",
+    "a": 100,
+    "b": 0,
+    "c": 190,
+    "d": 36
+  },
+  {
+    "keyOne": "isMisusingCookies",
+    "keyTwo": "VerblessURI",
+    "a": 76,
+    "b": 24,
+    "c": 222,
+    "d": 4
+  },
+  {
+    "keyOne": "isMisusingCookies",
+    "keyTwo": "ContextualisedResource",
+    "a": 86,
+    "b": 14,
+    "c": 183,
+    "d": 43
+  },
+  {
+    "keyOne": "isMisusingCookies",
+    "keyTwo": "HierarchicalNodes",
+    "a": 100,
+    "b": 0,
+    "c": 226,
+    "d": 0
+  },
+  {
+    "keyOne": "isMisusingCookies",
+    "keyTwo": "patternSingularisedPluralisedNodes",
+    "a": 79,
+    "b": 21,
+    "c": 208,
+    "d": 18
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "EntityLinking",
+    "a": 36,
+    "b": 0,
+    "c": 290,
+    "d": 0
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "ResponseCaching",
+    "a": 36,
+    "b": 0,
+    "c": 290,
+    "d": 0
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "ContentNegotiation",
+    "a": 36,
+    "b": 0,
+    "c": 201,
+    "d": 89
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "EntityLinking",
+    "a": 28,
+    "b": 0,
+    "c": 298,
+    "d": 0
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "ResponseCaching",
+    "a": 28,
+    "b": 0,
+    "c": 298,
+    "d": 0
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "ContentNegotiation",
+    "a": 28,
+    "b": 0,
+    "c": 209,
+    "d": 89
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "EntityLinking",
+    "a": 57,
+    "b": 0,
+    "c": 269,
+    "d": 0
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "ResponseCaching",
+    "a": 57,
+    "b": 0,
+    "c": 269,
+    "d": 0
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "ContentNegotiation",
+    "a": 45,
+    "b": 12,
+    "c": 192,
+    "d": 77
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "EntityLinking",
+    "a": 0,
+    "b": 0,
+    "c": 326,
+    "d": 0
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "ResponseCaching",
+    "a": 0,
+    "b": 0,
+    "c": 326,
+    "d": 0
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "ContentNegotiation",
+    "a": 0,
+    "b": 0,
+    "c": 237,
+    "d": 89
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "EntityLinking",
+    "a": 39,
+    "b": 0,
+    "c": 287,
+    "d": 0
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "ResponseCaching",
+    "a": 39,
+    "b": 0,
+    "c": 287,
+    "d": 0
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "ContentNegotiation",
+    "a": 33,
+    "b": 6,
+    "c": 204,
+    "d": 83
+  },
+  {
+    "keyOne": "isBreakingSelfDescriptiveness",
+    "keyTwo": "AmorphousURI",
+    "a": 36,
+    "b": 281,
+    "c": 0,
+    "d": 9
+  },
+  {
+    "keyOne": "isBreakingSelfDescriptiveness",
+    "keyTwo": "CRUDyURI",
+    "a": 28,
+    "b": 289,
+    "c": 0,
+    "d": 9
+  },
+  {
+    "keyOne": "isBreakingSelfDescriptiveness",
+    "keyTwo": "ContextlessResource",
+    "a": 53,
+    "b": 264,
+    "c": 4,
+    "d": 5
+  },
+  {
+    "keyOne": "isBreakingSelfDescriptiveness",
+    "keyTwo": "NonHierarchicalNodes",
+    "a": 0,
+    "b": 317,
+    "c": 0,
+    "d": 9
+  },
+  {
+    "keyOne": "isBreakingSelfDescriptiveness",
+    "keyTwo": "PluralisedNodes",
+    "a": 39,
+    "b": 278,
+    "c": 0,
+    "d": 9
+  },
+  {
+    "keyOne": "isForgettingHypermedia",
+    "keyTwo": "AmorphousURI",
+    "a": 0,
+    "b": 0,
+    "c": 36,
+    "d": 290
+  },
+  {
+    "keyOne": "isForgettingHypermedia",
+    "keyTwo": "CRUDyURI",
+    "a": 0,
+    "b": 0,
+    "c": 28,
+    "d": 298
+  },
+  {
+    "keyOne": "isForgettingHypermedia",
+    "keyTwo": "ContextlessResource",
+    "a": 0,
+    "b": 0,
+    "c": 57,
+    "d": 269
+  },
+  {
+    "keyOne": "isForgettingHypermedia",
+    "keyTwo": "NonHierarchicalNodes",
+    "a": 0,
+    "b": 0,
+    "c": 0,
+    "d": 326
+  },
+  {
+    "keyOne": "isForgettingHypermedia",
+    "keyTwo": "PluralisedNodes",
+    "a": 0,
+    "b": 0,
+    "c": 39,
+    "d": 287
+  },
+  {
+    "keyOne": "isIgnoringCaching",
+    "keyTwo": "AmorphousURI",
+    "a": 0,
+    "b": 0,
+    "c": 36,
+    "d": 290
+  },
+  {
+    "keyOne": "isIgnoringCaching",
+    "keyTwo": "CRUDyURI",
+    "a": 0,
+    "b": 0,
+    "c": 28,
+    "d": 298
+  },
+  {
+    "keyOne": "isIgnoringCaching",
+    "keyTwo": "ContextlessResource",
+    "a": 0,
+    "b": 0,
+    "c": 57,
+    "d": 269
+  },
+  {
+    "keyOne": "isIgnoringCaching",
+    "keyTwo": "NonHierarchicalNodes",
+    "a": 0,
+    "b": 0,
+    "c": 0,
+    "d": 326
+  },
+  {
+    "keyOne": "isIgnoringCaching",
+    "keyTwo": "PluralisedNodes",
+    "a": 0,
+    "b": 0,
+    "c": 39,
+    "d": 287
+  },
+  {
+    "keyOne": "isIgnoringMIMEType",
+    "keyTwo": "AmorphousURI",
+    "a": 0,
+    "b": 89,
+    "c": 36,
+    "d": 201
+  },
+  {
+    "keyOne": "isIgnoringMIMEType",
+    "keyTwo": "CRUDyURI",
+    "a": 0,
+    "b": 89,
+    "c": 28,
+    "d": 209
+  },
+  {
+    "keyOne": "isIgnoringMIMEType",
+    "keyTwo": "ContextlessResource",
+    "a": 12,
+    "b": 77,
+    "c": 45,
+    "d": 192
+  },
+  {
+    "keyOne": "isIgnoringMIMEType",
+    "keyTwo": "NonHierarchicalNodes",
+    "a": 0,
+    "b": 89,
+    "c": 0,
+    "d": 237
+  },
+  {
+    "keyOne": "isIgnoringMIMEType",
+    "keyTwo": "PluralisedNodes",
+    "a": 6,
+    "b": 83,
+    "c": 33,
+    "d": 204
+  },
+  {
+    "keyOne": "isIgnoringStatusCode",
+    "keyTwo": "AmorphousURI",
+    "a": 0,
+    "b": 4,
+    "c": 36,
+    "d": 286
+  },
+  {
+    "keyOne": "isIgnoringStatusCode",
+    "keyTwo": "CRUDyURI",
+    "a": 1,
+    "b": 3,
+    "c": 27,
+    "d": 295
+  },
+  {
+    "keyOne": "isIgnoringStatusCode",
+    "keyTwo": "ContextlessResource",
+    "a": 4,
+    "b": 0,
+    "c": 53,
+    "d": 269
+  },
+  {
+    "keyOne": "isIgnoringStatusCode",
+    "keyTwo": "NonHierarchicalNodes",
+    "a": 0,
+    "b": 4,
+    "c": 0,
+    "d": 322
+  },
+  {
+    "keyOne": "isIgnoringStatusCode",
+    "keyTwo": "PluralisedNodes",
+    "a": 0,
+    "b": 4,
+    "c": 39,
+    "d": 283
+  },
+  {
+    "keyOne": "isMisusingCookies",
+    "keyTwo": "AmorphousURI",
+    "a": 0,
+    "b": 100,
+    "c": 36,
+    "d": 190
+  },
+  {
+    "keyOne": "isMisusingCookies",
+    "keyTwo": "CRUDyURI",
+    "a": 24,
+    "b": 76,
+    "c": 4,
+    "d": 222
+  },
+  {
+    "keyOne": "isMisusingCookies",
+    "keyTwo": "ContextlessResource",
+    "a": 14,
+    "b": 86,
+    "c": 43,
+    "d": 183
+  },
+  {
+    "keyOne": "isMisusingCookies",
+    "keyTwo": "NonHierarchicalNodes",
+    "a": 0,
+    "b": 100,
+    "c": 0,
+    "d": 226
+  },
+  {
+    "keyOne": "isMisusingCookies",
+    "keyTwo": "PluralisedNodes",
+    "a": 21,
+    "b": 79,
+    "c": 18,
+    "d": 208
+  }
+]

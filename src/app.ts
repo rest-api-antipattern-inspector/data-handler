@@ -5,6 +5,7 @@ import { getTwistedContingencyR } from './lib/twistedContingencyR'
 import { writeCSVs } from './lib/csvCorrelations'
 import { writeSingleCSV } from './lib/singleCSV'
 import { writeTxt } from './lib/txtResults'
+import { writeTablesJSON } from './lib/tablesJSON'
 import fs from 'fs'
 import IMeta from './interfaces/IMeta'
 
@@ -13,6 +14,9 @@ import IMeta from './interfaces/IMeta'
   fs.mkdirSync('./correlation-data/csvs-foreach-antipattern')
 
 const data = getData()
+
+writeTablesJSON(data)
+console.log('wrote to ./data-files/design-antipatterns/tables.json')
 
 writeTxt(data)
 console.log('Wrote txt data to correlation-data/results.txt')
