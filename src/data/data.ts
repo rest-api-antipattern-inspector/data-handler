@@ -95,12 +95,14 @@ const getOnlyEndpoint = (line: string): string =>
     : line.substring(line.indexOf('/'), line.length - 1).split(' ')[0]
 
 const correspondingPatterns = {
+  // linguistic
   AmorphousURI: 'TidyURI',
   ContextlessResource: 'ContextualisedResource',
   CRUDyURI: 'VerblessURI',
   NonHierarchicalNodes: 'HierarchicalNodes',
   PluralisedNodes: 'patternSingularisedPluralisedNodes',
 
+  // design
   isIgnoringMIMEType: 'ContentNegotiation',
   isForgettingHypermedia: 'EntityLinking',
   isIgnoringCaching: 'ResponseCaching',
