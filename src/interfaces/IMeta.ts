@@ -26,4 +26,12 @@ export default interface IMeta {
   linguisticAntipatterns: {
     [key: string]: boolean
   }
+
+  designPatterns?: {
+    [key: string]: boolean
+  }
+
+  linguisticPatterns?: {
+    [key: string]: boolean
+  }
 }

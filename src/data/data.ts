@@ -16,6 +16,8 @@ export const getData = (): IMeta[] => {
     appendLinguisticData(data, `${linguisticDirPath}/${f}`, f)
   })
 
+  appendPatterns(data)
+
   fs.writeFileSync(
     './data-files/design-antipatterns/full-data.json',
     JSON.stringify(data)
@@ -91,3 +93,36 @@ const getOnlyEndpoint = (line: string): string =>
   line.charAt(0) === '/'
     ? line
     : line.substring(line.indexOf('/'), line.length - 1).split(' ')[0]
+
+const correspondingPatterns = {
+  // linguistic
+  AmorphousURI: 'TidyURI',
+  ContextlessResource: 'ContextualisedResource',
+  CRUDyURI: 'VerblessURI',
+  NonHierarchicalNodes: 'HierarchicalNodes',
+  PluralisedNodes: 'patternSingularisedPluralisedNodes',
+
+  // design
+  isIgnoringMIMEType: 'ContentNegotiation',
+  isForgettingHypermedia: 'EntityLinking',
+  isIgnoringCaching: 'ResponseCaching',
+}
+
+const appendPatterns = (data: IMeta[]) => {
+  data.forEach((meta) => {
+    meta.linguisticPatterns = {}
+    meta.designPatterns = {}
+
+    Object.keys(meta.linguisticAntipatterns).forEach((lKey) => {
+      const lPatternValue = !meta.linguisticAntipatterns[lKey]
+      meta.linguisticPatterns[correspondingPatterns[lKey]] = lPatternValue
+    })
+
+    Object.keys(meta.designAntipatterns).forEach((dKey) => {
+      if (correspondingPatterns.hasOwnProperty(dKey)) {
+        const dPatternValue = !meta.designAntipatterns[dKey]
+        meta.designPatterns[correspondingPatterns[dKey]] = dPatternValue
+      }
+    })
+  })
+}
