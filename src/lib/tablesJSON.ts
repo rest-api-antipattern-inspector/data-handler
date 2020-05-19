@@ -17,11 +17,6 @@ export const writeTablesJSON = (metas: IMeta[]) => {
     appendData(tables, m, 'linguisticPatterns', 'designAntipatterns')
     appendData(tables, m, 'designPatterns', 'linguisticAntipatterns')
     appendData(tables, m, 'linguisticAntipatterns', 'designAntipatterns')
-
-    // vice versa
-    appendData(tables, m, 'designAntipatterns', 'linguisticPatterns')
-    appendData(tables, m, 'linguisticAntipatterns', 'designPatterns')
-    appendData(tables, m, 'designAntipatterns', 'linguisticAntipatterns')
   })
 
   fs.writeFileSync(
