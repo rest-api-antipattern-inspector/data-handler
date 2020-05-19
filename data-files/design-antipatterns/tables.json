@@ -1,0 +1,242 @@
+[
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 36,
+    "b": 0,
+    "c": 281,
+    "d": 9
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 36,
+    "c": 0,
+    "d": 290
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 36,
+    "c": 0,
+    "d": 290
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 0,
+    "b": 36,
+    "c": 89,
+    "d": 201
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 0,
+    "b": 36,
+    "c": 4,
+    "d": 286
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isMisusingCookies",
+    "a": 0,
+    "b": 36,
+    "c": 100,
+    "d": 190
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 28,
+    "b": 0,
+    "c": 289,
+    "d": 9
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 28,
+    "c": 0,
+    "d": 298
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 28,
+    "c": 0,
+    "d": 298
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 0,
+    "b": 28,
+    "c": 89,
+    "d": 209
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 1,
+    "b": 27,
+    "c": 3,
+    "d": 295
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isMisusingCookies",
+    "a": 24,
+    "b": 4,
+    "c": 76,
+    "d": 222
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 53,
+    "b": 4,
+    "c": 264,
+    "d": 5
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 57,
+    "c": 0,
+    "d": 269
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 57,
+    "c": 0,
+    "d": 269
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 12,
+    "b": 45,
+    "c": 77,
+    "d": 192
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 4,
+    "b": 53,
+    "c": 0,
+    "d": 269
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isMisusingCookies",
+    "a": 14,
+    "b": 43,
+    "c": 86,
+    "d": 183
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 0,
+    "b": 0,
+    "c": 317,
+    "d": 9
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 0,
+    "c": 0,
+    "d": 326
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 0,
+    "c": 0,
+    "d": 326
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 0,
+    "b": 0,
+    "c": 89,
+    "d": 237
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 0,
+    "b": 0,
+    "c": 4,
+    "d": 322
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isMisusingCookies",
+    "a": 0,
+    "b": 0,
+    "c": 100,
+    "d": 226
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 39,
+    "b": 0,
+    "c": 278,
+    "d": 9
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 39,
+    "c": 0,
+    "d": 287
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 39,
+    "c": 0,
+    "d": 287
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 6,
+    "b": 33,
+    "c": 83,
+    "d": 204
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 0,
+    "b": 39,
+    "c": 4,
+    "d": 283
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isMisusingCookies",
+    "a": 21,
+    "b": 18,
+    "c": 79,
+    "d": 208
+  }
+]
