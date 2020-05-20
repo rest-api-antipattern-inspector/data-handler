@@ -1,7 +1,5 @@
 import fs from 'fs'
 
-// TODO try catch here
-
 interface IResultTable {
   keyOne: string
   keyTwo: string
