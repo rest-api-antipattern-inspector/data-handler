@@ -1,1199 +1,1499 @@
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isBreakingSelfDescriptiveness} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{TidyURI} & yes & 281 & 9
-  \  \hline
+  \\
+  \hline
    & no & 36 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.0594, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isForgettingHypermedia} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{TidyURI} & yes & 0 & 290
-  \  \hline
+  \\
+  \hline
    & no & 0 & 36
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringCaching} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{TidyURI} & yes & 0 & 290
-  \  \hline
+  \\
+  \hline
    & no & 0 & 36
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringMIMEType} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{TidyURI} & yes & 89 & 201
-  \  \hline
+  \\
+  \hline
    & no & 0 & 36
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.2159, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringStatusCode} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{TidyURI} & yes & 4 & 286
-  \  \hline
+  \\
+  \hline
    & no & 0 & 36
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.0393, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isMisusingCookies} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{TidyURI} & yes & 100 & 190
-  \  \hline
+  \\
+  \hline
    & no & 0 & 36
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.2344, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isBreakingSelfDescriptiveness} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{VerblessURI} & yes & 289 & 9
-  \  \hline
+  \\
+  \hline
    & no & 28 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.0516, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isForgettingHypermedia} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{VerblessURI} & yes & 0 & 298
-  \  \hline
+  \\
+  \hline
    & no & 0 & 28
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringCaching} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{VerblessURI} & yes & 0 & 298
-  \  \hline
+  \\
+  \hline
    & no & 0 & 28
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringMIMEType} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{VerblessURI} & yes & 89 & 209
-  \  \hline
+  \\
+  \hline
    & no & 0 & 28
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.1878, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringStatusCode} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{VerblessURI} & yes & 3 & 295
-  \  \hline
+  \\
+  \hline
    & no & 1 & 27
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.0653, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isMisusingCookies} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{VerblessURI} & yes & 76 & 222
-  \  \hline
+  \\
+  \hline
    & no & 24 & 4
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.3659, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isBreakingSelfDescriptiveness} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ContextualisedResource} & yes & 264 & 5
-  \  \hline
+  \\
+  \hline
    & no & 53 & 4
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.1196, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isForgettingHypermedia} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ContextualisedResource} & yes & 0 & 269
-  \  \hline
+  \\
+  \hline
    & no & 0 & 57
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringCaching} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ContextualisedResource} & yes & 0 & 269
-  \  \hline
+  \\
+  \hline
    & no & 0 & 57
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringMIMEType} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ContextualisedResource} & yes & 77 & 192
-  \  \hline
+  \\
+  \hline
    & no & 12 & 45
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.0646, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringStatusCode} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ContextualisedResource} & yes & 0 & 269
-  \  \hline
+  \\
+  \hline
    & no & 4 & 53
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.2421, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isMisusingCookies} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ContextualisedResource} & yes & 86 & 183
-  \  \hline
+  \\
+  \hline
    & no & 14 & 43
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.0610, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isBreakingSelfDescriptiveness} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{HierarchicalNodes} & yes & 317 & 9
-  \  \hline
+  \\
+  \hline
    & no & 0 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isForgettingHypermedia} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{HierarchicalNodes} & yes & 0 & 326
-  \  \hline
+  \\
+  \hline
    & no & 0 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringCaching} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{HierarchicalNodes} & yes & 0 & 326
-  \  \hline
+  \\
+  \hline
    & no & 0 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringMIMEType} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{HierarchicalNodes} & yes & 89 & 237
-  \  \hline
+  \\
+  \hline
    & no & 0 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringStatusCode} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{HierarchicalNodes} & yes & 4 & 322
-  \  \hline
+  \\
+  \hline
    & no & 0 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isMisusingCookies} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{HierarchicalNodes} & yes & 100 & 226
-  \  \hline
+  \\
+  \hline
    & no & 0 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isBreakingSelfDescriptiveness} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{patternSingularisedPluralisedNodes} & yes & 278 & 9
-  \  \hline
+  \\
+  \hline
    & no & 39 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.0621, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isForgettingHypermedia} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{patternSingularisedPluralisedNodes} & yes & 0 & 287
-  \  \hline
+  \\
+  \hline
    & no & 0 & 39
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringCaching} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{patternSingularisedPluralisedNodes} & yes & 0 & 287
-  \  \hline
+  \\
+  \hline
    & no & 0 & 39
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringMIMEType} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{patternSingularisedPluralisedNodes} & yes & 83 & 204
-  \  \hline
+  \\
+  \hline
    & no & 6 & 33
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.0986, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringStatusCode} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{patternSingularisedPluralisedNodes} & yes & 4 & 283
-  \  \hline
+  \\
+  \hline
    & no & 0 & 39
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.0411, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isMisusingCookies} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{patternSingularisedPluralisedNodes} & yes & 79 & 208
-  \  \hline
+  \\
+  \hline
    & no & 21 & 18
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.1852, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{AmorphousURI} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{EntityLinking} & yes & 36 & 290
-  \  \hline
+  \\
+  \hline
    & no & 0 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{CRUDyURI} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{EntityLinking} & yes & 28 & 298
-  \  \hline
+  \\
+  \hline
    & no & 0 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{ContextlessResource} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{EntityLinking} & yes & 57 & 269
-  \  \hline
+  \\
+  \hline
    & no & 0 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{NonHierarchicalNodes} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{EntityLinking} & yes & 0 & 326
-  \  \hline
+  \\
+  \hline
    & no & 0 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{PluralisedNodes} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{EntityLinking} & yes & 39 & 287
-  \  \hline
+  \\
+  \hline
    & no & 0 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{AmorphousURI} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ResponseCaching} & yes & 36 & 290
-  \  \hline
+  \\
+  \hline
    & no & 0 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{CRUDyURI} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ResponseCaching} & yes & 28 & 298
-  \  \hline
+  \\
+  \hline
    & no & 0 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{ContextlessResource} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ResponseCaching} & yes & 57 & 269
-  \  \hline
+  \\
+  \hline
    & no & 0 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{NonHierarchicalNodes} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ResponseCaching} & yes & 0 & 326
-  \  \hline
+  \\
+  \hline
    & no & 0 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{PluralisedNodes} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ResponseCaching} & yes & 39 & 287
-  \  \hline
+  \\
+  \hline
    & no & 0 & 0
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{AmorphousURI} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ContentNegotiation} & yes & 36 & 201
-  \  \hline
+  \\
+  \hline
    & no & 0 & 89
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.2159, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{CRUDyURI} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ContentNegotiation} & yes & 28 & 209
-  \  \hline
+  \\
+  \hline
    & no & 0 & 89
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.1878, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{ContextlessResource} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ContentNegotiation} & yes & 45 & 192
-  \  \hline
+  \\
+  \hline
    & no & 12 & 77
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.0646, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{NonHierarchicalNodes} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ContentNegotiation} & yes & 0 & 237
-  \  \hline
+  \\
+  \hline
    & no & 0 & 89
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{PluralisedNodes} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ContentNegotiation} & yes & 33 & 204
-  \  \hline
+  \\
+  \hline
    & no & 6 & 83
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.0986, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isBreakingSelfDescriptiveness} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{AmorphousURI} & yes & 36 & 0
-  \  \hline
+  \\
+  \hline
    & no & 281 & 9
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.0594, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isForgettingHypermedia} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{AmorphousURI} & yes & 0 & 36
-  \  \hline
+  \\
+  \hline
    & no & 0 & 290
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringCaching} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{AmorphousURI} & yes & 0 & 36
-  \  \hline
+  \\
+  \hline
    & no & 0 & 290
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringMIMEType} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{AmorphousURI} & yes & 0 & 36
-  \  \hline
+  \\
+  \hline
    & no & 89 & 201
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.2159, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringStatusCode} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{AmorphousURI} & yes & 0 & 36
-  \  \hline
+  \\
+  \hline
    & no & 4 & 286
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.0393, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isMisusingCookies} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{AmorphousURI} & yes & 0 & 36
-  \  \hline
+  \\
+  \hline
    & no & 100 & 190
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.2344, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isBreakingSelfDescriptiveness} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{CRUDyURI} & yes & 28 & 0
-  \  \hline
+  \\
+  \hline
    & no & 289 & 9
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.0516, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isForgettingHypermedia} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{CRUDyURI} & yes & 0 & 28
-  \  \hline
+  \\
+  \hline
    & no & 0 & 298
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringCaching} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{CRUDyURI} & yes & 0 & 28
-  \  \hline
+  \\
+  \hline
    & no & 0 & 298
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringMIMEType} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{CRUDyURI} & yes & 0 & 28
-  \  \hline
+  \\
+  \hline
    & no & 89 & 209
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.1878, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringStatusCode} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{CRUDyURI} & yes & 1 & 27
-  \  \hline
+  \\
+  \hline
    & no & 3 & 295
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.0653, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isMisusingCookies} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{CRUDyURI} & yes & 24 & 4
-  \  \hline
+  \\
+  \hline
    & no & 76 & 222
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.3659, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isBreakingSelfDescriptiveness} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ContextlessResource} & yes & 53 & 4
-  \  \hline
+  \\
+  \hline
    & no & 264 & 5
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.1196, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isForgettingHypermedia} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ContextlessResource} & yes & 0 & 57
-  \  \hline
+  \\
+  \hline
    & no & 0 & 269
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringCaching} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ContextlessResource} & yes & 0 & 57
-  \  \hline
+  \\
+  \hline
    & no & 0 & 269
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringMIMEType} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ContextlessResource} & yes & 12 & 45
-  \  \hline
+  \\
+  \hline
    & no & 77 & 192
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.0646, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringStatusCode} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ContextlessResource} & yes & 4 & 53
-  \  \hline
+  \\
+  \hline
    & no & 0 & 269
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.2421, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isMisusingCookies} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{ContextlessResource} & yes & 14 & 43
-  \  \hline
+  \\
+  \hline
    & no & 86 & 183
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.0610, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isBreakingSelfDescriptiveness} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{NonHierarchicalNodes} & yes & 0 & 0
-  \  \hline
+  \\
+  \hline
    & no & 317 & 9
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isForgettingHypermedia} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{NonHierarchicalNodes} & yes & 0 & 0
-  \  \hline
+  \\
+  \hline
    & no & 0 & 326
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringCaching} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{NonHierarchicalNodes} & yes & 0 & 0
-  \  \hline
+  \\
+  \hline
    & no & 0 & 326
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringMIMEType} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{NonHierarchicalNodes} & yes & 0 & 0
-  \  \hline
+  \\
+  \hline
    & no & 89 & 237
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringStatusCode} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{NonHierarchicalNodes} & yes & 0 & 0
-  \  \hline
+  \\
+  \hline
    & no & 4 & 322
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isMisusingCookies} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{NonHierarchicalNodes} & yes & 0 & 0
-  \  \hline
+  \\
+  \hline
    & no & 100 & 226
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isBreakingSelfDescriptiveness} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{PluralisedNodes} & yes & 39 & 0
-  \  \hline
+  \\
+  \hline
    & no & 278 & 9
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.0621, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isForgettingHypermedia} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{PluralisedNodes} & yes & 0 & 39
-  \  \hline
+  \\
+  \hline
    & no & 0 & 287
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringCaching} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{PluralisedNodes} & yes & 0 & 39
-  \  \hline
+  \\
+  \hline
    & no & 0 & 287
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: NA}
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringMIMEType} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{PluralisedNodes} & yes & 6 & 33
-  \  \hline
+  \\
+  \hline
    & no & 83 & 204
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.0986, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isIgnoringStatusCode} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{PluralisedNodes} & yes & 0 & 39
-  \  \hline
+  \\
+  \hline
    & no & 4 & 283
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.0411, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}
 
 \begin{center}
-  \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
    & & \textbf{isMisusingCookies} &
-  \  \hline
+  \\
+  \hline
   & & yes & no
-  \  \hline
+  \\
+  \hline
   \textbf{PluralisedNodes} & yes & 21 & 18
-  \  \hline
+  \\
+  \hline
    & no & 79 & 208
-  \  \hline
+  \\
+  \hline
   \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.1852, }
-  \ \hline
+  \\ \hline
   \end{tabular}
   \end{center}

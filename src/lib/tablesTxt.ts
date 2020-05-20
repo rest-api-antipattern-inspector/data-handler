@@ -29,24 +29,44 @@ export const writeTablesTxt = () => {
   }
 }
 
+// \begin{center}
+// \begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+// \hline
+//  & & \textbf{Antipattern} &
+// \\
+// \hline
+// & & yes & no
+// \\
+// \hline
+// \textbf{Pattern} & yes & 5 & 5
+// \\
+// \hline
+//  & no & 5 & 5
+// \\
+// \hline
+// \multicolumn{4}{|c|}{Result: Phi Coefficient = 0.20, weak positive relationship}
+// \\ \hline
+// \end{tabular}
+// \end{center}
+
 const getText = (table: IResultTable) =>
   `\\begin{center}
-  \\begin{tabular}{| p{35mm} | p{35mm} | p{35mm} | p{35mm} |}
+  \\begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \\hline
    & & \\textbf{${table.keyTwo}} &
-  \\\
+  \\\\
   \\hline
   & & yes & no
-  \\\
+  \\\\
   \\hline
   \\textbf{${table.keyOne}} & yes & ${table.a} & ${table.b}
-  \\\
+  \\\\
   \\hline
    & no & ${table.c} & ${table.d}
-  \\\
+  \\\\
   \\hline
   \\multicolumn{4}{|c|}{${fixResult(table.result)}}
-  \\\ \\hline
+  \\\\ \\hline
   \\end{tabular}
   \\end{center}
 `
