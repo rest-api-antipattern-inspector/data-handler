@@ -240,6 +240,126 @@
     "d": 18
   },
   {
+    "keyOne": "TidyURI",
+    "keyTwo": "EntityLinking",
+    "a": 290,
+    "b": 0,
+    "c": 36,
+    "d": 0
+  },
+  {
+    "keyOne": "TidyURI",
+    "keyTwo": "ResponseCaching",
+    "a": 290,
+    "b": 0,
+    "c": 36,
+    "d": 0
+  },
+  {
+    "keyOne": "TidyURI",
+    "keyTwo": "ContentNegotiation",
+    "a": 201,
+    "b": 89,
+    "c": 36,
+    "d": 0
+  },
+  {
+    "keyOne": "VerblessURI",
+    "keyTwo": "EntityLinking",
+    "a": 298,
+    "b": 0,
+    "c": 28,
+    "d": 0
+  },
+  {
+    "keyOne": "VerblessURI",
+    "keyTwo": "ResponseCaching",
+    "a": 298,
+    "b": 0,
+    "c": 28,
+    "d": 0
+  },
+  {
+    "keyOne": "VerblessURI",
+    "keyTwo": "ContentNegotiation",
+    "a": 209,
+    "b": 89,
+    "c": 28,
+    "d": 0
+  },
+  {
+    "keyOne": "ContextualisedResource",
+    "keyTwo": "EntityLinking",
+    "a": 269,
+    "b": 0,
+    "c": 57,
+    "d": 0
+  },
+  {
+    "keyOne": "ContextualisedResource",
+    "keyTwo": "ResponseCaching",
+    "a": 269,
+    "b": 0,
+    "c": 57,
+    "d": 0
+  },
+  {
+    "keyOne": "ContextualisedResource",
+    "keyTwo": "ContentNegotiation",
+    "a": 192,
+    "b": 77,
+    "c": 45,
+    "d": 12
+  },
+  {
+    "keyOne": "HierarchicalNodes",
+    "keyTwo": "EntityLinking",
+    "a": 326,
+    "b": 0,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "HierarchicalNodes",
+    "keyTwo": "ResponseCaching",
+    "a": 326,
+    "b": 0,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "HierarchicalNodes",
+    "keyTwo": "ContentNegotiation",
+    "a": 237,
+    "b": 89,
+    "c": 0,
+    "d": 0
+  },
+  {
+    "keyOne": "patternSingularisedPluralisedNodes",
+    "keyTwo": "EntityLinking",
+    "a": 287,
+    "b": 0,
+    "c": 39,
+    "d": 0
+  },
+  {
+    "keyOne": "patternSingularisedPluralisedNodes",
+    "keyTwo": "ResponseCaching",
+    "a": 287,
+    "b": 0,
+    "c": 39,
+    "d": 0
+  },
+  {
+    "keyOne": "patternSingularisedPluralisedNodes",
+    "keyTwo": "ContentNegotiation",
+    "a": 204,
+    "b": 83,
+    "c": 33,
+    "d": 6
+  },
+  {
     "keyOne": "EntityLinking",
     "keyTwo": "AmorphousURI",
     "a": 36,
