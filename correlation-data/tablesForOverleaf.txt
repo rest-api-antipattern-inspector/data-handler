@@ -601,6 +601,306 @@
 \begin{center}
   \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
   \hline
+   & & \textbf{EntityLinking} &
+  \\
+  \hline
+  & & yes & no
+  \\
+  \hline
+  \textbf{TidyURI} & yes & 290 & 0
+  \\
+  \hline
+   & no & 36 & 0
+  \\
+  \hline
+  \multicolumn{4}{|c|}{Result: NA}
+  \\ \hline
+  \end{tabular}
+  \end{center}
+
+\begin{center}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
+  \hline
+   & & \textbf{ResponseCaching} &
+  \\
+  \hline
+  & & yes & no
+  \\
+  \hline
+  \textbf{TidyURI} & yes & 290 & 0
+  \\
+  \hline
+   & no & 36 & 0
+  \\
+  \hline
+  \multicolumn{4}{|c|}{Result: NA}
+  \\ \hline
+  \end{tabular}
+  \end{center}
+
+\begin{center}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
+  \hline
+   & & \textbf{ContentNegotiation} &
+  \\
+  \hline
+  & & yes & no
+  \\
+  \hline
+  \textbf{TidyURI} & yes & 201 & 89
+  \\
+  \hline
+   & no & 36 & 0
+  \\
+  \hline
+  \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.2159, }
+  \\ \hline
+  \end{tabular}
+  \end{center}
+
+\begin{center}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
+  \hline
+   & & \textbf{EntityLinking} &
+  \\
+  \hline
+  & & yes & no
+  \\
+  \hline
+  \textbf{VerblessURI} & yes & 298 & 0
+  \\
+  \hline
+   & no & 28 & 0
+  \\
+  \hline
+  \multicolumn{4}{|c|}{Result: NA}
+  \\ \hline
+  \end{tabular}
+  \end{center}
+
+\begin{center}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
+  \hline
+   & & \textbf{ResponseCaching} &
+  \\
+  \hline
+  & & yes & no
+  \\
+  \hline
+  \textbf{VerblessURI} & yes & 298 & 0
+  \\
+  \hline
+   & no & 28 & 0
+  \\
+  \hline
+  \multicolumn{4}{|c|}{Result: NA}
+  \\ \hline
+  \end{tabular}
+  \end{center}
+
+\begin{center}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
+  \hline
+   & & \textbf{ContentNegotiation} &
+  \\
+  \hline
+  & & yes & no
+  \\
+  \hline
+  \textbf{VerblessURI} & yes & 209 & 89
+  \\
+  \hline
+   & no & 28 & 0
+  \\
+  \hline
+  \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.1878, }
+  \\ \hline
+  \end{tabular}
+  \end{center}
+
+\begin{center}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
+  \hline
+   & & \textbf{EntityLinking} &
+  \\
+  \hline
+  & & yes & no
+  \\
+  \hline
+  \textbf{ContextualisedResource} & yes & 269 & 0
+  \\
+  \hline
+   & no & 57 & 0
+  \\
+  \hline
+  \multicolumn{4}{|c|}{Result: NA}
+  \\ \hline
+  \end{tabular}
+  \end{center}
+
+\begin{center}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
+  \hline
+   & & \textbf{ResponseCaching} &
+  \\
+  \hline
+  & & yes & no
+  \\
+  \hline
+  \textbf{ContextualisedResource} & yes & 269 & 0
+  \\
+  \hline
+   & no & 57 & 0
+  \\
+  \hline
+  \multicolumn{4}{|c|}{Result: NA}
+  \\ \hline
+  \end{tabular}
+  \end{center}
+
+\begin{center}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
+  \hline
+   & & \textbf{ContentNegotiation} &
+  \\
+  \hline
+  & & yes & no
+  \\
+  \hline
+  \textbf{ContextualisedResource} & yes & 192 & 77
+  \\
+  \hline
+   & no & 45 & 12
+  \\
+  \hline
+  \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.0646, }
+  \\ \hline
+  \end{tabular}
+  \end{center}
+
+\begin{center}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
+  \hline
+   & & \textbf{EntityLinking} &
+  \\
+  \hline
+  & & yes & no
+  \\
+  \hline
+  \textbf{HierarchicalNodes} & yes & 326 & 0
+  \\
+  \hline
+   & no & 0 & 0
+  \\
+  \hline
+  \multicolumn{4}{|c|}{Result: NA}
+  \\ \hline
+  \end{tabular}
+  \end{center}
+
+\begin{center}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
+  \hline
+   & & \textbf{ResponseCaching} &
+  \\
+  \hline
+  & & yes & no
+  \\
+  \hline
+  \textbf{HierarchicalNodes} & yes & 326 & 0
+  \\
+  \hline
+   & no & 0 & 0
+  \\
+  \hline
+  \multicolumn{4}{|c|}{Result: NA}
+  \\ \hline
+  \end{tabular}
+  \end{center}
+
+\begin{center}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
+  \hline
+   & & \textbf{ContentNegotiation} &
+  \\
+  \hline
+  & & yes & no
+  \\
+  \hline
+  \textbf{HierarchicalNodes} & yes & 237 & 89
+  \\
+  \hline
+   & no & 0 & 0
+  \\
+  \hline
+  \multicolumn{4}{|c|}{Result: NA}
+  \\ \hline
+  \end{tabular}
+  \end{center}
+
+\begin{center}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
+  \hline
+   & & \textbf{EntityLinking} &
+  \\
+  \hline
+  & & yes & no
+  \\
+  \hline
+  \textbf{patternSingularisedPluralisedNodes} & yes & 287 & 0
+  \\
+  \hline
+   & no & 39 & 0
+  \\
+  \hline
+  \multicolumn{4}{|c|}{Result: NA}
+  \\ \hline
+  \end{tabular}
+  \end{center}
+
+\begin{center}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
+  \hline
+   & & \textbf{ResponseCaching} &
+  \\
+  \hline
+  & & yes & no
+  \\
+  \hline
+  \textbf{patternSingularisedPluralisedNodes} & yes & 287 & 0
+  \\
+  \hline
+   & no & 39 & 0
+  \\
+  \hline
+  \multicolumn{4}{|c|}{Result: NA}
+  \\ \hline
+  \end{tabular}
+  \end{center}
+
+\begin{center}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
+  \hline
+   & & \textbf{ContentNegotiation} &
+  \\
+  \hline
+  & & yes & no
+  \\
+  \hline
+  \textbf{patternSingularisedPluralisedNodes} & yes & 204 & 83
+  \\
+  \hline
+   & no & 33 & 6
+  \\
+  \hline
+  \multicolumn{4}{|c|}{Result: Phi Coefficient = -0.0986, }
+  \\ \hline
+  \end{tabular}
+  \end{center}
+
+\begin{center}
+  \begin{tabular}{| p{60mm} | p{10mm} | p{35mm} | p{35mm} |}
+  \hline
    & & \textbf{AmorphousURI} &
   \\
   \hline
