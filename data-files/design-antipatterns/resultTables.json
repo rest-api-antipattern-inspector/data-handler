@@ -1,0 +1,677 @@
+[
+  {
+    "keyOne": "TidyURI",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 281,
+    "b": 9,
+    "c": 36,
+    "d": 0,
+    "result": -0.05936683211122371
+  },
+  {
+    "keyOne": "TidyURI",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 290,
+    "c": 0,
+    "d": 36,
+    "result": "NA"
+  },
+  {
+    "keyOne": "TidyURI",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 290,
+    "c": 0,
+    "d": 36,
+    "result": "NA"
+  },
+  {
+    "keyOne": "TidyURI",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 89,
+    "b": 201,
+    "c": 0,
+    "d": 36,
+    "result": 0.21591016124825807
+  },
+  {
+    "keyOne": "TidyURI",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 4,
+    "b": 286,
+    "c": 0,
+    "d": 36,
+    "result": 0.03926940411831123
+  },
+  {
+    "keyOne": "TidyURI",
+    "keyTwo": "isMisusingCookies",
+    "a": 100,
+    "b": 190,
+    "c": 0,
+    "d": 36,
+    "result": 0.2343678477700284
+  },
+  {
+    "keyOne": "VerblessURI",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 289,
+    "b": 9,
+    "c": 28,
+    "d": 0,
+    "result": -0.051649070152431406
+  },
+  {
+    "keyOne": "VerblessURI",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 298,
+    "c": 0,
+    "d": 28,
+    "result": "NA"
+  },
+  {
+    "keyOne": "VerblessURI",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 298,
+    "c": 0,
+    "d": 28,
+    "result": "NA"
+  },
+  {
+    "keyOne": "VerblessURI",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 89,
+    "b": 209,
+    "c": 0,
+    "d": 28,
+    "result": 0.18784157194107343
+  },
+  {
+    "keyOne": "VerblessURI",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 3,
+    "b": 295,
+    "c": 1,
+    "d": 27,
+    "result": -0.06527827869848261
+  },
+  {
+    "keyOne": "VerblessURI",
+    "keyTwo": "isMisusingCookies",
+    "a": 76,
+    "b": 222,
+    "c": 24,
+    "d": 4,
+    "result": -0.3658543839444897
+  },
+  {
+    "keyOne": "ContextualisedResource",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 264,
+    "b": 5,
+    "c": 53,
+    "d": 4,
+    "result": 0.11959472646290123
+  },
+  {
+    "keyOne": "ContextualisedResource",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 269,
+    "c": 0,
+    "d": 57,
+    "result": "NA"
+  },
+  {
+    "keyOne": "ContextualisedResource",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 269,
+    "c": 0,
+    "d": 57,
+    "result": "NA"
+  },
+  {
+    "keyOne": "ContextualisedResource",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 77,
+    "b": 192,
+    "c": 12,
+    "d": 45,
+    "result": 0.06455791200625915
+  },
+  {
+    "keyOne": "ContextualisedResource",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 0,
+    "b": 269,
+    "c": 4,
+    "d": 53,
+    "result": -0.24212563459262718
+  },
+  {
+    "keyOne": "ContextualisedResource",
+    "keyTwo": "isMisusingCookies",
+    "a": 86,
+    "b": 183,
+    "c": 14,
+    "d": 43,
+    "result": 0.06102538724365498
+  },
+  {
+    "keyOne": "HierarchicalNodes",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 317,
+    "b": 9,
+    "c": 0,
+    "d": 0,
+    "result": "NA"
+  },
+  {
+    "keyOne": "HierarchicalNodes",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 326,
+    "c": 0,
+    "d": 0,
+    "result": "NA"
+  },
+  {
+    "keyOne": "HierarchicalNodes",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 326,
+    "c": 0,
+    "d": 0,
+    "result": "NA"
+  },
+  {
+    "keyOne": "HierarchicalNodes",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 89,
+    "b": 237,
+    "c": 0,
+    "d": 0,
+    "result": "NA"
+  },
+  {
+    "keyOne": "HierarchicalNodes",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 4,
+    "b": 322,
+    "c": 0,
+    "d": 0,
+    "result": "NA"
+  },
+  {
+    "keyOne": "HierarchicalNodes",
+    "keyTwo": "isMisusingCookies",
+    "a": 100,
+    "b": 226,
+    "c": 0,
+    "d": 0,
+    "result": "NA"
+  },
+  {
+    "keyOne": "patternSingularisedPluralisedNodes",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 278,
+    "b": 9,
+    "c": 39,
+    "d": 0,
+    "result": -0.062113067646754935
+  },
+  {
+    "keyOne": "patternSingularisedPluralisedNodes",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 287,
+    "c": 0,
+    "d": 39,
+    "result": "NA"
+  },
+  {
+    "keyOne": "patternSingularisedPluralisedNodes",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 287,
+    "c": 0,
+    "d": 39,
+    "result": "NA"
+  },
+  {
+    "keyOne": "patternSingularisedPluralisedNodes",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 83,
+    "b": 204,
+    "c": 6,
+    "d": 33,
+    "result": 0.0985984765371301
+  },
+  {
+    "keyOne": "patternSingularisedPluralisedNodes",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 4,
+    "b": 283,
+    "c": 0,
+    "d": 39,
+    "result": 0.04108595772600245
+  },
+  {
+    "keyOne": "patternSingularisedPluralisedNodes",
+    "keyTwo": "isMisusingCookies",
+    "a": 79,
+    "b": 208,
+    "c": 21,
+    "d": 18,
+    "result": -0.1852274172255775
+  },
+  {
+    "keyOne": "EntityLinking",
+    "keyTwo": "AmorphousURI",
+    "a": 36,
+    "b": 290,
+    "c": 0,
+    "d": 0,
+    "result": "NA"
+  },
+  {
+    "keyOne": "EntityLinking",
+    "keyTwo": "CRUDyURI",
+    "a": 28,
+    "b": 298,
+    "c": 0,
+    "d": 0,
+    "result": "NA"
+  },
+  {
+    "keyOne": "EntityLinking",
+    "keyTwo": "ContextlessResource",
+    "a": 57,
+    "b": 269,
+    "c": 0,
+    "d": 0,
+    "result": "NA"
+  },
+  {
+    "keyOne": "EntityLinking",
+    "keyTwo": "NonHierarchicalNodes",
+    "a": 0,
+    "b": 326,
+    "c": 0,
+    "d": 0,
+    "result": "NA"
+  },
+  {
+    "keyOne": "EntityLinking",
+    "keyTwo": "PluralisedNodes",
+    "a": 39,
+    "b": 287,
+    "c": 0,
+    "d": 0,
+    "result": "NA"
+  },
+  {
+    "keyOne": "ResponseCaching",
+    "keyTwo": "AmorphousURI",
+    "a": 36,
+    "b": 290,
+    "c": 0,
+    "d": 0,
+    "result": "NA"
+  },
+  {
+    "keyOne": "ResponseCaching",
+    "keyTwo": "CRUDyURI",
+    "a": 28,
+    "b": 298,
+    "c": 0,
+    "d": 0,
+    "result": "NA"
+  },
+  {
+    "keyOne": "ResponseCaching",
+    "keyTwo": "ContextlessResource",
+    "a": 57,
+    "b": 269,
+    "c": 0,
+    "d": 0,
+    "result": "NA"
+  },
+  {
+    "keyOne": "ResponseCaching",
+    "keyTwo": "NonHierarchicalNodes",
+    "a": 0,
+    "b": 326,
+    "c": 0,
+    "d": 0,
+    "result": "NA"
+  },
+  {
+    "keyOne": "ResponseCaching",
+    "keyTwo": "PluralisedNodes",
+    "a": 39,
+    "b": 287,
+    "c": 0,
+    "d": 0,
+    "result": "NA"
+  },
+  {
+    "keyOne": "ContentNegotiation",
+    "keyTwo": "AmorphousURI",
+    "a": 36,
+    "b": 201,
+    "c": 0,
+    "d": 89,
+    "result": 0.21591016124825807
+  },
+  {
+    "keyOne": "ContentNegotiation",
+    "keyTwo": "CRUDyURI",
+    "a": 28,
+    "b": 209,
+    "c": 0,
+    "d": 89,
+    "result": 0.18784157194107343
+  },
+  {
+    "keyOne": "ContentNegotiation",
+    "keyTwo": "ContextlessResource",
+    "a": 45,
+    "b": 192,
+    "c": 12,
+    "d": 77,
+    "result": 0.06455791200625915
+  },
+  {
+    "keyOne": "ContentNegotiation",
+    "keyTwo": "NonHierarchicalNodes",
+    "a": 0,
+    "b": 237,
+    "c": 0,
+    "d": 89,
+    "result": "NA"
+  },
+  {
+    "keyOne": "ContentNegotiation",
+    "keyTwo": "PluralisedNodes",
+    "a": 33,
+    "b": 204,
+    "c": 6,
+    "d": 83,
+    "result": 0.0985984765371301
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 36,
+    "b": 0,
+    "c": 281,
+    "d": 9,
+    "result": 0.05936683211122371
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 36,
+    "c": 0,
+    "d": 290,
+    "result": "NA"
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 36,
+    "c": 0,
+    "d": 290,
+    "result": "NA"
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 0,
+    "b": 36,
+    "c": 89,
+    "d": 201,
+    "result": -0.21591016124825807
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 0,
+    "b": 36,
+    "c": 4,
+    "d": 286,
+    "result": -0.03926940411831123
+  },
+  {
+    "keyOne": "AmorphousURI",
+    "keyTwo": "isMisusingCookies",
+    "a": 0,
+    "b": 36,
+    "c": 100,
+    "d": 190,
+    "result": -0.2343678477700284
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 28,
+    "b": 0,
+    "c": 289,
+    "d": 9,
+    "result": 0.051649070152431406
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 28,
+    "c": 0,
+    "d": 298,
+    "result": "NA"
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 28,
+    "c": 0,
+    "d": 298,
+    "result": "NA"
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 0,
+    "b": 28,
+    "c": 89,
+    "d": 209,
+    "result": -0.18784157194107343
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 1,
+    "b": 27,
+    "c": 3,
+    "d": 295,
+    "result": 0.06527827869848261
+  },
+  {
+    "keyOne": "CRUDyURI",
+    "keyTwo": "isMisusingCookies",
+    "a": 24,
+    "b": 4,
+    "c": 76,
+    "d": 222,
+    "result": 0.3658543839444897
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 53,
+    "b": 4,
+    "c": 264,
+    "d": 5,
+    "result": -0.11959472646290123
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 57,
+    "c": 0,
+    "d": 269,
+    "result": "NA"
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 57,
+    "c": 0,
+    "d": 269,
+    "result": "NA"
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 12,
+    "b": 45,
+    "c": 77,
+    "d": 192,
+    "result": -0.06455791200625915
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 4,
+    "b": 53,
+    "c": 0,
+    "d": 269,
+    "result": 0.24212563459262718
+  },
+  {
+    "keyOne": "ContextlessResource",
+    "keyTwo": "isMisusingCookies",
+    "a": 14,
+    "b": 43,
+    "c": 86,
+    "d": 183,
+    "result": -0.06102538724365498
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 0,
+    "b": 0,
+    "c": 317,
+    "d": 9,
+    "result": "NA"
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 0,
+    "c": 0,
+    "d": 326,
+    "result": "NA"
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 0,
+    "c": 0,
+    "d": 326,
+    "result": "NA"
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 0,
+    "b": 0,
+    "c": 89,
+    "d": 237,
+    "result": "NA"
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 0,
+    "b": 0,
+    "c": 4,
+    "d": 322,
+    "result": "NA"
+  },
+  {
+    "keyOne": "NonHierarchicalNodes",
+    "keyTwo": "isMisusingCookies",
+    "a": 0,
+    "b": 0,
+    "c": 100,
+    "d": 226,
+    "result": "NA"
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isBreakingSelfDescriptiveness",
+    "a": 39,
+    "b": 0,
+    "c": 278,
+    "d": 9,
+    "result": 0.062113067646754935
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isForgettingHypermedia",
+    "a": 0,
+    "b": 39,
+    "c": 0,
+    "d": 287,
+    "result": "NA"
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isIgnoringCaching",
+    "a": 0,
+    "b": 39,
+    "c": 0,
+    "d": 287,
+    "result": "NA"
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isIgnoringMIMEType",
+    "a": 6,
+    "b": 33,
+    "c": 83,
+    "d": 204,
+    "result": -0.0985984765371301
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isIgnoringStatusCode",
+    "a": 0,
+    "b": 39,
+    "c": 4,
+    "d": 283,
+    "result": -0.04108595772600245
+  },
+  {
+    "keyOne": "PluralisedNodes",
+    "keyTwo": "isMisusingCookies",
+    "a": 21,
+    "b": 18,
+    "c": 79,
+    "d": 208,
+    "result": 0.1852274172255775
+  }
+]
