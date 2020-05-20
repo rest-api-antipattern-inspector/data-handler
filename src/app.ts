@@ -6,6 +6,7 @@ import { writeCSVs } from './lib/csvCorrelations'
 import { writeSingleCSV } from './lib/singleCSV'
 import { writeTxt } from './lib/txtResults'
 import { writeTablesJSON } from './lib/tablesJSON'
+import { writeTablesTxt } from './lib/tablesTxt'
 import fs from 'fs'
 import IMeta from './interfaces/IMeta'
 
@@ -17,6 +18,8 @@ const data = getData()
 
 writeTablesJSON(data)
 console.log('wrote to ./data-files/design-antipatterns/tables.json')
+
+writeTablesTxt()
 
 writeTxt(data)
 console.log('Wrote txt data to correlation-data/results.txt')
