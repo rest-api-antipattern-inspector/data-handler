@@ -15,6 +15,7 @@ export const writeTablesJSON = (metas: IMeta[]) => {
 
   metas.forEach((m) => {
     appendData(tables, m, 'linguisticPatterns', 'designAntipatterns')
+    appendData(tables, m, 'linguisticPatterns', 'designPatterns')
     appendData(tables, m, 'designPatterns', 'linguisticAntipatterns')
     appendData(tables, m, 'linguisticAntipatterns', 'designAntipatterns')
   })
