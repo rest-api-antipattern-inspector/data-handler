@@ -1,6 +1,6 @@
-# antipattern-correlations
+# Data Handler
 
-Node.js + TypeScript program for finding correlations between REST antipatterns
+Node.js + TypeScript program for handling REST meta data
 
 ## Instructions
 
